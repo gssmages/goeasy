@@ -1,0 +1,94 @@
+{
+  "type": "object",
+  "comment": "TableView",
+  "properties": {
+    "listItems": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "label": "ListItemName",
+            "selector": "table#PendingRequestsTable tbody tr td",
+            "control": "property.innerText",
+            "selectIndex": 2
+          },
+          "date": {
+            "type": "string",
+            "label": "Date - Time",
+            "update": {
+              "type": "none"
+            },
+            "selector": "table#PendingRequestsTable tbody tr td",
+            "control": "property.innerText"
+          },
+          "Bdpoint": {
+            "type": "string",
+            "selector": "table#PendingRequestsTable tbody tr td",
+            "selectIndex": 7,
+            "control": "property.innerText"
+          },
+          "requesttype": {
+            "type": "string",
+            "label": "description",
+            "update": {
+              "type": "none"
+            },
+            "selector": "table#PendingRequestsTable tbody tr td",
+            "selectIndex": 6,
+            "control": "property.innerText"
+          },
+          "requestfor": {
+            "type": "string",
+            "selector": "table#PendingRequestsTable tbody tr td",
+            "control": "property.innerText",
+            "selectIndex": 5
+          },
+          "isselect": {
+            "type": "boolean",
+            "selector": "#rowCheckbox",
+            "control": "checkbox"
+          }
+        }
+      },
+      "label": "ListItems",
+      "selectorAll": "table#PendingRequestsTable tbody tr"
+    },
+    "ismyapprovals": {
+      "type": "identifier",
+      "selector": "li.selected",
+      "control": "exists",
+      "selectContains": "My Approvals"
+    },
+    "approve": {
+      "type": "action",
+      "selector": "#Approve",
+      "control": "action.button"
+    },
+    "reject": {
+      "type": "action",
+      "selector": "#Reject",
+      "control": "action.button"
+    }
+  },
+  "connect": [
+    {
+      "match": [
+        "ismyapprovals"
+      ],
+      "screens": [
+        "myapprovals"
+      ]
+    },
+    {
+      "match": [],
+      "action": "approve"
+    },
+    {
+      "match": [],
+      "action": "reject"
+    }
+  ],
+  "selector": "body"
+}

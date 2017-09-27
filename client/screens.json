@@ -1,0 +1,81 @@
+{
+  "id": "app",
+  "name": "transport",
+  "startScreen": "app.myapprovals",
+  "screens": [
+    {
+      "id": "adhocrequest",
+      "name": "adhocrequest",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.blank"
+    },
+    {
+      "id": "menu",
+      "name": "menu",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.menu",
+      "model": "menus"
+    },
+    {
+      "id": "multiselect",
+      "name": "multiselect",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.multiselect"
+    },
+    {
+      "id": "myapprovals",
+      "name": "myapprovals",
+      "sourceScreenId": "app.tableview.tabledatacaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "myapprovals"
+    },
+    {
+      "id": "customplugins",
+      "name": "customplugins",
+      "folder": true,
+      "screens": []
+    },
+    {
+      "id": "mytrips",
+      "name": "mytrips",
+      "sourceScreenId": "app.tabbednavigation.tabscool",
+      "sourceAppId": "universaltemplates",
+      "model": "mytripstab"
+    },
+    {
+      "id": "menuleft",
+      "name": "menuleft",
+      "sourceScreenId": "app.slideoutmenu.sidemenucool",
+      "sourceAppId": "universaltemplates",
+      "model": "menuleft"
+    },
+    {
+      "id": "popup",
+      "name": "popup",
+      "sourceScreenId": "app.popup",
+      "sourceAppId": "JSPopup",
+      "model": "popup"
+    },
+    {
+      "id": "alertwin",
+      "name": "alertwin",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank",
+      "model": "alertwin"
+    },
+    {
+      "id": "alertmsg",
+      "name": "alertmsg",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
+    },
+    {
+      "id": "login",
+      "name": "login",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
+    }
+  ],
+  "sourceAppId": "_blank",
+  "sourceScreenId": "app"
+}

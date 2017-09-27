@@ -1,0 +1,310 @@
+{
+  "myapprovals": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "listItems": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "date": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "Bdpoint": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "requesttype": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "requestfor": {
+              "type": "string"
+            },
+            "isselect": {
+              "type": "boolean"
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      },
+      "approve": {
+        "type": "action"
+      },
+      "reject": {
+        "type": "action"
+      }
+    }
+  },
+  "mytrips": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "requesttype": {
+        "type": "string"
+      },
+      "requestfor": {
+        "type": "string"
+      },
+      "date": {
+        "type": "date",
+        "format": "DD-MMM-YYYY"
+      },
+      "shifttime": {
+        "type": "string"
+      }
+    }
+  },
+  "mytripstab": {
+    "type": "object",
+    "comment": "Tabs",
+    "properties": {
+      "tabs": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "icon": {
+              "type": "string"
+            },
+            "selected": {
+              "type": "boolean"
+            },
+            "action": {
+              "type": "action"
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      },
+      "mytrips": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "date": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "requesttype": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "requestfor": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "shifttime": {
+              "type": "string"
+            },
+            "cancel": {
+              "type": "action"
+            }
+          }
+        },
+        "update": {
+          "type": "action",
+          "action": [
+            "mytrips[item].cancel"
+          ]
+        }
+      },
+      "cancelledtrips": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "requesttype": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "fromdate": {
+              "type": "string"
+            },
+            "todate": {
+              "type": "string"
+            },
+            "shifttime": {
+              "type": "string"
+            },
+            "requestfor": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      },
+      "noshowlist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "date": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "shift": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "pickupdrop": {
+              "type": "string"
+            },
+            "routeno": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "tripsheetno": {
+              "type": "string"
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      }
+    }
+  },
+  "menus": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "menulinks": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "menuname": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "link": {
+              "type": "action"
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      }
+    }
+  },
+  "menuleft": {
+    "type": "object",
+    "comment": "SlideOutMenu",
+    "properties": {
+      "sideMenuGroups": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "sideMenuItems": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "itemName": {
+                    "type": "string"
+                  },
+                  "action": {
+                    "type": "action"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      },
+      "logout": {
+        "type": "action"
+      }
+    }
+  },
+  "popup": {
+    "type": "object",
+    "properties": {
+      "alert": {
+        "type": "action"
+      },
+      "confirm": {
+        "type": "action"
+      },
+      "alertConfirmationMessage": {
+        "type": "string"
+      },
+      "confirmPopupText": {
+        "type": "string"
+      },
+      "confirmMessage": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  "alertwin": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "comments": {
+        "type": "string"
+      },
+      "ok": {
+        "type": "action"
+      },
+      "alertmsg": {
+        "type": "string"
+      },
+      "back": {
+        "type": "action"
+      }
+    }
+  }
+}

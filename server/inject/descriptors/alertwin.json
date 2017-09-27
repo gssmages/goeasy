@@ -1,0 +1,46 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "comments": {
+      "type": "string",
+      "selector": "#styled",
+      "control": "text"
+    },
+    "ok": {
+      "type": "action",
+      "selector": "#myBtn",
+      "control": "action.button"
+    },
+    "alertmsg": {
+      "type": "string",
+      "selector": ".modal-title",
+      "control": "property.innerText"
+    },
+    "isalertbox": {
+      "type": "identifier",
+      "selector": ".modal-title",
+      "control": "exists",
+      "selectContains": "Enter Comments"
+    },
+    "back": {
+      "type": "action",
+      "selector": "#myModal .close",
+      "control": "action.button"
+    }
+  },
+  "connect": [
+    {
+      "match": [
+        "isalertbox"
+      ],
+      "screens": [
+        "alertwin"
+      ]
+    },
+    {
+      "match": [],
+      "action": "ok"
+    }
+  ]
+}

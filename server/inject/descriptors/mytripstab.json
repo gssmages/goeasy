@@ -1,0 +1,184 @@
+{
+  "type": "object",
+  "comment": "Tabs",
+  "properties": {
+    "mytrips": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            },
+            "selector": "#CancelTransportGrid tbody td",
+            "control": "property.innerText",
+            "selectIndex": 1
+          },
+          "requesttype": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            },
+            "selector": "#CancelTransportGrid tbody td",
+            "control": "property.innerText"
+          },
+          "requestfor": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            },
+            "selector": "#CancelTransportGrid tbody td",
+            "selectIndex": 2,
+            "control": "property.innerText"
+          },
+          "shifttime": {
+            "type": "string",
+            "selector": "#CancelTransportGrid tbody td",
+            "selectIndex": 3,
+            "control": "property.innerText"
+          },
+          "cancel": {
+            "type": "action",
+            "selector": "#cancelButton",
+            "control": "action.button"
+          }
+        }
+      },
+      "update": {
+        "type": "action",
+        "action": [
+          "mytrips[item].cancel"
+        ]
+      },
+      "selectorAll": "#CancelTransportGrid tbody tr"
+    },
+    "cancelledtrips": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "requesttype": {
+            "type": "string",
+            "selector": "#CancelledTransportGrid tbody td",
+            "control": "property.innerText"
+          },
+          "fromdate": {
+            "type": "string",
+            "selector": "#CancelledTransportGrid tbody td",
+            "selectIndex": 1,
+            "control": "property.innerText"
+          },
+          "todate": {
+            "type": "string",
+            "selector": "#CancelledTransportGrid tbody td",
+            "selectIndex": 2,
+            "control": "property.innerText"
+          },
+          "shifttime": {
+            "type": "string",
+            "selector": "#CancelledTransportGrid tbody td",
+            "selectIndex": 3,
+            "control": "property.innerText"
+          },
+          "requestfor": {
+            "type": "string",
+            "selector": "#CancelledTransportGrid tbody td",
+            "selectIndex": 4,
+            "control": "property.innerText"
+          }
+        }
+      },
+      "selectorAll": "#CancelledTransportGrid tbody tr"
+    },
+    "noshowlist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "selector": "#NoShowTransportGrid tbody td",
+            "control": "property.innerText"
+          },
+          "shift": {
+            "type": "string",
+            "selector": "#NoShowTransportGrid tbody td",
+            "selectIndex": 1,
+            "control": "property.innerText"
+          },
+          "pickupdrop": {
+            "type": "string",
+            "selector": "#NoShowTransportGrid tbody td",
+            "selectIndex": 2,
+            "control": "property.innerText"
+          },
+          "routeno": {
+            "type": "string",
+            "selector": "#NoShowTransportGrid tbody td",
+            "selectIndex": 3,
+            "control": "property.innerText"
+          },
+          "tripsheetno": {
+            "type": "string",
+            "selector": "#NoShowTransportGrid tbody td",
+            "selectIndex": 4,
+            "control": "property.innerText"
+          }
+        }
+      },
+      "selectorAll": "#NoShowTransportGrid tbody tr"
+    },
+    "ismytrips": {
+      "type": "identifier",
+      "selector": ".usermenu li.selected",
+      "control": "exists",
+      "selectContains": "My Trips"
+    },
+    "tabs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "selector": ".nav.nav-pills li a",
+            "control": "property.innerText"
+          },
+          "icon": {
+            "type": "string",
+            "control": "text",
+            "comment": "ion-android-pin",
+            "selector": "a"
+          },
+          "selected": {
+            "type": "boolean",
+            "selector": {
+              "fn": "function(node){if(node.getAttribute('class')=='active'){return true}}",
+              "selector": ""
+            },
+            "control": "exists"
+          },
+          "action": {
+            "type": "action",
+            "control": "action.link",
+            "selector": ".nav .nav-pills li a"
+          }
+        }
+      },
+      "selectorAll": ".nav.nav-pills li"
+    }
+  },
+  "connect": [
+    {
+      "match": [
+        "ismytrips"
+      ],
+      "screens": [
+        "mytrips"
+      ]
+    }
+  ],
+  "selector": ".maincontainer"
+}

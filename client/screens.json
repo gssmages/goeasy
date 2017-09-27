@@ -1,6 +1,6 @@
 {
   "id": "app",
-  "name": "transport",
+  "name": "goeasymobile",
   "startScreen": "app.myapprovals",
   "screens": [
     {

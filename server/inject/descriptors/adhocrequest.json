@@ -34,7 +34,7 @@
       }
     },
     "isAdhocRequestPage": {
-      "type": "select",
+      "type": "identifier",
       "selector": "#ddlReqType",
       "control": "select"
     }

@@ -317,19 +317,31 @@
           "type": "object",
           "properties": {
             "RequestType": {
-              "type": "string"
+              "type": "select"
+            },
+            "Date": {
+              "type": "date",
+              "format": "DD/MM/YYYY"
+            },
+            "FromDate": {
+              "type": "date",
+              "format": "DD/MM/YYYY"
+            },
+            "ToDate": {
+              "type": "date",
+              "format": "DD/MM/YYYY"
             },
             "RequestFor": {
-              "type": "string"
+              "type": "select"
             },
-            "Timing": {
-              "type": "string"
+            "Timming": {
+              "type": "select"
             },
             "Area": {
-              "type": "string"
+              "type": "select"
             },
             "BoardingPoint": {
-              "type": "string"
+              "type": "select"
             },
             "SpecialNeed": {
               "type": "boolean"

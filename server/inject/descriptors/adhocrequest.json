@@ -40,5 +40,6 @@
     }
   },
   "connect": [],
-  "selector": "label"
+  "selector": "label",
+  "selectContains": "reason fpr adhoc"
 }

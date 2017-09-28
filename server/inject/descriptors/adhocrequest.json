@@ -39,5 +39,6 @@
       "selector": "label"
     }
   },
-  "connect": []
+  "connect": [],
+  "selector": "[name=\"html\"]"
 }

@@ -306,5 +306,40 @@
         "type": "action"
       }
     }
+  },
+  "adhocrequest": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "adhoclist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "RequestType": {
+              "type": "string"
+            },
+            "RequestFor": {
+              "type": "string"
+            },
+            "Timing": {
+              "type": "string"
+            },
+            "Area": {
+              "type": "string"
+            },
+            "BoardingPoint": {
+              "type": "string"
+            },
+            "SpecialNeed": {
+              "type": "boolean"
+            },
+            "ReasonForAdhoc": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
   }
 }

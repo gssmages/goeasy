@@ -8,7 +8,8 @@
         "type": "object",
         "properties": {
           "RequestType": {
-            "type": "string"
+            "type": "string",
+            "selector": "querySelector(#ddlReqType)"
           },
           "RequestFor": {
             "type": "string"

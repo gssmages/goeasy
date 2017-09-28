@@ -32,6 +32,11 @@
           }
         }
       }
+    },
+    "isAdhocRequestPage": {
+      "type": "select",
+      "selector": "#ddlReqType",
+      "control": "select"
     }
   },
   "connect": []

@@ -35,7 +35,8 @@
     },
     "isAdhocRequestPage": {
       "type": "identifier",
-      "control": "exists"
+      "control": "exists",
+      "selector": "[name=\"html\"]"
     }
   },
   "connect": []

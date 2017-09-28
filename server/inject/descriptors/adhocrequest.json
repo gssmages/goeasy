@@ -41,5 +41,5 @@
   },
   "connect": [],
   "selector": "label",
-  "selectContains": "reason fpr adhoc"
+  "selectContains": "reason for adhoc"
 }

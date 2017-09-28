@@ -7,7 +7,8 @@
       "id": "adhocrequest",
       "name": "adhocrequest",
       "sourceAppId": "_blank",
-      "sourceScreenId": "app.blank"
+      "sourceScreenId": "app.blank",
+      "model": "adhocrequest"
     },
     {
       "id": "menu",

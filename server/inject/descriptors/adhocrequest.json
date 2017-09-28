@@ -40,5 +40,5 @@
     }
   },
   "connect": [],
-  "selector": "[name=\"html\"]"
+  "selector": "label"
 }

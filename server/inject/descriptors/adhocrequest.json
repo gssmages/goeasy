@@ -32,11 +32,6 @@
           }
         }
       }
-    },
-    "is": {
-      "type": "select",
-      "selector": "#ddlReqType",
-      "control": "select"
     }
   },
   "connect": []

@@ -40,5 +40,5 @@
     }
   },
   "connect": [],
-  "selector": "label"
+  "selector": ".headingtext.textcenter"
 }

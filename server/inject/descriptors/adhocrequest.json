@@ -9,7 +9,7 @@
         "properties": {
           "RequestType": {
             "type": "string",
-            "selector": "querySelector(#ddlReqType)",
+            "selector": "document.querySelector(#ddlReqType)",
             "control": "select"
           },
           "RequestFor": {

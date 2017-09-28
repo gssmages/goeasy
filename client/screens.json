@@ -74,6 +74,13 @@
       "name": "login",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "tabsconfident",
+      "name": "Tabs-Confident",
+      "sourceScreenId": "app.tabbednavigation.tabsconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "tabsconfident"
     }
   ],
   "sourceAppId": "_blank",

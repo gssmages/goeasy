@@ -1,0 +1,14 @@
+{
+  "tabs": [
+    {
+      "name": "Pickup",
+      "icon": "ion-ios-information",
+      "selected": true
+    },
+    {
+      "name": "Drop",
+      "icon": "ion-ios-bell",
+      "selected": false
+    }
+  ]
+}

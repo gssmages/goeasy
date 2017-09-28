@@ -75,6 +75,13 @@
       "name": "login",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "home",
+      "name": "Home",
+      "sourceScreenId": "app.tabbednavigation.tabsconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "home"
     }
   ],
   "sourceAppId": "_blank",

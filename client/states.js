@@ -96,12 +96,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.tabsconfident', {
+    }).state('app.home', {
         views: {
             app: {
-                controller: 'app_tabsconfident',
+                controller: 'app_home',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.tabsconfident');
+                    return app.templateProvider('app.home');
                 }
             }
         }

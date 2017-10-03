@@ -364,7 +364,10 @@
           "type": "object",
           "properties": {
             "name": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "icon": {
               "type": "string"
@@ -379,6 +382,76 @@
         },
         "update": {
           "type": "none"
+        }
+      },
+      "dropdetails": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "requesttype": {
+              "type": "string"
+            },
+            "area": {
+              "type": "string"
+            },
+            "shift": {
+              "type": "string"
+            },
+            "route": {
+              "type": "string"
+            },
+            "droporder": {
+              "type": "string"
+            },
+            "vehiclemodel": {
+              "type": "string"
+            },
+            "vehicleno": {
+              "type": "string"
+            },
+            "drivername": {
+              "type": "string"
+            },
+            "drivercontact": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "pickupdetails": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "requesttype": {
+              "type": "string"
+            },
+            "area": {
+              "type": "string"
+            },
+            "shift": {
+              "type": "string"
+            },
+            "route": {
+              "type": "string"
+            },
+            "boardingtime": {
+              "type": "string"
+            },
+            "vehiclemodel": {
+              "type": "string"
+            },
+            "vehicleno": {
+              "type": "string"
+            },
+            "drivername": {
+              "type": "string"
+            },
+            "drivercontact": {
+              "type": "string"
+            }
+          }
         }
       }
     }

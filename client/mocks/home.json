@@ -2,12 +2,12 @@
   "tabs": [
     {
       "name": "Pickup",
-      "icon": "ion-ios-information",
+      "icon": "ion-model-s",
       "selected": true
     },
     {
       "name": "Drop",
-      "icon": "ion-ios-bell",
+      "icon": "ion-model-s",
       "selected": false
     }
   ]

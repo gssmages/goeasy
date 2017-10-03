@@ -183,4 +183,8 @@ function app_login($scope, app,$ionicLoading) {
 
     });*/
   //  $ionicSideMenuDelegate.canDragContent(false);
+  
+   $scope.showMenu = function() {
+	     app.go('menuleft');
+	 };
 }

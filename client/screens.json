@@ -87,8 +87,7 @@
       "id": "sidemenu",
       "name": "sidemenu",
       "sourceScreenId": "app.slideoutmenu.sidemenucool",
-      "sourceAppId": "universaltemplates",
-      "model": "sidemenu_2"
+      "sourceAppId": "universaltemplates"
     }
   ],
   "sourceAppId": "_blank",

@@ -31,12 +31,6 @@
       "model": "myapprovals"
     },
     {
-      "id": "customplugins",
-      "name": "customplugins",
-      "folder": true,
-      "screens": []
-    },
-    {
       "id": "mytrips",
       "name": "mytrips",
       "sourceScreenId": "app.tabbednavigation.tabscool",

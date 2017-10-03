@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "goeasymobile",
-  "startScreen": "app.home",
+  "startScreen": "app.mytrips",
   "screens": [
     {
       "id": "adhocrequest",

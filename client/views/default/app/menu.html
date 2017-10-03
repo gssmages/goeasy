@@ -5,10 +5,9 @@
     </ion-header-bar>
     <ion-content class="has-header" data-comp-id="ionic-content.1">
         <ion-list data-comp-id="ionic-list.1">
-            <div class="item ng-hide" data-comp-id="item.1"
-                ng-click="app.action('menus', 'menulinks[item].link', this)"
+            <div class="item ng-hide" data-comp-id="item.1" ng-click="app.go('app.home')"
                 ng-repeat="item in data.menulinks" ng-show="hasCordova || isCanvas">
-                <div data-comp-id="text.2" ng-bind="item.menuname">
+                <div data-comp-id="text.2" ng-bind="item.menuname" ng-click="app.go('app.home')">
                     Settings
                 </div>
             </div>

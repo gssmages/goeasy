@@ -15,21 +15,24 @@
                 <div data-comp-id="text.2">Dashboard</div>
                 <i class="icon ion-ios-arrow-right" data-comp-id="icon.4" style="font-size:32px"></i>
             </div>
-            <div class="item item-icon-left item-icon-right" data-comp-id="item.1">
+            <div class="item item-icon-left item-icon-right" data-comp-id="item.1"
+                ng-click="app.go('app.adhocrequest')">
                 <i class="icon ion-model-s" data-comp-id="icon.6"></i>
                 <div data-comp-id="text.1">Adhoc Request
                     <span class="item-note"></span>
                 </div>
                 <i class="icon ion-ios-arrow-right" data-comp-id="icon.1" style="font-size:32px"></i>
             </div>
-            <div class="item item-icon-left item-icon-right" data-comp-id="item.4">
+            <div class="item item-icon-left item-icon-right" data-comp-id="item.4"
+                ng-click="app.go('app.mytrips')">
                 <i class="icon ion-android-pin" data-comp-id="icon.7"></i>
                 <div data-comp-id="text.4">My Trips
                     <span class="item-note"></span>
                 </div>
                 <i class="icon ion-ios-arrow-right" data-comp-id="icon.3" style="font-size:32px"></i>
             </div>
-            <div class="item item-icon-left item-icon-right" data-comp-id="item.5">
+            <div class="item item-icon-left item-icon-right" data-comp-id="item.5"
+                ng-click="app.go('app.myapprovals')">
                 <i class="icon ion-android-checkbox-outline" data-comp-id="icon.10"></i>
                 <div data-comp-id="text.5">My Approvals
                     <span class="item-note"></span>
@@ -37,7 +40,7 @@
                 <i class="icon ion-ios-arrow-right" data-comp-id="icon.9" style="font-size:32px"></i>
             </div>
             <div class="item item-icon-left item-icon-right" data-comp-id="item.3"
-                ng-click="app.action('sidemenu', 'logout', this)">
+                ng-click="app.showMenu()">
                 <i class="icon ion-log-out" data-comp-id="icon.8"></i>
                 <div data-comp-id="text.3">Logout</div>
                 <i class="icon ion-ios-arrow-right positive" data-comp-id="icon.2"

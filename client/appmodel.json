@@ -364,7 +364,10 @@
           "type": "object",
           "properties": {
             "name": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "icon": {
               "type": "string"

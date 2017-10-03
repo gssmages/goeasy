@@ -173,6 +173,7 @@
   "connect": [
     {
       "match": [
+        "ismytrips",
         "ismytrips"
       ],
       "screens": [

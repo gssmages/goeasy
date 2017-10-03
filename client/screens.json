@@ -76,12 +76,6 @@
       "sourceScreenId": "app.tabbednavigation.tabsconfident",
       "sourceAppId": "universaltemplates",
       "model": "home"
-    },
-    {
-      "id": "sidemenu",
-      "name": "sidemenu",
-      "sourceScreenId": "app.slideoutmenu.sidemenucool",
-      "sourceAppId": "universaltemplates"
     }
   ],
   "sourceAppId": "_blank",

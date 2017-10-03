@@ -163,7 +163,7 @@
           "action": {
             "type": "action",
             "control": "action.link",
-            "selector": "a"
+            "selector": ".nav.nav-pills li a"
           }
         }
       },

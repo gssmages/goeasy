@@ -105,5 +105,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.sidemenu', {
+        views: {
+            app: {
+                controller: 'app_sidemenu',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.sidemenu');
+                }
+            }
+        }
     });
 });

@@ -9,7 +9,8 @@
     },
     "Date": {
       "type": "date",
-      "format": "DD/MM/YYYY"
+      "format": "DD/MM/YYYY",
+      "selector": "#date"
     },
     "FromDate": {
       "type": "date",

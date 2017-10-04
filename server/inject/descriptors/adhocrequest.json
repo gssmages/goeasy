@@ -4,7 +4,8 @@
   "properties": {
     "RequestType": {
       "type": "select",
-      "selector": "#ddlReqType"
+      "selector": "#ddlReqType",
+      "control": "select"
     },
     "Date": {
       "type": "date",

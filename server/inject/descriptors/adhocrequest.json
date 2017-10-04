@@ -43,7 +43,7 @@
     },
     "SpecialNeed": {
       "type": "string",
-      "selector": ".col-sm-2 .form-group",
+      "selector": ".col-sm-2",
       "control": "text",
       "selectIndex": 18
     },

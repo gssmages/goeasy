@@ -22,7 +22,8 @@
       "format": "MM/DD/YYYY"
     },
     "RequestFor": {
-      "type": "select"
+      "type": "select",
+      "selector": "#ddlReqFor"
     },
     "Timing": {
       "type": "select"

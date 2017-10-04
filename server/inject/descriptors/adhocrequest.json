@@ -32,7 +32,8 @@
       "control": "select"
     },
     "Area": {
-      "type": "select"
+      "type": "select",
+      "selector": "#ddlArea"
     },
     "BordingPoint": {
       "type": "select"

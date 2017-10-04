@@ -43,7 +43,7 @@
     },
     "SpecialNeed": {
       "type": "select",
-      "selector": ".form-group",
+      "selector": ".col-sm-2",
       "control": "radio",
       "selectContains": "Special Need"
     },

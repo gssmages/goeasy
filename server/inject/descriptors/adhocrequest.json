@@ -44,7 +44,7 @@
     "SpecialNeed": {
       "type": "string",
       "selectContains": "Special Need",
-      "selector": "."
+      "selector": "[name=\"html\"]"
     },
     "ReasonForAdhoc": {
       "type": "string",

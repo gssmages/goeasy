@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "RequestType": {
+      "type": "select"
+    },
+    "Date": {
+      "type": "date",
+      "format": "DD/MM/YYYY"
+    },
+    "FromDate": {
+      "type": "date",
+      "format": "DD/MM/YYYY"
+    },
+    "ToDate": {
+      "type": "date",
+      "format": "MM/DD/YYYY"
+    },
+    "RequestFor": {
+      "type": "select"
+    },
+    "Timing": {
+      "type": "select"
+    },
+    "Area": {
+      "type": "select"
+    },
+    "BordingPoint": {
+      "type": "select"
+    },
+    "SpecialNeed": {
+      "type": "boolean"
+    },
+    "ReasonForAdhoc": {
+      "type": "string"
+    }
+  },
+  "connect": []
+}

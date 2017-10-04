@@ -42,7 +42,7 @@
       "control": "select"
     },
     "SpecialNeed": {
-      "type": "boolean",
+      "type": "string",
       "selector": ".col-sm-2 .form-group",
       "control": "property.innerHTML",
       "selectIndex": 18

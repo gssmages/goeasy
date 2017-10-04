@@ -28,7 +28,8 @@
     },
     "Timing": {
       "type": "select",
-      "selector": "#ddlShiftTime"
+      "selector": "#ddlShiftTime",
+      "control": "select"
     },
     "Area": {
       "type": "select"

@@ -46,7 +46,7 @@
       "control": "select"
     },
     "SpecialNeed": {
-      "type": "string",
+      "type": "select",
       "selector": "[name=\"optradio\"]",
       "control": "radio"
     },

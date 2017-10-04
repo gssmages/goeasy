@@ -43,7 +43,8 @@
     },
     "SpecialNeed": {
       "type": "string",
-      "selectContains": "Special Need"
+      "selectContains": "Special Need",
+      "selector": "."
     },
     "ReasonForAdhoc": {
       "type": "string",

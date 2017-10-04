@@ -43,7 +43,6 @@
     },
     "SpecialNeed": {
       "type": "string",
-      "selector": ".col-sm-2",
       "control": "text",
       "selectContains": "Special Need"
     },

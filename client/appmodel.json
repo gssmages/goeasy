@@ -234,40 +234,6 @@
       }
     }
   },
-  "menuleft": {
-    "type": "object",
-    "comment": "SlideOutMenu",
-    "properties": {
-      "sideMenuGroups": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "sideMenuItems": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "itemName": {
-                    "type": "string"
-                  },
-                  "action": {
-                    "type": "action"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "update": {
-          "type": "none"
-        }
-      },
-      "logout": {
-        "type": "action"
-      }
-    }
-  },
   "popup": {
     "type": "object",
     "properties": {

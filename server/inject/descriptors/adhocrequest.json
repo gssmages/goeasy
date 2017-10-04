@@ -43,7 +43,6 @@
     },
     "SpecialNeed": {
       "type": "string",
-      "selectContains": "Special Need",
       "selector": "[name=\"optradio\"]",
       "control": "select"
     },

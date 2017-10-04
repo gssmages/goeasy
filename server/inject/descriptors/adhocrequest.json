@@ -54,7 +54,7 @@
     "PleaseSpecify": {
       "type": "select",
       "selector": "#splneedfor",
-      "control": "text"
+      "control": "select"
     }
   },
   "connect": []

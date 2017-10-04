@@ -16,7 +16,8 @@
     "FromDate": {
       "type": "date",
       "format": "DD/MM/YYYY",
-      "selector": "#fromdates"
+      "selector": "#fromdates",
+      "control": "text"
     },
     "ToDate": {
       "type": "date",

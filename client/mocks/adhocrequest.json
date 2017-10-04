@@ -40,6 +40,30 @@
         "value": "0"
       }
     },
-    "Date": "04/10/2017"
+    "Date": "04/10/2017",
+    "RequestFor": {
+      "options": [
+        {
+          "label": "select",
+          "value": "0"
+        },
+        {
+          "label": "Pickup and Drop",
+          "value": "1"
+        },
+        {
+          "label": "Pickup",
+          "value": "2"
+        },
+        {
+          "label": "Drop",
+          "value": "3"
+        }
+      ],
+      "selected": {
+        "label": "select",
+        "value": "0"
+      }
+    }
   }
 }

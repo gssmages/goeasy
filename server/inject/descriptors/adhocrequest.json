@@ -45,7 +45,6 @@
       "type": "select",
       "selector": ".col-sm-2 .form-group",
       "control": "radio",
-      "selectContains": "Special Need",
       "selectIndex": 18
     },
     "ReasonForAdhoc": {

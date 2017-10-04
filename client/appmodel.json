@@ -332,7 +332,14 @@
             "SpecialNeed": {
               "type": "boolean"
             },
-            "ReasonForAdhoc": {
+            "pleasespecify": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {}
+              }
+            },
+            "Reasonforadhoc": {
               "type": "string"
             }
           }

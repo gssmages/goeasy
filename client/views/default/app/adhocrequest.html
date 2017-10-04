@@ -15,8 +15,8 @@
                     <div data-comp-id="text.1">Request Type</div>
                 </div>
                 <div class="col col-66" data-comp-id="column.2">
-                    <select-list data-comp-id="selectList.1" ng-model="data.RequestType"
-                        select-class=" light-border"></select-list>
+                    <select-list data-comp-id="selectList.1" ng-model="data.adhoclist.RequestType"
+                        no-label="true" select-class="light-border item-stacked-label"></select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.2">
@@ -28,7 +28,8 @@
                         data-comp-id="dateInput.1">
                         <span class="input-label" style="width: 0%;"></span>
                         <input date-format="MM/DD/YYYY" max="2100-12-12" min="1900-01-01"
-                            ng-model-options="{allowInvalid: true}" ng-model="data.Date" type="date">
+                            ng-model-options="{allowInvalid: true}" ng-model="data.adhoclist.Date"
+                            type="date">
                     </label>
                 </div>
             </div>
@@ -37,7 +38,8 @@
                     <div data-comp-id="text.3">Request For</div>
                 </div>
                 <div class="col col-66" data-comp-id="column.6">
-                    <select-list data-comp-id="selectList.2" ng-model="data.RequestFor"></select-list>
+                    <select-list data-comp-id="selectList.2" ng-model="data.adhoclist.RequestFor"
+                        no-label="true" select-class=" item-stacked-label"></select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.4">
@@ -79,7 +81,8 @@
                     <div data-comp-id="text.8">Please Specify</div>
                 </div>
                 <div class="col col-66" data-comp-id="column.16">
-                    <select-list data-comp-id="selectList.6" ng-model="data.pleasespecify"></select-list>
+                    <select-list data-comp-id="selectList.6" ng-model="data.adhoclist.pleasespecify"
+                        no-label="true" select-class=" item-stacked-label">Please Specify</select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.9">

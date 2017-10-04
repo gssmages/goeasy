@@ -51,9 +51,9 @@ function app_myapprovals($scope, app) {
 		});
 	};
 	
-	 $scope.showMenu = function() {
+	 /*$scope.showMenu = function() {
 	     app.go('menuleft');
-	 };
+	 };*/
 	 	$scope.requesttype = function(type) {
 		$scope.listarray = [];
 		$(".card").each(function($index){

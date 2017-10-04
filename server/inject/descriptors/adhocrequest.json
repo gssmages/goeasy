@@ -38,7 +38,8 @@
     },
     "BordingPoint": {
       "type": "select",
-      "selector": "#ddlBoardingPoint"
+      "selector": "#ddlBoardingPoint",
+      "control": "select"
     },
     "SpecialNeed": {
       "type": "boolean"

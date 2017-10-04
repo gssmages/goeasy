@@ -53,7 +53,8 @@
     },
     "PleaseSpecify": {
       "type": "select",
-      "selector": "#splneedfor"
+      "selector": "#splneedfor",
+      "control": "text"
     }
   },
   "connect": []

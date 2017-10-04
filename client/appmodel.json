@@ -309,6 +309,9 @@
       },
       "ReasonForAdhoc": {
         "type": "string"
+      },
+      "PleaseSpecify": {
+        "type": "select"
       }
     }
   },

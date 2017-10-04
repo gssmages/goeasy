@@ -48,7 +48,8 @@
     },
     "ReasonForAdhoc": {
       "type": "string",
-      "selector": "#reason"
+      "selector": "#reason",
+      "control": "property.innerText"
     }
   },
   "connect": []

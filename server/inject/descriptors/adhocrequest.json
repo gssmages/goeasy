@@ -48,7 +48,8 @@
     "SpecialNeed": {
       "type": "select",
       "selector": ".form-group",
-      "control": "planRadio"
+      "control": "planRadio",
+      "selectContains": "Special Need"
     },
     "ReasonForAdhoc": {
       "type": "string",

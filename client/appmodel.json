@@ -305,7 +305,7 @@
         "type": "select"
       },
       "SpecialNeed": {
-        "type": "boolean"
+        "type": "string"
       },
       "ReasonForAdhoc": {
         "type": "string"

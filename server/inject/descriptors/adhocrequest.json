@@ -52,7 +52,8 @@
       "control": "property.innerText"
     },
     "PleaseSpecify": {
-      "type": "select"
+      "type": "select",
+      "selector": "#splneedfor"
     }
   },
   "connect": []

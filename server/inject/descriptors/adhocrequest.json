@@ -51,6 +51,9 @@
       "type": "string",
       "selector": "#reason",
       "control": "property.innerText"
+    },
+    "PleaseSpecify": {
+      "type": "select"
     }
   },
   "connect": []

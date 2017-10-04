@@ -47,7 +47,7 @@
     },
     "SpecialNeed": {
       "type": "select",
-      "selector": "[name=\"optradio\"]",
+      "selector": ".form-group",
       "control": "planRadio"
     },
     "ReasonForAdhoc": {

@@ -33,7 +33,8 @@
     },
     "Area": {
       "type": "select",
-      "selector": "#ddlArea"
+      "selector": "#ddlArea",
+      "control": "select"
     },
     "BordingPoint": {
       "type": "select"

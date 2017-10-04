@@ -45,7 +45,8 @@
       "type": "select",
       "selector": ".col-sm-2",
       "control": "radio",
-      "selectContains": "Special Need"
+      "selectContains": "Special Need",
+      "selectIndex": 18
     },
     "ReasonForAdhoc": {
       "type": "string",

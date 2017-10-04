@@ -38,13 +38,6 @@
       "model": "mytripstab"
     },
     {
-      "id": "menuleft",
-      "name": "menuleft",
-      "sourceScreenId": "app.slideoutmenu.sidemenucool",
-      "sourceAppId": "universaltemplates",
-      "model": "menuleft"
-    },
-    {
       "id": "popup",
       "name": "popup",
       "sourceScreenId": "app.popup",

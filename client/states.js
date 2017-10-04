@@ -51,15 +51,6 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.menuleft', {
-        views: {
-            app: {
-                controller: 'app_menuleft',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.menuleft');
-                }
-            }
-        }
     }).state('app.popup', {
         views: {
             app: {

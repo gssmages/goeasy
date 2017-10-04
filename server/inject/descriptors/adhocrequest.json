@@ -44,7 +44,8 @@
     "SpecialNeed": {
       "type": "string",
       "selector": ".col-sm-2",
-      "control": "text"
+      "control": "text",
+      "selectContains": "Special Need"
     },
     "ReasonForAdhoc": {
       "type": "string",

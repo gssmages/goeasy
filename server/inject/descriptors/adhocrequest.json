@@ -47,7 +47,8 @@
       "control": "radio"
     },
     "ReasonForAdhoc": {
-      "type": "string"
+      "type": "string",
+      "selector": "#reason"
     }
   },
   "connect": []

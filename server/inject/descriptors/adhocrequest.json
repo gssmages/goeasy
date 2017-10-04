@@ -23,7 +23,8 @@
     },
     "RequestFor": {
       "type": "select",
-      "selector": "#ddlReqFor"
+      "selector": "#ddlReqFor",
+      "control": "select"
     },
     "Timing": {
       "type": "select"

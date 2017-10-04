@@ -42,7 +42,8 @@
       "control": "select"
     },
     "SpecialNeed": {
-      "type": "boolean"
+      "type": "boolean",
+      "selector": "[name=\"optradio\"]"
     },
     "ReasonForAdhoc": {
       "type": "string"

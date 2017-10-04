@@ -44,7 +44,7 @@
     "SpecialNeed": {
       "type": "string",
       "selector": ".col-sm-2 .form-group",
-      "control": "property.innerHTML",
+      "control": "text",
       "selectIndex": 18
     },
     "ReasonForAdhoc": {

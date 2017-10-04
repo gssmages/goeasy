@@ -43,7 +43,7 @@
     },
     "SpecialNeed": {
       "type": "boolean",
-      "selector": "[name=\"optradio\"]",
+      "selector": ".form-group",
       "control": "radio"
     },
     "ReasonForAdhoc": {

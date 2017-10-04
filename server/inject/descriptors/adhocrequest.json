@@ -45,7 +45,7 @@
       "type": "boolean",
       "selector": ".radio-inline",
       "control": "radio",
-      "selectContains": "Special Need"
+      "selectContains": "Yes"
     },
     "ReasonForAdhoc": {
       "type": "string",

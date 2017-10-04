@@ -42,7 +42,7 @@
       "control": "select"
     },
     "SpecialNeed": {
-      "type": "boolean",
+      "type": "select",
       "selector": ".radio-inline",
       "control": "radio",
       "selectContains": "Yes"

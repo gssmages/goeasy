@@ -44,7 +44,7 @@
     "SpecialNeed": {
       "type": "boolean",
       "selector": ".col-sm-2 .form-group",
-      "control": "radio",
+      "control": "property.innerHTML",
       "selectIndex": 18
     },
     "ReasonForAdhoc": {

@@ -10,7 +10,8 @@
     "Date": {
       "type": "date",
       "format": "DD/MM/YYYY",
-      "selector": "#date"
+      "selector": "#date",
+      "control": "property.innerHTML"
     },
     "FromDate": {
       "type": "date",

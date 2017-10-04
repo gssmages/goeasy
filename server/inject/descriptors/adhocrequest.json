@@ -37,7 +37,7 @@
       "type": "identifier",
       "control": "exists",
       "selector": ".headingtext.textcenter",
-      "selectContains": "T"
+      "selectContains": "Transport Details"
     }
   },
   "connect": [],

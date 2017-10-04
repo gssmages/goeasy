@@ -21,7 +21,8 @@
     },
     "ToDate": {
       "type": "date",
-      "format": "MM/DD/YYYY"
+      "format": "MM/DD/YYYY",
+      "selector": "#todates"
     },
     "RequestFor": {
       "type": "select",

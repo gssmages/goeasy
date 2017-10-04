@@ -4,8 +4,6 @@ function app_mytrips($scope, app) {
     app.init($scope);
     
     
-	 $scope.showMenu = function() {
-	     app.go('menuleft');
-	 };
+	 
 }
 

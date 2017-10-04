@@ -3,7 +3,8 @@
   "comment": "",
   "properties": {
     "RequestType": {
-      "type": "select"
+      "type": "select",
+      "selector": "#ddlReqType"
     },
     "Date": {
       "type": "date",

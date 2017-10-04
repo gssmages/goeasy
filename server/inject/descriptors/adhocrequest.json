@@ -36,7 +36,8 @@
     "isAdhocRequestPage": {
       "type": "identifier",
       "control": "exists",
-      "selector": ".headingtext.textcenter"
+      "selector": ".headingtext.textcenter",
+      "selectContains": "T"
     }
   },
   "connect": [],

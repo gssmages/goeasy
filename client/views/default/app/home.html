@@ -21,9 +21,9 @@
                     <i class="icon {{item.icon}} calm" data-comp-id="icon.2" ng-if="!item.selected"
                         style="font-size: 20px; float: left;"></i>
                     <div class=" light" data-comp-id="text.1" ng-bind="item.name"
-                        ng-if="item.selected" style="font-weight: normal;">Tab 1</div>
+                        ng-if="data.tabs[0].selected" style="font-weight: normal;">Tab 1</div>
                     <div class=" calm" data-comp-id="text.2" ng-bind="item.name"
-                        ng-if="!item.selected" style="font-weight: normal;">Tab 1</div>
+                        ng-if="data.tabs[1].selected" style="font-weight: normal;">Tab 1</div>
                 </div>
             </div>
         </div>

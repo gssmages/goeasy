@@ -11,7 +11,7 @@
       "type": "date",
       "format": "DD/MM/YYYY",
       "selector": "#date",
-      "control": "property.innerText"
+      "control": "property.innerHTML"
     },
     "FromDate": {
       "type": "date",

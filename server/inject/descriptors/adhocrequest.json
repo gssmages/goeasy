@@ -44,7 +44,7 @@
     "SpecialNeed": {
       "type": "string",
       "selector": "[name=\"optradio\"]",
-      "control": "select"
+      "control": "radio"
     },
     "ReasonForAdhoc": {
       "type": "string",

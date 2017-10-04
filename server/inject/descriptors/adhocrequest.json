@@ -22,7 +22,8 @@
     "ToDate": {
       "type": "date",
       "format": "MM/DD/YYYY",
-      "selector": "#todates"
+      "selector": "#todates",
+      "control": "text"
     },
     "RequestFor": {
       "type": "select",

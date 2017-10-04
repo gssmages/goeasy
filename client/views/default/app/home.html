@@ -16,14 +16,14 @@
                     ng-click="app.action('tabs', 'data.tabs[item].action', this)"
                     ng-repeat="item in data.tabs"
                     style="margin: 0px; padding: 10px 15px; border-right: 1px solid rgb(221, 221, 221);">
-                    <i class="icon {{item.icon}} light" data-comp-id="icon.1" ng-if="!item.selected"
+                    <i class="icon {{item.icon}} light" data-comp-id="icon.1" ng-if="item.selected"
                         style="font-size: 20px; float: left;"></i>
-                    <i class="icon {{item.icon}} calm" data-comp-id="icon.2" ng-if="item.selected"
+                    <i class="icon {{item.icon}} calm" data-comp-id="icon.2" ng-if="!item.selected"
                         style="font-size: 20px; float: left;"></i>
                     <div class=" light" data-comp-id="text.1" ng-bind="item.name"
-                        ng-if="!item.selected" style="font-weight: normal;">Tab 1</div>
-                    <div class=" calm" data-comp-id="text.2" ng-bind="item.name"
                         ng-if="item.selected" style="font-weight: normal;">Tab 1</div>
+                    <div class=" calm" data-comp-id="text.2" ng-bind="item.name"
+                        ng-if="!item.selected" style="font-weight: normal;">Tab 1</div>
                 </div>
             </div>
         </div>

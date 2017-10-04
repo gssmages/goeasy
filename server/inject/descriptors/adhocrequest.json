@@ -45,7 +45,7 @@
       "type": "string",
       "selectContains": "Special Need",
       "selector": ".form-group",
-      "control": "radio"
+      "control": "property.innerText"
     },
     "ReasonForAdhoc": {
       "type": "string",

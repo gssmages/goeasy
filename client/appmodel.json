@@ -283,7 +283,11 @@
           "type": "object",
           "properties": {
             "RequestType": {
-              "type": "select"
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {}
+              }
             },
             "Date": {
               "type": "date",
@@ -298,16 +302,32 @@
               "format": "DD/MM/YYYY"
             },
             "RequestFor": {
-              "type": "select"
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {}
+              }
             },
             "Timming": {
-              "type": "select"
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {}
+              }
             },
             "Area": {
-              "type": "select"
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {}
+              }
             },
             "BoardingPoint": {
-              "type": "select"
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {}
+              }
             },
             "SpecialNeed": {
               "type": "boolean"

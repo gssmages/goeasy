@@ -15,6 +15,30 @@
         "label": "Medical condition",
         "value": "1"
       }
+    },
+    "RequestType": {
+      "options": [
+        {
+          "label": "select",
+          "value": "0"
+        },
+        {
+          "label": "Adhoc",
+          "value": "1"
+        },
+        {
+          "label": "Holiday",
+          "value": "2"
+        },
+        {
+          "label": "Month end",
+          "value": "3"
+        }
+      ],
+      "selected": {
+        "label": "select",
+        "value": "0"
+      }
     }
   }
 }

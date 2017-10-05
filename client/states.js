@@ -24,15 +24,6 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.adhocrequest', {
-        views: {
-            app: {
-                controller: 'app_adhocrequest',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.adhocrequest');
-                }
-            }
-        }
     }).state('app.myapprovals', {
         views: {
             app: {
@@ -66,6 +57,15 @@ angular.module('app').config(function ($stateProvider) {
                 controller: 'app_alertwin',
                 templateProvider: function (app) {
                     return app.templateProvider('app.alertwin');
+                }
+            }
+        }
+    }).state('app.adhocrequest', {
+        views: {
+            app: {
+                controller: 'app_adhocrequest',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.adhocrequest');
                 }
             }
         }

@@ -72,7 +72,8 @@
       "control": "property.innerText"
     },
     "dropvehiclemodel": {
-      "type": "string"
+      "type": "string",
+      "selector": "#DropVehiModel"
     },
     "dropvehicleno": {
       "type": "string"

@@ -69,7 +69,7 @@
     },
     "sendRequest": {
       "type": "action",
-      "selector": ".headingtext.textcenter",
+      "selector": "#savebbt",
       "control": "property.innerHTML"
     },
     "Reset": {

@@ -1,54 +1,6 @@
 {
   "type": "object",
   "properties": {
-    "dropdetails": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "requesttype": {
-            "type": "string",
-            "control": "property.innerText",
-            "selector": "#DropCabRequestType"
-          },
-          "area": {
-            "type": "string",
-            "selector": "#DropPoint",
-            "control": "property.innerText"
-          },
-          "shift": {
-            "type": "string",
-            "selector": "#DropShift",
-            "control": "property.innerText"
-          },
-          "route": {
-            "type": "string",
-            "selector": "#DropRouteNo",
-            "control": "property.innerText"
-          },
-          "droporder": {
-            "type": "string"
-          },
-          "vehiclemodel": {
-            "type": "string"
-          },
-          "vehicleno": {
-            "type": "string"
-          },
-          "drivername": {
-            "type": "string"
-          },
-          "drivercontact": {
-            "type": "string"
-          }
-        }
-      },
-      "frameSelector": [
-        null,
-        ""
-      ],
-      "selectorAll": ".col-sm-12.col-md-8.pickupdropcontent"
-    },
     "pickupdetails": {
       "type": "array",
       "items": {

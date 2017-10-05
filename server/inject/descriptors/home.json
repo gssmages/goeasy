@@ -77,7 +77,8 @@
       "control": "property.innerText"
     },
     "dropvehicleno": {
-      "type": "string"
+      "type": "string",
+      "selector": "#DropVehiNumber"
     },
     "dropdrivername": {
       "type": "string"

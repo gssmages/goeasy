@@ -67,7 +67,8 @@
       "control": "property.innerText"
     },
     "droporder": {
-      "type": "string"
+      "type": "string",
+      "selector": "#DropOrder"
     },
     "dropvehiclemodel": {
       "type": "string"

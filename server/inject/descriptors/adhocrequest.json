@@ -75,7 +75,8 @@
     "Reset": {
       "type": "action",
       "selector": "input",
-      "control": "property.innerHTML"
+      "control": "property.innerHTML",
+      "selectContains": "Reset"
     }
   },
   "connect": []

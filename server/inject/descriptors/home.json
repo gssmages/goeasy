@@ -107,5 +107,5 @@
       "model": "home"
     }
   ],
-  "selector": ".pickupdropcontent"
+  "selector": "body"
 }

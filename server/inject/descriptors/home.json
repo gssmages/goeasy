@@ -3,7 +3,8 @@
   "properties": {
     "pickupreqtype": {
       "type": "string",
-      "selector": "#PickupCabRequestType"
+      "selector": "#PickupCabRequestType",
+      "control": "property.innerText"
     },
     "pickuparea": {
       "type": "string"

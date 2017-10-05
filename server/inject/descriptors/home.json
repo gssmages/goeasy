@@ -23,7 +23,8 @@
             "control": "property.innerText"
           },
           "route": {
-            "type": "string"
+            "type": "string",
+            "selector": "html"
           },
           "droporder": {
             "type": "string"

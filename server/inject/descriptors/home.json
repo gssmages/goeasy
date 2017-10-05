@@ -93,7 +93,7 @@
     },
     "ishome": {
       "type": "string",
-      "selector": "html",
+      "selector": ".textcenter.bluetext",
       "control": "exists"
     }
   },

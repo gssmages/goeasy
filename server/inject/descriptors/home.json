@@ -38,7 +38,8 @@
     },
     "pickupdrivername": {
       "type": "string",
-      "selector": "#PickupDriverName"
+      "selector": "#PickupDriverName",
+      "control": "property.innerText"
     },
     "pickupdrivercontact": {
       "type": "string"

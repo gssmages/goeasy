@@ -87,5 +87,5 @@
     }
   },
   "connect": [],
-  "selector": ".maincontainer"
+  "selector": "body"
 }

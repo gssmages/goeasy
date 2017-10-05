@@ -83,7 +83,8 @@
     },
     "dropdrivername": {
       "type": "string",
-      "selector": "#DropDriverName"
+      "selector": "#DropDriverName",
+      "control": "property.innerText"
     },
     "dropdrivercontact": {
       "type": "string"

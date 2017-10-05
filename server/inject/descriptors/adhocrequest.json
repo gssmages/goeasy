@@ -63,7 +63,7 @@
     },
     "isAdhocRequest": {
       "type": "identifier",
-      "selector": ".form-group",
+      "selector": ".headingtext.textcenter",
       "control": "property.innerHTML"
     }
   },

@@ -83,6 +83,60 @@
           }
         }
       }
+    },
+    "pickupreqtype": {
+      "type": "string"
+    },
+    "pickuparea": {
+      "type": "string"
+    },
+    "pickupshift": {
+      "type": "string"
+    },
+    "pickuproute": {
+      "type": "string"
+    },
+    "pickupboardtime": {
+      "type": "string"
+    },
+    "pickupvehiclemodel": {
+      "type": "string"
+    },
+    "pickupvehicleno": {
+      "type": "string"
+    },
+    "pickupdrivername": {
+      "type": "string"
+    },
+    "pickupdrivercontact": {
+      "type": "string"
+    },
+    "dropreqtype": {
+      "type": "string"
+    },
+    "droparea": {
+      "type": "string"
+    },
+    "dropshift": {
+      "type": "string"
+    },
+    "droproute": {
+      "type": "string"
+    },
+    "droporder": {
+      "type": "string"
+    },
+    "dropvehiclemodel": {
+      "type": "string"
+    },
+    "dropvehicleno": {
+      "type": "string"
+    },
+    "dropdrivername": {
+      "type": "string"
+    },
+    "dropdrivercontact": {
+      "type": "string"
     }
   },
   "connect": [

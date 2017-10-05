@@ -41,7 +41,11 @@
           }
         }
       },
-      "selectorAll": ".col-sm-12.col-lg-10"
+      "selectorAll": ".col-sm-12.col-lg-10",
+      "frameSelector": [
+        null,
+        ""
+      ]
     },
     "pickupdetails": {
       "type": "array",

@@ -32,7 +32,8 @@
       "control": "property.innerText"
     },
     "pickupvehicleno": {
-      "type": "string"
+      "type": "string",
+      "selector": "#PickupVehiNumber"
     },
     "pickupdrivername": {
       "type": "string"

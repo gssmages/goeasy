@@ -87,6 +87,5 @@
     }
   },
   "connect": [],
-  "selector": "#permanentExist",
   "selectContains": "Pickup"
 }

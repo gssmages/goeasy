@@ -17,7 +17,8 @@
             "selector": "#DropPoint"
           },
           "shift": {
-            "type": "string"
+            "type": "string",
+            "selector": "#DropShift"
           },
           "route": {
             "type": "string"

@@ -90,15 +90,24 @@
       "type": "string",
       "selector": "#DropDriverCon",
       "control": "property.innerText"
+    },
+    "ishome": {
+      "type": "identifier",
+      "selector": ".usermenu li.selected",
+      "control": "exists",
+      "selectContains": "My Dashboard"
     }
   },
   "connect": [
     {
-      "match": [],
+      "match": [
+        "ishome"
+      ],
       "screens": [
         "home"
-      ]
+      ],
+      "model": "home"
     }
   ],
-  "selector": ".pickupdropcontent"
+  "selector": "body"
 }

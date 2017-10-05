@@ -12,7 +12,8 @@
             "control": "property.innerText"
           },
           "area": {
-            "type": "string"
+            "type": "string",
+            "selector": "#DropPoint"
           },
           "shift": {
             "type": "string"

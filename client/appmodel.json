@@ -325,75 +325,59 @@
     "type": "object",
     "comment": "Tabs",
     "properties": {
-      "dropdetails": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "requesttype": {
-              "type": "string"
-            },
-            "area": {
-              "type": "string"
-            },
-            "shift": {
-              "type": "string"
-            },
-            "route": {
-              "type": "string"
-            },
-            "droporder": {
-              "type": "string"
-            },
-            "vehiclemodel": {
-              "type": "string"
-            },
-            "vehicleno": {
-              "type": "string"
-            },
-            "drivername": {
-              "type": "string"
-            },
-            "drivercontact": {
-              "type": "string"
-            }
-          }
-        }
+      "pickupreqtype": {
+        "type": "string"
       },
-      "pickupdetails": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "requesttype": {
-              "type": "string"
-            },
-            "area": {
-              "type": "string"
-            },
-            "shift": {
-              "type": "string"
-            },
-            "route": {
-              "type": "string"
-            },
-            "boardingtime": {
-              "type": "string"
-            },
-            "vehiclemodel": {
-              "type": "string"
-            },
-            "vehicleno": {
-              "type": "string"
-            },
-            "drivername": {
-              "type": "string"
-            },
-            "drivercontact": {
-              "type": "string"
-            }
-          }
-        }
+      "pickuparea": {
+        "type": "string"
+      },
+      "pickupshift": {
+        "type": "string"
+      },
+      "pickuproute": {
+        "type": "string"
+      },
+      "pickupboardtime": {
+        "type": "string"
+      },
+      "pickupvehiclemodel": {
+        "type": "string"
+      },
+      "pickupvehicleno": {
+        "type": "string"
+      },
+      "pickupdrivername": {
+        "type": "string"
+      },
+      "pickupdrivercontact": {
+        "type": "string"
+      },
+      "dropreqtype": {
+        "type": "string"
+      },
+      "droparea": {
+        "type": "string"
+      },
+      "dropshift": {
+        "type": "string"
+      },
+      "droproute": {
+        "type": "string"
+      },
+      "droporder": {
+        "type": "string"
+      },
+      "dropvehiclemodel": {
+        "type": "string"
+      },
+      "dropvehicleno": {
+        "type": "string"
+      },
+      "dropdrivername": {
+        "type": "string"
+      },
+      "dropdrivercontact": {
+        "type": "string"
       }
     }
   },

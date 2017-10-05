@@ -93,7 +93,7 @@
     },
     "ishome": {
       "type": "identifier",
-      "selector": ".textcenter.bluetext",
+      "selector": "body",
       "control": "exists",
       "selectContains": "My Dashboard"
     }

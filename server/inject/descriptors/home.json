@@ -94,7 +94,7 @@
     "ishome": {
       "type": "string",
       "selector": "html",
-      "control": "property.innerText"
+      "control": "exists"
     }
   },
   "connect": [

@@ -15,21 +15,21 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.adhocrequest', {
-        views: {
-            app: {
-                controller: 'app_adhocrequest',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.adhocrequest');
-                }
-            }
-        }
     }).state('app.multiselect', {
         views: {
             app: {
                 controller: 'app_multiselect',
                 templateProvider: function (app) {
                     return app.templateProvider('app.multiselect');
+                }
+            }
+        }
+    }).state('app.adhocrequest', {
+        views: {
+            app: {
+                controller: 'app_adhocrequest',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.adhocrequest');
                 }
             }
         }

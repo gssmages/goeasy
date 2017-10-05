@@ -11,17 +11,17 @@
       "model": "menus"
     },
     {
+      "id": "multiselect",
+      "name": "multiselect",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.multiselect"
+    },
+    {
       "id": "adhocrequest",
       "name": "adhocrequest",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.blank",
       "model": "adhocrequest"
-    },
-    {
-      "id": "multiselect",
-      "name": "multiselect",
-      "sourceAppId": "_blank",
-      "sourceScreenId": "app.multiselect"
     },
     {
       "id": "myapprovals",

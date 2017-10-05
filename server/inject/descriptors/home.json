@@ -1,6 +1,5 @@
 {
   "type": "object",
-  "comment": "Tabs",
   "properties": {
     "dropdetails": {
       "type": "array",

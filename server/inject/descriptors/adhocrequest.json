@@ -70,7 +70,7 @@
     "sendRequest": {
       "type": "action",
       "selector": "#savebbt",
-      "control": "property.innerHTML"
+      "control": "action.button"
     },
     "Reset": {
       "type": "action",

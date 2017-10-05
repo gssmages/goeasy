@@ -9,7 +9,8 @@
         "properties": {
           "requesttype": {
             "type": "string",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selector": "#DropCabRequestType"
           },
           "area": {
             "type": "string",

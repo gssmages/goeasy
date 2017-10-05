@@ -52,7 +52,8 @@
       "control": "property.innerText"
     },
     "droparea": {
-      "type": "string"
+      "type": "string",
+      "selector": "#DropPoint"
     },
     "dropshift": {
       "type": "string"

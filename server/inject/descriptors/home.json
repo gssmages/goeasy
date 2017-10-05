@@ -2,7 +2,8 @@
   "type": "object",
   "properties": {
     "pickupreqtype": {
-      "type": "string"
+      "type": "string",
+      "selector": "#PickupCabRequestType"
     },
     "pickuparea": {
       "type": "string"

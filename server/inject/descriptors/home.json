@@ -92,7 +92,7 @@
       "control": "property.innerText"
     },
     "ishome": {
-      "type": "string",
+      "type": "identifier",
       "selector": ".textcenter.bluetext",
       "control": "exists",
       "selectContains": "My Dashboard"

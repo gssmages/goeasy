@@ -13,14 +13,15 @@
             <div class="row" data-comp-id="row.1">
                 <div class="col" data-comp-id="column.1">
                     <div data-comp-id="text.1">Request Type</div>
-                    <select-list data-comp-id="selectList.1">Input Label</select-list>
+                    <select ng-model="data.RequestType.selected"
+                        ng-options="item as item.label for item in RequestType"></select>
                 </div>
             </div>
             <div class="row" data-comp-id="row.2">
-                <div class="col" data-comp-id="column.3">
+                <div class="col" data-comp-id="column.2">
                     <div data-comp-id="text.2">Date</div>
                 </div>
-                <div class="col col-66" data-comp-id="column.4">
+                <div class="col col-66" data-comp-id="column.3">
                     <label class="item item-input item-date-icon positive-icon"
                         data-comp-id="dateInput.1" ng-if="data.adhoclist.Date">
                         <span class="input-label" style="width: 0%;"></span>
@@ -31,62 +32,62 @@
                 </div>
             </div>
             <div class="row" data-comp-id="row.3">
-                <div class="col" data-comp-id="column.5">
+                <div class="col" data-comp-id="column.4">
                     <div data-comp-id="text.3">Request For</div>
                 </div>
-                <div class="col col-66" data-comp-id="column.6">
-                    <select-list data-comp-id="selectList.2" ng-model="data.adhoclist.RequestFor"
+                <div class="col col-66" data-comp-id="column.5">
+                    <select-list data-comp-id="selectList.1" ng-model="data.adhoclist.RequestFor"
                         no-label="true" select-class=" item-stacked-label"></select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.4">
-                <div class="col" data-comp-id="column.7">
+                <div class="col" data-comp-id="column.6">
                     <div data-comp-id="text.4">Timing</div>
                 </div>
-                <div class="col col-66" data-comp-id="column.8">
-                    <select-list data-comp-id="selectList.3" ng-model="data.Timing"></select-list>
+                <div class="col col-66" data-comp-id="column.7">
+                    <select-list data-comp-id="selectList.2" ng-model="data.Timing"></select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.5">
-                <div class="col" data-comp-id="column.9">
+                <div class="col" data-comp-id="column.8">
                     <div data-comp-id="text.5">Area</div>
                 </div>
-                <div class="col col-66" data-comp-id="column.10">
-                    <select-list data-comp-id="selectList.4" ng-model="data.Area"></select-list>
+                <div class="col col-66" data-comp-id="column.9">
+                    <select-list data-comp-id="selectList.3" ng-model="data.Area"></select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.6">
-                <div class="col" data-comp-id="column.11">
+                <div class="col" data-comp-id="column.10">
                     <div data-comp-id="text.6">Boarding/Drop Point</div>
                 </div>
-                <div class="col col-66" data-comp-id="column.12">
-                    <select-list data-comp-id="selectList.5" ng-model="data.BoardingDropPoint"></select-list>
+                <div class="col col-66" data-comp-id="column.11">
+                    <select-list data-comp-id="selectList.4" ng-model="data.BoardingDropPoint"></select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.7">
-                <div class="col" data-comp-id="column.13">
+                <div class="col" data-comp-id="column.12">
                     <div data-comp-id="text.7">Special Need</div>
                 </div>
-                <div class="col light-border text-right" data-comp-id="column.14"
+                <div class="col light-border text-right" data-comp-id="column.13"
                     style="border-width: 0px; border-style: initial; border-color: initial;">
                     <ion-toggle class="toggle-item toggle-inline" data-comp-id="toggle.1"
                         ng-model="data.SpecialNeed" style="border-radius: 0px;"></ion-toggle>
                 </div>
             </div>{{$scope.data.adhoclist.PleaseSpecify}}
             <div class="row" data-comp-id="row.8" ng-if="data.adhoclist.PleaseSpecify">
-                <div class="col" data-comp-id="column.15">
+                <div class="col" data-comp-id="column.14">
                     <div data-comp-id="text.8">Please Specify</div>
                 </div>
-                <div class="col col-66" data-comp-id="column.16">
-                    <select-list data-comp-id="selectList.6" ng-model="data.adhoclist.pleasespecify"
+                <div class="col col-66" data-comp-id="column.15">
+                    <select-list data-comp-id="selectList.5" ng-model="data.adhoclist.pleasespecify"
                         no-label="true" select-class=" item-stacked-label">Please Specify</select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.9">
-                <div class="col" data-comp-id="column.17">
+                <div class="col" data-comp-id="column.16">
                     <div data-comp-id="text.9">Reason For Adhoc</div>
                 </div>
-                <div class="col col-66" data-comp-id="column.18">
+                <div class="col col-66" data-comp-id="column.17">
                     <label class="item item-input" data-comp-id="textInput.1">
                         <span class="input-label"></span>
                         <input ng-model="data.AdhocReason" type="text">
@@ -98,11 +99,11 @@
     <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
         dynamic-floating-footer="" style="padding: 0px;">
         <div class="row" data-comp-id="row.10" style="padding: 0px;">
-            <div class="col" data-comp-id="column.19" style="padding: 0px; margin: 0px;">
+            <div class="col" data-comp-id="column.18" style="padding: 0px; margin: 0px;">
                 <button class="button button-block button-positive" data-comp-id="button.2"
                     style="margin: 0px;">Send Request</button>
             </div>
-            <div class="col text-center" data-comp-id="column.20" style="padding: 0px;">
+            <div class="col text-center" data-comp-id="column.19" style="padding: 0px;">
                 <button class="button button-block button-positive" data-comp-id="button.3"
                     style="margin: 0px; border-radius: 0px;">Reset</button>
             </div>

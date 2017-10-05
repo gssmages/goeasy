@@ -13,7 +13,8 @@
     },
     "pickupshift": {
       "type": "string",
-      "selector": "#PickupShift"
+      "selector": "#PickupShift",
+      "control": "property.innerText"
     },
     "pickuproute": {
       "type": "string"

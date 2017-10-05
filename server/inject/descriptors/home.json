@@ -82,7 +82,8 @@
       "control": "property.innerText"
     },
     "dropdrivername": {
-      "type": "string"
+      "type": "string",
+      "selector": "#DropDriverName"
     },
     "dropdrivercontact": {
       "type": "string"

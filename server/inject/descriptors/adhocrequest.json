@@ -66,6 +66,16 @@
       "selector": ".headingtext.textcenter",
       "control": "exists",
       "selectContains": "Transport Details"
+    },
+    "sendRequest": {
+      "type": "action",
+      "selector": ".headingtext.textcenter",
+      "control": "property.innerHTML"
+    },
+    "Reset": {
+      "type": "action",
+      "selector": ".headingtext.textcenter",
+      "control": "property.innerHTML"
     }
   },
   "connect": []

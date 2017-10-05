@@ -68,7 +68,7 @@
       "selectContains": "Transport Details"
     },
     "sendRequest": {
-      "type": "string",
+      "type": "action",
       "selector": ".headingtext.textcenter",
       "control": "property.innerHTML"
     }

@@ -25,7 +25,7 @@
                 </div>
                 <div class="col col-66" data-comp-id="column.4">
                     <label class="item item-input item-date-icon positive-icon"
-                        data-comp-id="dateInput.1" ng-if="$scope.data.Date">
+                        data-comp-id="dateInput.1" ng-if="data.adhoclist.Date">
                         <span class="input-label" style="width: 0%;"></span>
                         <input date-format="MM/DD/YYYY" max="2100-12-12" min="1900-01-01"
                             ng-model-options="{allowInvalid: true}" ng-model="data.adhoclist.Date"
@@ -75,8 +75,8 @@
                     <ion-toggle class="toggle-item toggle-inline" data-comp-id="toggle.1"
                         ng-model="data.SpecialNeed" style="border-radius: 0px;"></ion-toggle>
                 </div>
-            </div>
-            <div class="row" data-comp-id="row.8" ng-if="$scope.data.PleaseSpecify">
+            </div>{{$scope.data.adhoclist.PleaseSpecify}}
+            <div class="row" data-comp-id="row.8" ng-if="data.adhoclist.PleaseSpecify">
                 <div class="col" data-comp-id="column.15">
                     <div data-comp-id="text.8">Please Specify</div>
                 </div>

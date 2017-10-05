@@ -12,7 +12,8 @@
       "control": "property.innerText"
     },
     "pickupshift": {
-      "type": "string"
+      "type": "string",
+      "selector": "#PickupShift"
     },
     "pickuproute": {
       "type": "string"

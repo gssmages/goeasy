@@ -62,7 +62,7 @@
       "control": "select"
     },
     "isAdhocRequest": {
-      "type": "string",
+      "type": "identifier",
       "selector": ".form-group",
       "control": "property.innerHTML"
     }

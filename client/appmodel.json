@@ -312,6 +312,12 @@
       },
       "PleaseSpecify": {
         "type": "select"
+      },
+      "sendRequest": {
+        "type": "action"
+      },
+      "Reset": {
+        "type": "action"
       }
     }
   },

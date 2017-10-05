@@ -18,7 +18,8 @@
           },
           "shift": {
             "type": "string",
-            "selector": "#DropShift"
+            "selector": "#DropShift",
+            "control": "property.innerText"
           },
           "route": {
             "type": "string"

@@ -85,6 +85,13 @@
       }
     }
   },
-  "connect": [],
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "home"
+      ]
+    }
+  ],
   "selector": ".pickupdropcontent"
 }

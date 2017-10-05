@@ -4,18 +4,18 @@
   "startScreen": "app.home",
   "screens": [
     {
-      "id": "adhocrequest",
-      "name": "adhocrequest",
-      "sourceAppId": "_blank",
-      "sourceScreenId": "app.blank",
-      "model": "adhocrequest"
-    },
-    {
       "id": "menu",
       "name": "menu",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.menu",
       "model": "menus"
+    },
+    {
+      "id": "adhocrequest",
+      "name": "adhocrequest",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.blank",
+      "model": "adhocrequest"
     },
     {
       "id": "multiselect",

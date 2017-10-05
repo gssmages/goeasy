@@ -6,21 +6,21 @@ angular.module('app').config(function ($stateProvider) {
         templateProvider: function (app) {
             return app.templateProvider('app');
         }
-    }).state('app.adhocrequest', {
-        views: {
-            app: {
-                controller: 'app_adhocrequest',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.adhocrequest');
-                }
-            }
-        }
     }).state('app.menu', {
         views: {
             app: {
                 controller: 'app_menu',
                 templateProvider: function (app) {
                     return app.templateProvider('app.menu');
+                }
+            }
+        }
+    }).state('app.adhocrequest', {
+        views: {
+            app: {
+                controller: 'app_adhocrequest',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.adhocrequest');
                 }
             }
         }

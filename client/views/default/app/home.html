@@ -20,10 +20,8 @@
                         style="font-size: 20px; float: left;"></i>
                     <i class="icon {{item.icon}} calm" data-comp-id="icon.2" ng-if="!item.selected"
                         style="font-size: 20px; float: left;"></i>
-                    <div class=" light" data-comp-id="text.1" ng-bind="item.name"
-                        ng-if="item.selected" style="font-weight: normal;">Tab 1</div>
-                    <div class=" calm" data-comp-id="text.2" ng-bind="item.name"
-                        ng-if="!item.selected" style="font-weight: normal;">Tab 1</div>
+                    <div class=" " data-comp-id="text.1" ng-bind="item.name"
+                        ng-class="item.selected ? 'light : 'calm'" style="font-weight: normal;">{{item.name}}</div>
                 </div>
             </div>
         </div>
@@ -31,25 +29,25 @@
             <div class="row" data-comp-id="row.2">
                 <div class="col" data-comp-id="column.2">
                     <div class=" calm-bg" data-comp-id="div.3">
-                        <div class=" text-center" data-comp-id="text.3"
+                        <div class=" text-center" data-comp-id="text.2"
                             style="font-weight: bold; font-size: 14px;">Request Type</div>
-                        <div class=" text-center" data-comp-id="text.4"
+                        <div class=" text-center" data-comp-id="text.3"
                             ng-bind="data.pickupdetails.requesttype">Some text</div>
                     </div>
                 </div>
                 <div class="col" data-comp-id="column.3">
                     <div class=" calm-bg" data-comp-id="div.4">
-                        <div class=" text-center" data-comp-id="text.5"
+                        <div class=" text-center" data-comp-id="text.4"
                             style="font-weight: bold; font-size: 14px;">Area</div>
-                        <div class=" text-center" data-comp-id="text.6"
+                        <div class=" text-center" data-comp-id="text.5"
                             ng-bind="data.pickupdetails.area">Some text</div>
                     </div>
                 </div>
                 <div class="col" data-comp-id="column.4">
                     <div class=" calm-bg" data-comp-id="div.5">
-                        <div class=" text-center" data-comp-id="text.7"
+                        <div class=" text-center" data-comp-id="text.6"
                             style="font-weight: bold; font-size: 14px;">Shift</div>
-                        <div class=" text-center" data-comp-id="text.8"
+                        <div class=" text-center" data-comp-id="text.7"
                             ng-bind="data.pickupdetails.shift">Some text</div>
                     </div>
                 </div>
@@ -57,25 +55,25 @@
             <div class="row" data-comp-id="row.3">
                 <div class="col" data-comp-id="column.5">
                     <div class=" calm-bg" data-comp-id="div.6">
-                        <div class=" text-center" data-comp-id="text.9"
+                        <div class=" text-center" data-comp-id="text.8"
                             style="font-weight: bold; font-size: 14px;">Route</div>
-                        <div class=" text-center" data-comp-id="text.10"
+                        <div class=" text-center" data-comp-id="text.9"
                             ng-bind="data.pickupdetails.route">Some text</div>
                     </div>
                 </div>
                 <div class="col" data-comp-id="column.6">
                     <div class=" calm-bg" data-comp-id="div.7">
-                        <div class=" text-center" data-comp-id="text.11"
+                        <div class=" text-center" data-comp-id="text.10"
                             style="font-weight: bold; font-size: 14px;">Boarding Time</div>
-                        <div class=" text-center" data-comp-id="text.12"
+                        <div class=" text-center" data-comp-id="text.11"
                             ng-bind="data.pickupdetails.boardingtime">Some text</div>
                     </div>
                 </div>
                 <div class="col" data-comp-id="column.7">
                     <div class=" calm-bg" data-comp-id="div.8">
-                        <div class=" text-center" data-comp-id="text.13"
+                        <div class=" text-center" data-comp-id="text.12"
                             style="font-weight: bold; font-size: 14px;">Vehicle Model</div>
-                        <div class=" text-center" data-comp-id="text.14"
+                        <div class=" text-center" data-comp-id="text.13"
                             ng-bind="data.pickupdetails.vehiclemodel">Some text</div>
                     </div>
                 </div>
@@ -83,25 +81,25 @@
             <div class="row" data-comp-id="row.4">
                 <div class="col" data-comp-id="column.8">
                     <div class=" calm-bg" data-comp-id="div.9">
-                        <div class=" text-center" data-comp-id="text.15"
+                        <div class=" text-center" data-comp-id="text.14"
                             style="font-weight: bold; font-size: 14px;">Vehicle No</div>
-                        <div class=" text-center" data-comp-id="text.16"
+                        <div class=" text-center" data-comp-id="text.15"
                             ng-bind="data.pickupdetails.vehicleno">Some text</div>
                     </div>
                 </div>
                 <div class="col" data-comp-id="column.9">
                     <div class=" calm-bg" data-comp-id="div.10">
-                        <div class=" text-center" data-comp-id="text.17"
+                        <div class=" text-center" data-comp-id="text.16"
                             style="font-weight: bold; font-size: 14px;">Driver Name</div>
-                        <div class=" text-center" data-comp-id="text.18"
+                        <div class=" text-center" data-comp-id="text.17"
                             ng-bind="data.pickupdetails.drivername">Some text</div>
                     </div>
                 </div>
                 <div class="col" data-comp-id="column.10">
                     <div class=" calm-bg" data-comp-id="div.11">
-                        <div class=" text-center" data-comp-id="text.19"
+                        <div class=" text-center" data-comp-id="text.18"
                             style="font-weight: bold; font-size: 14px;">Driver Contact</div>
-                        <div class=" text-center" data-comp-id="text.20"
+                        <div class=" text-center" data-comp-id="text.19"
                             ng-bind="data.pickupdetails.drivercontact">Some text</div>
                     </div>
                 </div>
@@ -111,21 +109,21 @@
             <div class="row" data-comp-id="row.5">
                 <div class="col" data-comp-id="column.11">
                     <div class=" calm-bg" data-comp-id="div.13">
-                        <div class=" text-center" data-comp-id="text.21">Some text</div>
-                        <div class=" text-center" data-comp-id="text.22"
+                        <div class=" text-center" data-comp-id="text.20">Some text</div>
+                        <div class=" text-center" data-comp-id="text.21"
                             ng-bind="data.dropdetails.requesttype">Some text</div>
                     </div>
                 </div>
                 <div class="col" data-comp-id="column.12">
                     <div class=" calm-bg" data-comp-id="div.14">
-                        <div class=" text-center" data-comp-id="text.23">Some text</div>
-                        <div class=" text-center" data-comp-id="text.24" ng-bind="data.dropdetails.area">Some text</div>
+                        <div class=" text-center" data-comp-id="text.22">Some text</div>
+                        <div class=" text-center" data-comp-id="text.23" ng-bind="data.dropdetails.area">Some text</div>
                     </div>
                 </div>
                 <div class="col" data-comp-id="column.13">
                     <div class=" calm-bg" data-comp-id="div.15">
-                        <div class=" text-center" data-comp-id="text.25">Some text</div>
-                        <div class=" text-center" data-comp-id="text.26"
+                        <div class=" text-center" data-comp-id="text.24">Some text</div>
+                        <div class=" text-center" data-comp-id="text.25"
                             ng-bind="data.dropdetails.shift">Some text</div>
                     </div>
                 </div>
@@ -133,22 +131,22 @@
             <div class="row" data-comp-id="row.6">
                 <div class="col" data-comp-id="column.14">
                     <div class=" calm-bg" data-comp-id="div.16">
-                        <div class=" text-center" data-comp-id="text.27">Some text</div>
-                        <div class=" text-center" data-comp-id="text.28"
+                        <div class=" text-center" data-comp-id="text.26">Some text</div>
+                        <div class=" text-center" data-comp-id="text.27"
                             ng-bind="data.dropdetails.route">Some text</div>
                     </div>
                 </div>
                 <div class="col" data-comp-id="column.15">
                     <div class=" calm-bg" data-comp-id="div.17">
-                        <div class=" text-center" data-comp-id="text.29">Some text</div>
-                        <div class=" text-center" data-comp-id="text.30"
+                        <div class=" text-center" data-comp-id="text.28">Some text</div>
+                        <div class=" text-center" data-comp-id="text.29"
                             ng-bind="data.dropdetails.droporder">Some text</div>
                     </div>
                 </div>
                 <div class="col" data-comp-id="column.16">
                     <div class=" calm-bg" data-comp-id="div.18">
-                        <div class=" text-center" data-comp-id="text.31">Some text</div>
-                        <div class=" text-center" data-comp-id="text.32"
+                        <div class=" text-center" data-comp-id="text.30">Some text</div>
+                        <div class=" text-center" data-comp-id="text.31"
                             ng-bind="data.dropdetails.vehiclemodel">Some text</div>
                     </div>
                 </div>
@@ -156,22 +154,22 @@
             <div class="row" data-comp-id="row.7">
                 <div class="col" data-comp-id="column.17">
                     <div class=" calm-bg" data-comp-id="div.19">
-                        <div class=" text-center" data-comp-id="text.33">Some text</div>
-                        <div class=" text-center" data-comp-id="text.34"
+                        <div class=" text-center" data-comp-id="text.32">Some text</div>
+                        <div class=" text-center" data-comp-id="text.33"
                             ng-bind="data.dropdetails.vehicleno">Some text</div>
                     </div>
                 </div>
                 <div class="col" data-comp-id="column.18">
                     <div class=" calm-bg" data-comp-id="div.20">
-                        <div class=" text-center" data-comp-id="text.35">Some text</div>
-                        <div class=" text-center" data-comp-id="text.36"
+                        <div class=" text-center" data-comp-id="text.34">Some text</div>
+                        <div class=" text-center" data-comp-id="text.35"
                             ng-bind="data.dropdetails.drivername">Some text</div>
                     </div>
                 </div>
                 <div class="col" data-comp-id="column.19">
                     <div class=" calm-bg" data-comp-id="div.21">
-                        <div class=" text-center" data-comp-id="text.37">Some text</div>
-                        <div class=" text-center" data-comp-id="text.38"
+                        <div class=" text-center" data-comp-id="text.36">Some text</div>
+                        <div class=" text-center" data-comp-id="text.37"
                             ng-bind="data.dropdetails.drivercontact">Some text</div>
                     </div>
                 </div>
@@ -184,7 +182,7 @@
                         ng-click="app.go('app.myapprovals')" style="padding:10px 0;">
                         <i class="icon ion-checkmark-circled light" data-comp-id="icon.3"
                             style="font-size: 32px;"></i>
-                        <div class=" light" data-comp-id="text.39">My Approvals</div>
+                        <div class=" light" data-comp-id="text.38">My Approvals</div>
                     </div>
                 </div>
                 <div class="col text-center" data-comp-id="column.21"
@@ -193,7 +191,7 @@
                         ng-click="app.go('app.adhocrequest')" style="padding:10px 0;">
                         <i class="icon ion-android-time light" data-comp-id="icon.4"
                             style="font-size: 32px;"></i>
-                        <div class=" light" data-comp-id="text.40">Adhoc Request</div>
+                        <div class=" light" data-comp-id="text.39">Adhoc Request</div>
                     </div>
                 </div>
             </div>
@@ -203,7 +201,7 @@
                         ng-click="app.go('app.mytrips')" style="padding:10px 0;">
                         <i class="icon ion-android-pin light" data-comp-id="icon.5"
                             style="font-size: 32px;"></i>
-                        <div class=" light" data-comp-id="text.41">My Trips</div>
+                        <div class=" light" data-comp-id="text.40">My Trips</div>
                     </div>
                 </div>
                 <div class="col text-center" data-comp-id="column.23" style="padding: 0px;">
@@ -211,7 +209,7 @@
                         style="padding:10px 0;">
                         <i class="icon ion-android-hand light" data-comp-id="icon.6"
                             style="font-size: 32px;"></i>
-                        <div class=" light" data-comp-id="text.42">Check in</div>
+                        <div class=" light" data-comp-id="text.41">Check in</div>
                     </div>
                 </div>
             </div>

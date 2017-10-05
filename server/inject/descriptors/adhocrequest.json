@@ -64,7 +64,7 @@
     "isAdhocRequest": {
       "type": "identifier",
       "selector": ".headingtext.textcenter",
-      "control": "property.innerHTML",
+      "control": "exists",
       "selectContains": "Transport Details"
     }
   },

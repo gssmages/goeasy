@@ -9,7 +9,7 @@
         "properties": {
           "requesttype": {
             "type": "string",
-            "selector": "div"
+            "selector": "#PickupCabRequestType"
           },
           "area": {
             "type": "string"

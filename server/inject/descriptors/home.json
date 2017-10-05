@@ -28,7 +28,8 @@
     },
     "pickupvehiclemodel": {
       "type": "string",
-      "selector": "#PickupVehiModel"
+      "selector": "#PickupVehiModel",
+      "control": "property.innerText"
     },
     "pickupvehicleno": {
       "type": "string"

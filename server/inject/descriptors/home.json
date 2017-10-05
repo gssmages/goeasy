@@ -42,7 +42,7 @@
           }
         }
       },
-      "selectorAll": "html",
+      "selectorAll": ".col-sm-12.col-md-8.pickupdropcontent",
       "frameSelector": [
         null,
         ""

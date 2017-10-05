@@ -60,6 +60,11 @@
       "type": "select",
       "selector": "#splneedfor",
       "control": "select"
+    },
+    "isAdhocRequest": {
+      "type": "string",
+      "selector": ".form-group",
+      "control": "property.innerHTML"
     }
   },
   "connect": []

@@ -87,5 +87,5 @@
     }
   },
   "connect": [],
-  "selector": "#permanentExist"
+  "selector": "<pseudo:after>"
 }

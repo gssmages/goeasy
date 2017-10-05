@@ -68,7 +68,8 @@
     },
     "droporder": {
       "type": "string",
-      "selector": "#DropOrder"
+      "selector": "#DropOrder",
+      "control": "property.innerText"
     },
     "dropvehiclemodel": {
       "type": "string"

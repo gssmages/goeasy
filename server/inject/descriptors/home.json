@@ -8,7 +8,8 @@
     },
     "pickuparea": {
       "type": "string",
-      "selector": "#PickupPoint"
+      "selector": "#PickupPoint",
+      "control": "property.innerText"
     },
     "pickupshift": {
       "type": "string"

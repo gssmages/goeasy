@@ -97,7 +97,8 @@
       "match": [],
       "screens": [
         "home"
-      ]
+      ],
+      "model": "home"
     }
   ],
   "selector": ".pickupdropcontent"

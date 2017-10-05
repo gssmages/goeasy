@@ -36,8 +36,10 @@
                     <div data-comp-id="text.3">Request For</div>
                 </div>
                 <div class="col col-66" data-comp-id="column.5">
-                    <select-list data-comp-id="selectList.1" ng-model="data.adhoclist.RequestFor"
-                        no-label="true" select-class=" item-stacked-label"></select-list>
+                    <select ng-model="data.adhoclist.RequestFor"
+                        ng-options="item as item.label for item in RequestFor"></select>
+                    <!--<select data-comp-id="selectList.1" ng-model="data.adhoclist.RequestFor"-->
+                    <!--    no-label="true" select-class=" item-stacked-label"></select>-->
                 </div>
             </div>
             <div class="row" data-comp-id="row.4">
@@ -45,7 +47,7 @@
                     <div data-comp-id="text.4">Timing</div>
                 </div>
                 <div class="col col-66" data-comp-id="column.7">
-                    <select-list data-comp-id="selectList.2" ng-model="data.Timing"></select-list>
+                    <select-list data-comp-id="selectList.1" ng-model="data.Timing"></select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.5">
@@ -53,7 +55,7 @@
                     <div data-comp-id="text.5">Area</div>
                 </div>
                 <div class="col col-66" data-comp-id="column.9">
-                    <select-list data-comp-id="selectList.3" ng-model="data.Area"></select-list>
+                    <select-list data-comp-id="selectList.2" ng-model="data.Area"></select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.6">
@@ -61,7 +63,7 @@
                     <div data-comp-id="text.6">Boarding/Drop Point</div>
                 </div>
                 <div class="col col-66" data-comp-id="column.11">
-                    <select-list data-comp-id="selectList.4" ng-model="data.BoardingDropPoint"></select-list>
+                    <select-list data-comp-id="selectList.3" ng-model="data.BoardingDropPoint"></select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.7">
@@ -79,7 +81,7 @@
                     <div data-comp-id="text.8">Please Specify</div>
                 </div>
                 <div class="col col-66" data-comp-id="column.15">
-                    <select-list data-comp-id="selectList.5" ng-model="data.adhoclist.pleasespecify"
+                    <select-list data-comp-id="selectList.4" ng-model="data.adhoclist.pleasespecify"
                         no-label="true" select-class=" item-stacked-label">Please Specify</select-list>
                 </div>
             </div>

@@ -63,7 +63,8 @@
     },
     "droproute": {
       "type": "string",
-      "selector": "#DropRouteNo"
+      "selector": "#DropRouteNo",
+      "control": "property.innerText"
     },
     "droporder": {
       "type": "string"

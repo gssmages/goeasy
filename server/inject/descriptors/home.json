@@ -13,7 +13,7 @@
           },
           "area": {
             "type": "string",
-            "selector": "#DropPoint"
+            "selector": "#DropCabRequestType"
           },
           "shift": {
             "type": "string"

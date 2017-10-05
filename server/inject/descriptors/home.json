@@ -33,7 +33,8 @@
     },
     "pickupvehicleno": {
       "type": "string",
-      "selector": "#PickupVehiNumber"
+      "selector": "#PickupVehiNumber",
+      "control": "property.innerText"
     },
     "pickupdrivername": {
       "type": "string"

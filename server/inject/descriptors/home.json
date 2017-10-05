@@ -48,7 +48,8 @@
     },
     "dropreqtype": {
       "type": "string",
-      "selector": "#DropCabRequestType"
+      "selector": "#DropCabRequestType",
+      "control": "property.innerText"
     },
     "droparea": {
       "type": "string"

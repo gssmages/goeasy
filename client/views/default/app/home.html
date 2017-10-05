@@ -16,12 +16,11 @@
                     ng-click="app.action('tabs', 'data.tabs[item].action', this)"
                     ng-repeat="item in data.tabs"
                     style="margin: 0px; padding: 10px 15px; border-right: 1px solid rgb(221, 221, 221);">
-                    <i class="icon {{item.icon}} light" data-comp-id="icon.1" ng-if="item.selected"
+                    <i class="icon {{item.icon}}" data-comp-id="icon.1"
+                        ng-class="item.selected ? 'light' : 'calm'" ng-if="item.selected"
                         style="font-size: 20px; float: left;"></i>
-                    <i class="icon {{item.icon}} calm" data-comp-id="icon.2" ng-if="!item.selected"
-                        style="font-size: 20px; float: left;"></i>
-                    <div class=" " data-comp-id="text.1" ng-bind="item.name"
-                        ng-class="item.selected ? 'light : 'calm'" style="font-weight: normal;">{{item.name}}</div>
+                    <div data-comp-id="text.1" ng-bind="item.name"
+                        ng-class="item.selected ? 'light' : 'calm'" style="font-weight: normal;">{{item.name}}</div>
                 </div>
             </div>
         </div>
@@ -180,7 +179,7 @@
                 <div class="col text-center" data-comp-id="column.20" style="padding: 0px;">
                     <div class="card positive-bg" data-comp-display="card.1" data-comp-id="div.23"
                         ng-click="app.go('app.myapprovals')" style="padding:10px 0;">
-                        <i class="icon ion-checkmark-circled light" data-comp-id="icon.3"
+                        <i class="icon ion-checkmark-circled light" data-comp-id="icon.2"
                             style="font-size: 32px;"></i>
                         <div class=" light" data-comp-id="text.38">My Approvals</div>
                     </div>
@@ -189,7 +188,7 @@
                     style="padding: 0px; margin: 0px;">
                     <div class="card positive-bg" data-comp-display="card.2" data-comp-id="div.24"
                         ng-click="app.go('app.adhocrequest')" style="padding:10px 0;">
-                        <i class="icon ion-android-time light" data-comp-id="icon.4"
+                        <i class="icon ion-android-time light" data-comp-id="icon.3"
                             style="font-size: 32px;"></i>
                         <div class=" light" data-comp-id="text.39">Adhoc Request</div>
                     </div>
@@ -199,7 +198,7 @@
                 <div class="col text-center" data-comp-id="column.22" style="padding: 0px;">
                     <div class="card positive-bg" data-comp-display="card.3" data-comp-id="div.25"
                         ng-click="app.go('app.mytrips')" style="padding:10px 0;">
-                        <i class="icon ion-android-pin light" data-comp-id="icon.5"
+                        <i class="icon ion-android-pin light" data-comp-id="icon.4"
                             style="font-size: 32px;"></i>
                         <div class=" light" data-comp-id="text.40">My Trips</div>
                     </div>
@@ -207,7 +206,7 @@
                 <div class="col text-center" data-comp-id="column.23" style="padding: 0px;">
                     <div class="card positive-bg" data-comp-display="card.4" data-comp-id="div.26"
                         style="padding:10px 0;">
-                        <i class="icon ion-android-hand light" data-comp-id="icon.6"
+                        <i class="icon ion-android-hand light" data-comp-id="icon.5"
                             style="font-size: 32px;"></i>
                         <div class=" light" data-comp-id="text.41">Check in</div>
                     </div>

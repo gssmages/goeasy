@@ -87,7 +87,8 @@
       "control": "property.innerText"
     },
     "dropdrivercontact": {
-      "type": "string"
+      "type": "string",
+      "selector": "#DropDriverCon"
     }
   },
   "connect": [

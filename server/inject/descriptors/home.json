@@ -18,7 +18,8 @@
     },
     "pickuproute": {
       "type": "string",
-      "selector": "#PickupRouteNo"
+      "selector": "#PickupRouteNo",
+      "control": "property.innerText"
     },
     "pickupboardtime": {
       "type": "string"

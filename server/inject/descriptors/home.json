@@ -94,7 +94,8 @@
     "ishome": {
       "type": "string",
       "selector": ".textcenter.bluetext",
-      "control": "exists"
+      "control": "exists",
+      "selectContains": "My Dashboard"
     }
   },
   "connect": [

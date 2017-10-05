@@ -93,7 +93,7 @@
     },
     "ishome": {
       "type": "identifier",
-      "selector": "body",
+      "selector": ".usermenu li.selected",
       "control": "exists",
       "selectContains": "My Dashboard"
     }

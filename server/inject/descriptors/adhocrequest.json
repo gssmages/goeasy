@@ -64,7 +64,8 @@
     "isAdhocRequest": {
       "type": "identifier",
       "selector": ".headingtext.textcenter",
-      "control": "property.innerHTML"
+      "control": "property.innerHTML",
+      "selectContains": "Transport Details"
     }
   },
   "connect": []

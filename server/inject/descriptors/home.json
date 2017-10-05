@@ -100,7 +100,9 @@
   },
   "connect": [
     {
-      "match": [],
+      "match": [
+        "ishome"
+      ],
       "screens": [
         "home"
       ],

@@ -22,7 +22,8 @@
       "control": "property.innerText"
     },
     "pickupboardtime": {
-      "type": "string"
+      "type": "string",
+      "selector": "#BoardingTime"
     },
     "pickupvehiclemodel": {
       "type": "string"

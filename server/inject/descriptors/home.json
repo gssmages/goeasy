@@ -7,7 +7,8 @@
       "control": "property.innerText"
     },
     "pickuparea": {
-      "type": "string"
+      "type": "string",
+      "selector": "#PickupPoint"
     },
     "pickupshift": {
       "type": "string"

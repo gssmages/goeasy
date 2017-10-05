@@ -37,7 +37,8 @@
             "type": "string"
           }
         }
-      }
+      },
+      "selectorAll": ".col-sm-12.col-lg-10"
     },
     "pickupdetails": {
       "type": "array",

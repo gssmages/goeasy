@@ -73,7 +73,7 @@
       "control": "property.innerHTML"
     },
     "Reset": {
-      "type": "string",
+      "type": "action",
       "selector": ".headingtext.textcenter",
       "control": "property.innerHTML"
     }

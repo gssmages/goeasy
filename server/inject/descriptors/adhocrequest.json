@@ -71,6 +71,11 @@
       "type": "action",
       "selector": ".headingtext.textcenter",
       "control": "property.innerHTML"
+    },
+    "Reset": {
+      "type": "string",
+      "selector": ".headingtext.textcenter",
+      "control": "property.innerHTML"
     }
   },
   "connect": []

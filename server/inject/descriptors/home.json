@@ -57,7 +57,8 @@
       "control": "property.innerText"
     },
     "dropshift": {
-      "type": "string"
+      "type": "string",
+      "selector": "#DropShift"
     },
     "droproute": {
       "type": "string"

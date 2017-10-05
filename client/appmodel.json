@@ -265,9 +265,6 @@
       "ok": {
         "type": "action"
       },
-      "alertmsg": {
-        "type": "string"
-      },
       "back": {
         "type": "action"
       }

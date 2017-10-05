@@ -90,6 +90,11 @@
       "type": "string",
       "selector": "#DropDriverCon",
       "control": "property.innerText"
+    },
+    "ishome": {
+      "type": "string",
+      "selector": "html",
+      "control": "property.innerText"
     }
   },
   "connect": [

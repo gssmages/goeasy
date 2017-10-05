@@ -43,7 +43,8 @@
     },
     "pickupdrivercontact": {
       "type": "string",
-      "selector": "#PickupDriverCon"
+      "selector": "#PickupDriverCon",
+      "control": "property.innerText"
     },
     "dropreqtype": {
       "type": "string"

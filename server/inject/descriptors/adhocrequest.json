@@ -79,5 +79,14 @@
       "selectContains": "Reset"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isAdhocRequest"
+      ],
+      "screens": [
+        "adhocrequest"
+      ]
+    }
+  ]
 }

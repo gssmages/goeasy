@@ -75,7 +75,7 @@
     "Reset": {
       "type": "action",
       "selector": "input",
-      "control": "property.innerHTML",
+      "control": "action.button",
       "selectContains": "Reset"
     }
   },

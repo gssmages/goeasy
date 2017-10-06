@@ -3,7 +3,8 @@
   "comment": "SlideOutMenu",
   "properties": {
     "logout": {
-      "type": "action"
+      "type": "action",
+      "control": "property.innerText"
     },
     "sidemenuitem": {
       "type": "array",

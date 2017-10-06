@@ -1,8 +1,8 @@
 [
   "alertwin.json",
   "myapprovals.json",
+  "adhocrequest.json",
   "mytripstab.json",
   "sidemenu.json",
-  "home.json",
-  "adhocrequest.json"
+  "home.json"
 ]

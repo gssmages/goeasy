@@ -18,8 +18,7 @@
               "type": "none"
             },
             "selector": "li a",
-            "control": "property.innerText",
-            "selectContains": "div"
+            "control": "property.innerText"
           },
           "link": {
             "type": "action",

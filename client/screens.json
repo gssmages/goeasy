@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "goeasymobile",
-  "startScreen": "app.myapprovals",
+  "startScreen": "app.adhocrequest",
   "screens": [
     {
       "id": "menu",

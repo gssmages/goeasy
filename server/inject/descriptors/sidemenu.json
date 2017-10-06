@@ -20,7 +20,7 @@
           },
           "link": {
             "type": "action",
-            "selector": "a"
+            "selector": "li a"
           }
         }
       },

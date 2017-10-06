@@ -35,7 +35,7 @@
     },
     "ismenu": {
       "type": "identifier",
-      "selector": "a",
+      "selector": ".menubar",
       "control": "exists"
     }
   },

@@ -23,8 +23,7 @@
           "link": {
             "type": "action",
             "selector": "li a",
-            "control": "action.link",
-            "selectContains": "href"
+            "control": "action.link"
           }
         }
       },

@@ -302,7 +302,10 @@
         "type": "select"
       },
       "ReasonForAdhoc": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "PleaseSpecify": {
         "type": "select"

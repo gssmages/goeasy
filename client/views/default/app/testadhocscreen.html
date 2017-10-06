@@ -15,26 +15,26 @@
             data-comp-id="dateInput.1">
             <span class="input-label">Date</span>
             <input date-format="DD/MM/YYYY" max="2100-12-12" min="1900-01-01"
-                ng-model-options="{allowInvalid: true}" type="date">
+                ng-model-options="{allowInvalid: true}" ng-model="data.Date" type="date">
         </label>
         <label class="item item-input item-date-icon positive-icon"
             data-comp-id="dateInput.2">
             <span class="input-label">From Date</span>
             <input date-format="DD/MM/YYYY" max="2100-12-12" min="1900-01-01"
-                ng-model-options="{allowInvalid: true}" type="date">
+                ng-model-options="{allowInvalid: true}" ng-model="data.FromDate" type="date">
         </label>
         <label class="item item-input item-date-icon positive-icon"
             data-comp-id="dateInput.3">
             <span class="input-label">To Date</span>
-            <input date-format="DD//MM/YYYY" max="2100-12-12" min="1900-01-01"
-                ng-model-options="{allowInvalid: true}" type="date">
+            <input date-format="MM/DD/YYYY" max="2100-12-12" min="1900-01-01"
+                ng-model-options="{allowInvalid: true}" ng-model="data.ToDate" type="date">
         </label>
-        <select-list data-comp-id="selectList.2">Request For</select-list>
-        <select-list data-comp-id="selectList.3">Timing</select-list>
-        <select-list data-comp-id="selectList.4">Area</select-list>
-        <select-list data-comp-id="selectList.5">Boarding/Drop Point</select-list>
+        <select-list data-comp-id="selectList.2" ng-model="data.RequestFor">Request For</select-list>
+        <select-list data-comp-id="selectList.3" ng-model="data.Timing">Timing</select-list>
+        <select-list data-comp-id="selectList.4" ng-model="data.Area">Area</select-list>
+        <select-list data-comp-id="selectList.5" ng-model="data.BordingPoint">Boarding/Drop Point</select-list>
         <ion-toggle class="toggle-item" data-comp-id="toggle.1">Special Need</ion-toggle>
-        <select-list data-comp-id="selectList.6">Please Specify</select-list>
-        <div data-comp-id="text.1">Reason for Adhoc</div>
+        <select-list data-comp-id="selectList.6" ng-model="data.PleaseSpecify">Please Specify</select-list>
+        <div data-comp-id="text.1" ng-bind="data.ReasonForAdhoc">Reason for Adhoc</div>
     </ion-content>
 </ion-view>

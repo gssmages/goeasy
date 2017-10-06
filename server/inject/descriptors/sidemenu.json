@@ -32,7 +32,7 @@
       "selectorAll": ".menubar"
     },
     "ismenu": {
-      "type": "action",
+      "type": "identifier",
       "selector": "a",
       "control": "action.link"
     }

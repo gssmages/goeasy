@@ -83,7 +83,7 @@
       "name": "testAdhocScreen",
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
-      "model": "testadhocscreen"
+      "model": "adhocrequest"
     }
   ],
   "sourceAppId": "_blank",

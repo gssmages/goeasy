@@ -4,7 +4,8 @@
   "properties": {
     "logout": {
       "type": "action",
-      "control": "action.button"
+      "control": "action.button",
+      "selector": "img"
     },
     "sidemenuitem": {
       "type": "array",

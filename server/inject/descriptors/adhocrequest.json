@@ -54,7 +54,7 @@
     "ReasonForAdhoc": {
       "type": "string",
       "selector": "#reason",
-      "control": "property.innerText"
+      "control": "text"
     },
     "PleaseSpecify": {
       "type": "select",

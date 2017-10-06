@@ -45,8 +45,7 @@
       ],
       "screens": [
         "sidemenu"
-      ],
-      "model": "sidemenu"
+      ]
     }
   ]
 }

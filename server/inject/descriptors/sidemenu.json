@@ -17,7 +17,7 @@
             "update": {
               "type": "none"
             },
-            "selector": ".usermenu li a div",
+            "selector": ".usermenu li",
             "control": "property.innerText"
           },
           "link": {

@@ -73,7 +73,7 @@
     },
     {
       "id": "sidemenu",
-      "name": "SideMenu",
+      "name": "sidemenu",
       "sourceScreenId": "app.slideoutmenu.sidemenucool",
       "sourceAppId": "universaltemplates",
       "model": "sidemenu"

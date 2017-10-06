@@ -14,7 +14,8 @@
       "id": "multiselect",
       "name": "multiselect",
       "sourceAppId": "_blank",
-      "sourceScreenId": "app.multiselect"
+      "sourceScreenId": "app.multiselect",
+      "model": "menus"
     },
     {
       "id": "myapprovals",

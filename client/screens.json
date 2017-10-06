@@ -70,6 +70,13 @@
       "sourceScreenId": "app.tabbednavigation.tabsconfident",
       "sourceAppId": "universaltemplates",
       "model": "home"
+    },
+    {
+      "id": "sidemenu",
+      "name": "SideMenu",
+      "sourceScreenId": "app.slideoutmenu.sidemenucool",
+      "sourceAppId": "universaltemplates",
+      "model": "sidemenu_2"
     }
   ],
   "sourceAppId": "_blank",

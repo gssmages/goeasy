@@ -225,6 +225,9 @@
             },
             "link": {
               "type": "action"
+            },
+            "icons": {
+              "type": "string"
             }
           }
         },

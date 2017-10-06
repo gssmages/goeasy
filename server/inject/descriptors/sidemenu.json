@@ -19,7 +19,8 @@
             "control": "property.innerText"
           },
           "link": {
-            "type": "action"
+            "type": "action",
+            "selector": "a"
           }
         }
       },

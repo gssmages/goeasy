@@ -31,7 +31,7 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": ".menubar"
+      "selectorAll": ".menubar ul li"
     },
     "ismenu": {
       "type": "identifier",

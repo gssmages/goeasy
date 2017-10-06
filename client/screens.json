@@ -77,6 +77,13 @@
       "sourceScreenId": "app.slideoutmenu.sidemenucool",
       "sourceAppId": "universaltemplates",
       "model": "sidemenu"
+    },
+    {
+      "id": "testadhocscreen",
+      "name": "testAdhocScreen",
+      "sourceScreenId": "app.listview.listviewcool",
+      "sourceAppId": "universaltemplates",
+      "model": "testadhocscreen"
     }
   ],
   "sourceAppId": "_blank",

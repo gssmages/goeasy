@@ -25,7 +25,8 @@
       },
       "update": {
         "type": "none"
-      }
+      },
+      "selectorAll": ".menubar"
     }
   },
   "connect": []

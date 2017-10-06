@@ -15,7 +15,7 @@
             "update": {
               "type": "none"
             },
-            "selector": "html"
+            "selector": "div"
           },
           "link": {
             "type": "action"

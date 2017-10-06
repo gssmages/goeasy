@@ -388,7 +388,10 @@
           "type": "object",
           "properties": {
             "menuname": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "link": {
               "type": "action"

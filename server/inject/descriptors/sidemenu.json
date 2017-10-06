@@ -36,7 +36,7 @@
     "ismenu": {
       "type": "identifier",
       "selector": "a",
-      "control": "action.link"
+      "control": "exists"
     }
   },
   "connect": []

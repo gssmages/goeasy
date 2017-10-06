@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "comment": "SlideOutMenu",
+  "properties": {
+    "logout": {
+      "type": "action"
+    },
+    "sidemenuitem": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "menuname": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "link": {
+            "type": "action"
+          }
+        }
+      },
+      "update": {
+        "type": "none"
+      }
+    }
+  },
+  "connect": []
+}

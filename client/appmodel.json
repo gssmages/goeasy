@@ -212,27 +212,21 @@
     "type": "object",
     "comment": "",
     "properties": {
-      "menulinks": {
+      "menulink": {
         "type": "array",
         "items": {
           "type": "object",
           "properties": {
             "menuname": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "link": {
-              "type": "action"
+              "type": "string"
             },
             "icons": {
               "type": "string"
+            },
+            "link": {
+              "type": "action"
             }
           }
-        },
-        "update": {
-          "type": "none"
         }
       }
     }

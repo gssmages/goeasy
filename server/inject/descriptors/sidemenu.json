@@ -14,7 +14,8 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "div"
           },
           "link": {
             "type": "action"

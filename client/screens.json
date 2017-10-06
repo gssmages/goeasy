@@ -76,7 +76,7 @@
       "name": "SideMenu",
       "sourceScreenId": "app.slideoutmenu.sidemenucool",
       "sourceAppId": "universaltemplates",
-      "model": "sidemenu_2"
+      "model": "sidemenu"
     }
   ],
   "sourceAppId": "_blank",

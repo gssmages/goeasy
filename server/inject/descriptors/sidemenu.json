@@ -18,7 +18,8 @@
               "type": "none"
             },
             "selector": ".usermenu li",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectContains": "div"
           },
           "link": {
             "type": "action",

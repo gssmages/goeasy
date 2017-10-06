@@ -15,7 +15,8 @@
             "update": {
               "type": "none"
             },
-            "selector": "li.selected a div"
+            "selector": "li.selected a div",
+            "control": "property.innerText"
           },
           "link": {
             "type": "action"

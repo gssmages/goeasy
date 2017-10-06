@@ -5,7 +5,7 @@
     "logout": {
       "type": "action",
       "control": "action.button",
-      "selector": "img"
+      "selector": ".userinfo"
     },
     "sidemenuitem": {
       "type": "array",

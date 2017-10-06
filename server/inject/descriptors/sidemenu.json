@@ -1,0 +1,52 @@
+{
+  "type": "object",
+  "comment": "SlideOutMenu",
+  "properties": {
+    "logout": {
+      "type": "action",
+      "control": "action.button",
+      "selector": ".userinfo"
+    },
+    "sidemenuitem": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "menuname": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            },
+            "selector": "li a div",
+            "control": "property.innerText"
+          },
+          "link": {
+            "type": "action",
+            "selector": "li a",
+            "control": "action.link"
+          }
+        }
+      },
+      "update": {
+        "type": "none"
+      },
+      "selectorAll": ".menubar ul li"
+    },
+    "ismenu": {
+      "type": "identifier",
+      "selector": ".menubar",
+      "control": "exists"
+    }
+  },
+  "connect": [
+    {
+      "match": [
+        "ismenu"
+      ],
+      "screens": [
+        "sidemenu"
+      ],
+      "model": "sidemenu"
+    }
+  ]
+}

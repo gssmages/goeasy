@@ -15,7 +15,7 @@
             "update": {
               "type": "none"
             },
-            "selector": "div"
+            "selector": "li.selected a div"
           },
           "link": {
             "type": "action"

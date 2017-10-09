@@ -168,6 +168,11 @@
         }
       },
       "selectorAll": ".nav.nav-pills li"
+    },
+    "getnoshows": {
+      "type": "action",
+      "selector": "input",
+      "control": "action.button"
     }
   },
   "connect": [

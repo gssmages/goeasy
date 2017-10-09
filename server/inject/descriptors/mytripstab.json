@@ -180,6 +180,11 @@
       "selector": "input",
       "control": "action.button",
       "selectContains": "Get Adhoc History"
+    },
+    "selectmonth": {
+      "type": "action",
+      "selector": "input",
+      "control": "action.button"
     }
   },
   "connect": [

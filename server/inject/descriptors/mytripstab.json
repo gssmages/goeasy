@@ -183,7 +183,7 @@
     },
     "selectmonth": {
       "type": "string",
-      "selector": "input",
+      "selector": "#date_month",
       "control": "action.button"
     }
   },

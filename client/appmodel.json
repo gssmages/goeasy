@@ -205,6 +205,12 @@
         "update": {
           "type": "none"
         }
+      },
+      "getnoshows": {
+        "type": "action"
+      },
+      "getadhochistory": {
+        "type": "action"
       }
     }
   },

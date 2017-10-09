@@ -41,17 +41,25 @@
             <select ng-model="data.RequestFor.selected"
                 ng-options="item as item.label for item in data.RequestFor.options"></select>
         </label>
-        <div class="row" data-comp-id="row.1">
-            <div class="col" data-comp-id="column.1"></div>
-        </div>
     </ion-content>
     <ion-footer-bar align-title="center" class=" bar-positive"
         data-comp-id="footer-bar.1" dynamic-fixed-footer=""
         style="padding: 0px; margin: 0px;">
         <div class="row" data-comp-id="row.2" style="margin: 0px; padding: 0px;">
             <div class="col" data-comp-id="column.2" style="margin: 0px; padding: 0px;">
-                <a class="button button-positive button-full" data-comp-id="button.2"
-                    style="margin: 0px; padding: 0px; float: none;">Ok</a>
+                <div class="row" data-comp-id="row.3"
+                    style="padding: 0px; margin: 0px; border-width: 0px; border-style: initial; border-color: initial; border-radius: 0px;">
+                    <div class="col" data-comp-id="column.3"
+                        style="margin: 0px; padding: 0px; border-width: 0px; border-style: initial; border-color: initial; border-radius: 0px;">
+                        <button class="button button-block" data-comp-id="button.2"
+                            style="margin: 0px; padding: 0px;">Save</button>
+                    </div>
+                    <div class="col" data-comp-id="column.4"
+                        style="padding: 0px; border-width: 0px; border-style: initial; border-color: initial; border-radius: 0px; margin: 0px;">
+                        <button class="button button-block" data-comp-id="button.3"
+                            style="margin: 0px; padding: 0px;">Close</button>
+                    </div>
+                </div>
             </div>
         </div>
     </ion-footer-bar>

@@ -84,6 +84,12 @@
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "adhocrequest"
+    },
+    {
+      "id": "tripcancellation",
+      "name": "tripCancellation",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",

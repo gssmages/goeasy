@@ -114,5 +114,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.tripcancellation', {
+        views: {
+            app: {
+                controller: 'app_tripcancellation',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.tripcancellation');
+                }
+            }
+        }
     });
 });

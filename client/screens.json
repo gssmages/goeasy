@@ -84,13 +84,6 @@
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "adhocrequest"
-    },
-    {
-      "id": "tableviewadvancedclassic",
-      "name": "TableView Advanced-Classic",
-      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedclassic",
-      "sourceAppId": "universaltemplates",
-      "model": "tableviewadvancedclassic"
     }
   ],
   "sourceAppId": "_blank",

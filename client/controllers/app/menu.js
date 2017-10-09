@@ -5,6 +5,6 @@ function app_menu($scope,$location, app) {
     
     $scope.showDashboard = function() {
 	    app.call('Home');
-	    $location.path('http://hkdnte250:82/');
+	   /* $location.path('http://hkdnte250:82/');*/
 	};
 }

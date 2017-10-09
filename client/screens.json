@@ -89,7 +89,8 @@
       "id": "tripcancellation",
       "name": "tripCancellation",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "tripcancellation"
     }
   ],
   "sourceAppId": "_blank",

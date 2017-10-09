@@ -178,7 +178,8 @@
     "getadhochistory": {
       "type": "action",
       "selector": "input",
-      "control": "action.button"
+      "control": "action.button",
+      "selectContains": "Get Adhoc History"
     }
   },
   "connect": [

@@ -3,10 +3,10 @@ function app_adhocrequest($scope, app) {
     'use strict';
     app.init($scope, function () {
         if ($scope.data.RequestType) {
-            $scope.RequestType = JSON.parse($scope.data.RequestType.options);
+            $scope.RequestType = $scope.data.RequestType.options;
         }
         if ($scope.data.RequestFor) {
-            $scope.RequestFor = JSON.parse($scope.data.RequestFor.options);
+            $scope.RequestFor = $scope.data.RequestFor.options;
         }
     });
 }

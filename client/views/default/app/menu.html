@@ -6,11 +6,31 @@
     <ion-content class="has-header" data-comp-id="ionic-content.1">
         <div class="list" data-comp-id="ionic-list.1">
             <div class="item item-icon-left item-icon-right" data-comp-id="item.1"
-                ng-click="app.action('menus', 'menulinks[item].link', this)"
-                ng-repeat="item in data.menulinks">
+                ng-click="app.showDashboard()">
                 <i class="icon ion-person" data-comp-id="icon.1"></i>
                 <div data-comp-id="text.2">Dashboard</div>
                 <i class="icon ion-ios-arrow-right" data-comp-id="icon.2" style="font-size:32px"></i>
+            </div>
+            <div class="item item-icon-left item-icon-right" data-comp-id="item.2">
+                <i class="icon ion-android-time" data-comp-id="icon.3"></i>
+                <div data-comp-id="text.3">Adhoc Request
+                    <span class="item-note"></span>
+                </div>
+                <i class="icon ion-ios-arrow-right" data-comp-id="icon.4" style="font-size:32px"></i>
+            </div>
+            <div class="item item-icon-left item-icon-right" data-comp-id="item.3">
+                <i class="icon ion-android-pin" data-comp-id="icon.5"></i>
+                <div data-comp-id="text.4">My Trips
+                    <span class="item-note"></span>
+                </div>
+                <i class="icon ion-ios-arrow-right" data-comp-id="icon.6" style="font-size:32px"></i>
+            </div>
+            <div class="item item-icon-left item-icon-right" data-comp-id="item.4">
+                <i class="icon ion-android-checkbox-outline" data-comp-id="icon.7"></i>
+                <div data-comp-id="text.5">My Approvals
+                    <span class="item-note"></span>
+                </div>
+                <i class="icon ion-ios-arrow-right" data-comp-id="icon.8" style="font-size:32px"></i>
             </div>
             <div class="item item-icon-left item-icon-right" data-comp-id="item.5"
                 ng-click="app.showMenu()">

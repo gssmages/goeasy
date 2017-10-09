@@ -168,6 +168,23 @@
         }
       },
       "selectorAll": ".nav.nav-pills li"
+    },
+    "getnoshows": {
+      "type": "action",
+      "selector": "input",
+      "control": "action.button",
+      "selectContains": "Get No Shows"
+    },
+    "getadhochistory": {
+      "type": "action",
+      "selector": "input",
+      "control": "action.button",
+      "selectContains": "Get Adhoc History"
+    },
+    "selectmonth": {
+      "type": "string",
+      "selector": "#date_month",
+      "control": "text"
     }
   },
   "connect": [

@@ -5,7 +5,8 @@ function app_menu($scope,$location,$window, app) {
     
     $scope.showDashboard = function() {
 	    /*app.call('app.home');*/
-	    $window.location.href = 'http://hkdnte250:82/';
-	    /*$location.path('http://hkdnte250:82/');
+	    app.action('app.home','http://hkdnte250:82/');
+	   /* $window.location.href = 'http://hkdnte250:82/';
+	    /*$location.path('http://hkdnte250:82/');*/
 	};
 }

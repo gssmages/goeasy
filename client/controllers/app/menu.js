@@ -4,10 +4,10 @@ function app_menu($scope,$location,$window, app) {
     app.init($scope);
     
     $scope.showDashboard = function(index) {
-        app.go('app.home');
-        /*$location.path('http://hkdnte250:82/');
+        /*app.go('app.home');
+        $location.path('http://hkdnte250:82/');
 	    /*app.call('app.home');*/
-	   /* app.action('app.home','http://hkdnte250:82/');
+	  app.action('app.home');
 	   /* $window.location.href = 'http://hkdnte250:82/';
        /* app.call('Home.showDashboard',{'index':index});*/
     

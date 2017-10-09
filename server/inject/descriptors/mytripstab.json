@@ -182,7 +182,7 @@
       "selectContains": "Get Adhoc History"
     },
     "selectmonth": {
-      "type": "action",
+      "type": "string",
       "selector": "input",
       "control": "action.button"
     }

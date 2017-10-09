@@ -211,6 +211,9 @@
       },
       "getadhochistory": {
         "type": "action"
+      },
+      "selectmonth": {
+        "type": "string"
       }
     }
   },

@@ -9,7 +9,7 @@ function app_menu($scope,$location,$window, app) {
 	   /* $window.location.href = 'http://hkdnte250:82/';
 	    /*$location.path('http://hkdnte250:82/');*/
 	    
-        app.call('Home.showDashboard',{'index':index});
+       /* app.call('Home.showDashboard',{'index':index});*/
     
 	};
 }

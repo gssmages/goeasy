@@ -172,7 +172,8 @@
     "getnoshows": {
       "type": "action",
       "selector": "input",
-      "control": "action.button"
+      "control": "action.button",
+      "selectContains": "Get No Shows"
     }
   },
   "connect": [

@@ -84,12 +84,6 @@
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "adhocrequest"
-    },
-    {
-      "id": "multiselect1",
-      "name": "multiselect1",
-      "sourceScreenId": "app.multiselect",
-      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",

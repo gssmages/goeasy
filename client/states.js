@@ -114,14 +114,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.multiselect1', {
-        views: {
-            app: {
-                controller: 'app_multiselect1',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.multiselect1');
-                }
-            }
-        }
     });
 });

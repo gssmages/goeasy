@@ -4,11 +4,11 @@ function app_adhocrequest($scope, app) {
     app.init($scope, function () {
         console.log("data objects ", $scope.data);
         
-        if ($scope.data.RequestType) {
+       /* if ($scope.data.RequestType) {
             $scope.RequestType = $scope.data.RequestType.options;
         }
         if ($scope.data.RequestFor) {
             $scope.RequestFor = $scope.data.RequestFor.options;
-        }
+        }*/
     });
 }

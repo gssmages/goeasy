@@ -184,7 +184,7 @@
     "selectmonth": {
       "type": "string",
       "selector": "#date_month",
-      "control": "property.innerText"
+      "control": "text"
     }
   },
   "connect": [

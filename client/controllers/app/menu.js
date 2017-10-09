@@ -1,5 +1,5 @@
 angular.module('app').controller('app_menu', app_menu);
-function app_menu($scope, app) {
+function app_menu($scope,$location, app) {
     'use strict';
     app.init($scope);
     

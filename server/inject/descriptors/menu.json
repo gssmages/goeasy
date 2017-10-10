@@ -4,7 +4,7 @@
     "menuaction": {
       "type": "action",
       "selector": "a",
-      "control": "property.innerText"
+      "control": "action.link"
     }
   },
   "connect": []

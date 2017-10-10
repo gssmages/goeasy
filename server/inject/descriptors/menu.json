@@ -4,7 +4,8 @@
     "menuaction": {
       "type": "action",
       "selector": "div",
-      "control": "action.link"
+      "control": "action.link",
+      "selectContains": "Adhoc Request"
     }
   },
   "connect": []

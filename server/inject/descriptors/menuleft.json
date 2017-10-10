@@ -6,6 +6,11 @@
       "selector": ".usermenu li a",
       "control": "action.link",
       "selectContains": "Adhoc Request"
+    },
+    "dashboard": {
+      "type": "action",
+      "selector": "a",
+      "control": "action.link"
     }
   },
   "connect": []

@@ -1,5 +1,11 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "menuaction": {
+      "type": "string",
+      "selector": "#PendingRequestsTable",
+      "control": "property.innerText"
+    }
+  },
   "connect": []
 }

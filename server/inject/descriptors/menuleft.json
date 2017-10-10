@@ -1,7 +1,7 @@
 {
   "type": "object",
   "properties": {
-    "menuaction": {
+    "adhocrequest": {
       "type": "action",
       "selector": ".usermenu li a",
       "control": "action.link",

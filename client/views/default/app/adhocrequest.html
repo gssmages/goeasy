@@ -19,7 +19,8 @@
                         data-comp-id="selectInput.1">
                         <span class="input-label"></span>
                         <select ng-model="data.RequestType.selected"
-                            ng-options="item as item.label for item in data.RequestType.options"></select>
+                            ng-options="item as item.label for item in data.RequestType.options"
+                            powwow-change="{dynamic:false}"></select>
                     </label>
                 </div>
             </div>

@@ -61,7 +61,6 @@ function app_myapprovals($scope, app) {
 				{
 					$scope.listarray.push($index);
 					$scope.data.listItems[$index].isselect=true;
-				
 				}
 				else
 				{

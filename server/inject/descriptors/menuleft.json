@@ -16,6 +16,11 @@
       "type": "action",
       "selector": "a",
       "control": "action.link"
+    },
+    "myapprovals": {
+      "type": "action",
+      "selector": "a",
+      "control": "action.link"
     }
   },
   "connect": []

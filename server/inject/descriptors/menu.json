@@ -3,7 +3,7 @@
   "properties": {
     "menuaction": {
       "type": "action",
-      "selector": "div",
+      "selector": "a",
       "control": "action.link",
       "selectContains": "Adhoc Request"
     }

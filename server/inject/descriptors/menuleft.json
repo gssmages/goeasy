@@ -22,7 +22,8 @@
     "myapprovals": {
       "type": "action",
       "selector": ".usermenu li a",
-      "control": "action.link"
+      "control": "action.link",
+      "selectContains": "My Approvals"
     }
   },
   "connect": []

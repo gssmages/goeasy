@@ -3,7 +3,7 @@
   "properties": {
     "menuaction": {
       "type": "action",
-      "selector": "a",
+      "selector": ".usermenu li a",
       "control": "action.link"
     }
   },

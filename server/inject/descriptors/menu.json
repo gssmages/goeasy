@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "menuaction": {
-      "type": "string",
+      "type": "action",
       "selector": "#PendingRequestsTable",
       "control": "property.innerText"
     }

@@ -31,9 +31,9 @@ angular.module('app').controller('app_myapprovals', app_myapprovals).directive("
 function app_myapprovals($scope, app) {
     'use strict';
     app.init($scope);
-    	$(".card").each(function($index){
+    /*	$(".card").each(function($index){
             $scope.data.listItems[$index].isselect=false;
-    	});
+    	});*/
     $scope.selectionall = function() {
 		$(".card").each(function(){
 			if($(this).find(".approvallist").not("selected"))

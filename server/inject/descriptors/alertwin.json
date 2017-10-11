@@ -31,7 +31,8 @@
       ],
       "screens": [
         "alertwin"
-      ]
+      ],
+      "model": "alertwin"
     },
     {
       "match": [],

@@ -8,7 +8,8 @@
       "control": "property.innerText"
     },
     "yes": {
-      "type": "action"
+      "type": "action",
+      "selector": "#myBtnYes"
     },
     "no": {
       "type": "action"

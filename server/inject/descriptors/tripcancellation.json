@@ -21,7 +21,6 @@
     },
     "isCancelPermanentTrip": {
       "type": "identifier",
-      "selector": "#ddlRequestFor",
       "control": "select"
     },
     "saveButton": {

@@ -73,7 +73,7 @@ function app_myapprovals($scope, app) {
 		if(type=="approve")
 			{
 				//$scope.reqtype="2";
-				console.log($scope.listarray);
+			//	console.log($scope.listarray);
 					console.log($scope.data.listItems);
 				app.action('myapprovals', 'approve', this);
 				app.action('alertwin');
@@ -81,7 +81,7 @@ function app_myapprovals($scope, app) {
 		else if(type=="reject")
 			{
 				//$scope.reqtype="3";
-				console.log($scope.listarray);
+//console.log($scope.listarray);
 					console.log($scope.data.listItems);
 				app.action('myapprovals', 'reject', this);
 				app.action('alertwin');

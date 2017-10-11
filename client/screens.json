@@ -91,6 +91,12 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "tripcancellation"
+    },
+    {
+      "id": "adhoctripcancellation",
+      "name": "adhocTripCancellation",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",

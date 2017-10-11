@@ -123,5 +123,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.adhoctripcancellation', {
+        views: {
+            app: {
+                controller: 'app_adhoctripcancellation',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.adhoctripcancellation');
+                }
+            }
+        }
     });
 });

@@ -477,5 +477,10 @@
         "type": "action"
       }
     }
+  },
+  "adhoctripcancellation": {
+    "type": "object",
+    "comment": "",
+    "properties": {}
   }
 }

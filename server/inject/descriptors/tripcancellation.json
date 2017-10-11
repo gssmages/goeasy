@@ -26,7 +26,7 @@
     },
     "saveButton": {
       "type": "action",
-      "selector": "#ddlRequestFor",
+      "selector": "#myBtnSave",
       "control": "select"
     },
     "closebutton": {

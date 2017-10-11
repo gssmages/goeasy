@@ -23,6 +23,11 @@
       "type": "identifier",
       "selector": "#ddlRequestFor",
       "control": "select"
+    },
+    "saveButton": {
+      "type": "select",
+      "selector": "#ddlRequestFor",
+      "control": "select"
     }
   },
   "connect": []

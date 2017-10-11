@@ -36,15 +36,13 @@
               "type": "string"
             },
             "isselect": {
-              "type": "boolean",
-              "update": {
-                "type": "none"
-              }
+              "type": "boolean"
             }
           }
         },
         "update": {
-          "type": "none"
+          "type": "change",
+          "dynamic": false
         }
       },
       "approve": {

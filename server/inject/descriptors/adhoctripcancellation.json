@@ -9,7 +9,8 @@
     },
     "yes": {
       "type": "action",
-      "selector": "#myBtnYes"
+      "selector": "#myBtnYes",
+      "selectContains": "Yes"
     },
     "no": {
       "type": "action"

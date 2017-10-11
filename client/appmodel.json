@@ -39,8 +39,8 @@
               "type": "boolean",
               "update": {
                 "type": "change",
-                "dynamic": true,
-                "timeout": 5000
+                "dynamic": false,
+                "field": "listItems[item].isselect"
               }
             }
           }

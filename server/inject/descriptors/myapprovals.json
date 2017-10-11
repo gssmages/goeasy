@@ -84,10 +84,6 @@
     },
     {
       "match": [],
-      "action": "approve"
-    },
-    {
-      "match": [],
       "action": "reject"
     }
   ],

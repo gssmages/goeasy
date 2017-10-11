@@ -28,6 +28,11 @@
       "type": "action",
       "selector": "#ddlRequestFor",
       "control": "select"
+    },
+    "closebutton": {
+      "type": "select",
+      "selector": "#ddlRequestFor",
+      "control": "select"
     }
   },
   "connect": []

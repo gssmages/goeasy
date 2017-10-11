@@ -27,7 +27,7 @@
     "saveButton": {
       "type": "action",
       "selector": "#myBtnSave",
-      "control": "select",
+      "control": "action.button",
       "selectContains": "Save"
     },
     "closebutton": {

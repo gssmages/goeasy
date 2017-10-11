@@ -81,10 +81,6 @@
         "myapprovals"
       ],
       "model": "myapprovals"
-    },
-    {
-      "match": [],
-      "action": "reject"
     }
   ],
   "selector": "body"

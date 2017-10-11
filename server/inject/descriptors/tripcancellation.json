@@ -16,7 +16,8 @@
     },
     "RequestFor": {
       "type": "select",
-      "selector": "#ddlRequestFor"
+      "selector": "#ddlRequestFor",
+      "control": "select"
     }
   },
   "connect": []

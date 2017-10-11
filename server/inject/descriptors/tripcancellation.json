@@ -21,8 +21,8 @@
     },
     "isCancelPermanentTrip": {
       "type": "identifier",
-      "selector": "#ddlRequestFor",
-      "control": "select"
+      "selector": ".modal-title",
+      "selectContains": "Cancel My Trip - Regular Cab"
     },
     "saveButton": {
       "type": "action",

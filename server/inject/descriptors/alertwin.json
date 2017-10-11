@@ -12,11 +12,6 @@
       "selector": "#myBtn",
       "control": "action.button"
     },
-    "alertmsg": {
-      "type": "string",
-      "selector": ".modal-title",
-      "control": "property.innerText"
-    },
     "isalertbox": {
       "type": "identifier",
       "selector": ".modal-title",

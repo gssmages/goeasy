@@ -21,7 +21,8 @@
     },
     "isCancelPermanentTrip": {
       "type": "identifier",
-      "selector": ".modal-title"
+      "selector": ".modal-title",
+      "selectContains": "Cancel My Trip - Regular Cab"
     },
     "saveButton": {
       "type": "action",

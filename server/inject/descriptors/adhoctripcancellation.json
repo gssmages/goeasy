@@ -12,7 +12,7 @@
       "type": "action"
     },
     "isAdhocCancellation": {
-      "type": "string",
+      "type": "identifier",
       "selector": ".modal-title",
       "control": "property.innerText"
     }

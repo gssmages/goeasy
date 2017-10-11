@@ -55,7 +55,7 @@ function app_myapprovals($scope, app) {
 	     app.go('menuleft');
 	 };*/
 	 	$scope.requesttype = function(type) {
-		$scope.listarray = [];
+/*	$scope.listarray = [];*/
 	/*	$(".card").each(function($index){
 			if($(this).find(".approvallist").hasClass("selected"))
 				{
@@ -67,8 +67,8 @@ function app_myapprovals($scope, app) {
 				    $scope.data.listItems[$index].isselect=false;
 				}
 		});*/
-		if($scope.listarray.length>0)
-			{
+	/*	if($scope.listarray.length>0)
+			{*/
 			
 		if(type=="approve")
 			{
@@ -87,7 +87,7 @@ function app_myapprovals($scope, app) {
 				app.go('alertwin');
 			}
 		
-			}
+		/*	}*/
 			};	
     /*$scope.setstyle=function(){
     if(angular.element(document.querySelectorAll("[approvallist]")).hasClass("selected"))

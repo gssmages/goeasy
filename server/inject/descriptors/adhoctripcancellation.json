@@ -4,7 +4,8 @@
   "properties": {
     "tripInfo": {
       "type": "string",
-      "selector": ".modal-body"
+      "selector": ".modal-body",
+      "control": "property.innerHTML"
     },
     "yes": {
       "type": "action"

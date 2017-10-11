@@ -47,8 +47,8 @@
           },
           "isselect": {
             "type": "boolean",
-            "selector": "#rowCheckbox                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         kbox",
-            "control": "checkbox                                                                                                                                                                                                                                                                                                                                                            "
+            "selector": "input#rowCheckbox                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          kbox",
+            "control": "checkbox"
           }
         }
       },

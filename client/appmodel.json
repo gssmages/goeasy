@@ -266,7 +266,13 @@
     "comment": "",
     "properties": {
       "comments": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "action",
+          "action": [
+            "ok"
+          ]
+        }
       },
       "ok": {
         "type": "action"

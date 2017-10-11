@@ -1,11 +1,11 @@
 [
   "tripcancellation.json",
+  "adhoctripcancellation.json",
   "alertwin.json",
   "myapprovals.json",
   "adhocrequest.json",
   "mytripstab.json",
   "home.json",
   "sidemenu.json",
-  "menuleft.json",
-  "adhoctripcancellation.json"
+  "menuleft.json"
 ]

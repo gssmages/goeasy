@@ -36,7 +36,12 @@
               "type": "string"
             },
             "isselect": {
-              "type": "boolean"
+              "type": "boolean",
+              "update": {
+                "type": "change",
+                "dynamic": false,
+                "field": "listItems[item].isselect"
+              }
             }
           }
         },

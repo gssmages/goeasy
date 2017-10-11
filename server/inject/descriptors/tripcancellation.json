@@ -32,8 +32,9 @@
     },
     "closebutton": {
       "type": "action",
-      "selector": "#ddlRequestFor",
-      "control": "select"
+      "selector": "#myBtnClose",
+      "control": "action.button",
+      "selectContains": "Close"
     }
   },
   "connect": []

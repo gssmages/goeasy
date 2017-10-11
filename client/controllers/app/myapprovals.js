@@ -76,7 +76,7 @@ function app_myapprovals($scope, app) {
 			//	console.log($scope.listarray);
 					console.log($scope.data.listItems);
 				app.action('myapprovals', 'approve', this);
-				app.action('alertwin');
+				//app.call('alertwin');
 			}
 		else if(type=="reject")
 			{
@@ -84,7 +84,7 @@ function app_myapprovals($scope, app) {
 //console.log($scope.listarray);
 					console.log($scope.data.listItems);
 				app.action('myapprovals', 'reject', this);
-				app.action('alertwin');
+				//app.call('alertwin');
 			}
 		
 		/*	}*/

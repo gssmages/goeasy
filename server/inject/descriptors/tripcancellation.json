@@ -32,7 +32,7 @@
     },
     "closebutton": {
       "type": "action",
-      "selector": "#ddlRequestFor",
+      "selector": "#myBtnClose",
       "control": "select"
     }
   },

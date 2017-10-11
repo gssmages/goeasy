@@ -56,7 +56,7 @@ function app_myapprovals($scope, app) {
 	 };*/
 	 	$scope.requesttype = function(type) {
 		$scope.listarray = [];
-		$(".card").each(function($index){
+	/*	$(".card").each(function($index){
 			if($(this).find(".approvallist").hasClass("selected"))
 				{
 					$scope.listarray.push($index);
@@ -66,7 +66,7 @@ function app_myapprovals($scope, app) {
 				{
 				    $scope.data.listItems[$index].isselect=false;
 				}
-		});
+		});*/
 		if($scope.listarray.length>0)
 			{
 			

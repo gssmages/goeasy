@@ -5,7 +5,8 @@
     "FromDate": {
       "type": "date",
       "format": "DD/MM/YYYY",
-      "selector": "#regularfromdate"
+      "selector": "#regularfromdate",
+      "selectContains": "From Date"
     },
     "ToDate": {
       "type": "date",

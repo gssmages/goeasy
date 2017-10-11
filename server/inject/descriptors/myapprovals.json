@@ -47,7 +47,7 @@
           },
           "isselect": {
             "type": "boolean",
-            "selector": "input:checkbox[name=id]",
+            "selector": "#rowCheckbox",
             "control": "checkbox"
           }
         }

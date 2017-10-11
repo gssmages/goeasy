@@ -481,6 +481,16 @@
   "adhoctripcancellation": {
     "type": "object",
     "comment": "",
-    "properties": {}
+    "properties": {
+      "tripInfo": {
+        "type": "string"
+      },
+      "yes": {
+        "type": "action"
+      },
+      "no": {
+        "type": "action"
+      }
+    }
   }
 }

@@ -20,7 +20,7 @@
       "control": "select"
     },
     "isCancelTripPopup": {
-      "type": "select",
+      "type": "identifier",
       "selector": "#ddlRequestFor",
       "control": "select"
     }

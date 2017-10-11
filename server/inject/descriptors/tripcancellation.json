@@ -20,7 +20,8 @@
       "control": "select"
     },
     "isCancelPermanentTrip": {
-      "type": "identifier"
+      "type": "identifier",
+      "selector": ".modal-title"
     },
     "saveButton": {
       "type": "action",

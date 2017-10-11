@@ -19,7 +19,7 @@
       "selector": "#ddlRequestFor",
       "control": "select"
     },
-    "isCancelTripPopup": {
+    "isCancelPermanentTrip": {
       "type": "identifier",
       "selector": "#ddlRequestFor",
       "control": "select"

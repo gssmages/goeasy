@@ -18,6 +18,11 @@
       "type": "select",
       "selector": "#ddlRequestFor",
       "control": "select"
+    },
+    "isCancelTripPopup": {
+      "type": "select",
+      "selector": "#ddlRequestFor",
+      "control": "select"
     }
   },
   "connect": []

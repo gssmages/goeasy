@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "FromDate": {
+      "type": "date",
+      "format": "DD/MM/YYYY"
+    },
+    "ToDate": {
+      "type": "date",
+      "format": "DD/MM/YYYY"
+    },
+    "RequestFor": {
+      "type": "select"
+    }
+  },
+  "connect": []
+}

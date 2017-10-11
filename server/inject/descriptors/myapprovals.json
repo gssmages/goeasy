@@ -48,7 +48,7 @@
           "isselect": {
             "type": "boolean",
             "selector": {
-              "fn": "",
+              "fn": "function(node){if(node.getAttribute('class')=='active'){return true}}",
               "selector": "#rowCheckbox"
             },
             "control": "checkbox"

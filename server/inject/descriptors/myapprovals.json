@@ -47,7 +47,7 @@
           },
           "isselect": {
             "type": "boolean",
-            "selector": "#rowCheckbox                                                                                                                                                                                                                                                                                                                                                              kbox",
+            "selector": "[name=id]                                                                                                                                                                                                                       kbox",
             "control": "checkbox"
           }
         }

@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "tripInfo": {
+      "type": "string"
+    },
+    "yes": {
+      "type": "action"
+    },
+    "no": {
+      "type": "action"
+    }
+  },
+  "connect": []
+}

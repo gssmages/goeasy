@@ -25,7 +25,7 @@
       "control": "select"
     },
     "saveButton": {
-      "type": "select",
+      "type": "action",
       "selector": "#ddlRequestFor",
       "control": "select"
     }

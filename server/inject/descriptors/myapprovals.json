@@ -48,7 +48,7 @@
           "isselect": {
             "type": "boolean",
             "selector": {
-              "fn": "function(node){if(node.selected==true){return true}}",
+              "fn": "function(node){if(node.checked==true){return true}}",
               "selector": "#rowCheckbox"
             },
             "control": "checkbox"

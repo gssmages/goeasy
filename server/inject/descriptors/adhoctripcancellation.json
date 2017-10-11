@@ -14,7 +14,8 @@
     "isAdhocCancellation": {
       "type": "identifier",
       "selector": ".modal-title",
-      "control": "property.innerText"
+      "control": "property.innerText",
+      "selectContains": "Flex Transport"
     }
   },
   "connect": []

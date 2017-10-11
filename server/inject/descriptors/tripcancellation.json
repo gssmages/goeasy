@@ -30,7 +30,7 @@
       "control": "select"
     },
     "closebutton": {
-      "type": "select",
+      "type": "action",
       "selector": "#ddlRequestFor",
       "control": "select"
     }

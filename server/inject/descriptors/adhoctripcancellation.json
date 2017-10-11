@@ -15,7 +15,8 @@
     },
     "no": {
       "type": "action",
-      "selector": "#myBtnNo"
+      "selector": "#myBtnNo",
+      "selectContains": "No"
     },
     "isAdhocCancellation": {
       "type": "identifier",

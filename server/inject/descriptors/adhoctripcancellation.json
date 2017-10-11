@@ -10,6 +10,11 @@
     },
     "no": {
       "type": "action"
+    },
+    "isAdhocCancellation": {
+      "type": "string",
+      "selector": ".modal-title",
+      "control": "property.innerText"
     }
   },
   "connect": []

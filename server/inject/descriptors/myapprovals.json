@@ -47,10 +47,7 @@
           },
           "isselect": {
             "type": "boolean",
-            "selector": {
-              "fn": "function(node){if(node.checked==true){return true}}",
-              "selector": "input:checkbox[name=id]"
-            },
+            "selector": "input:checkbox[name=id]",
             "control": "checkbox"
           }
         }

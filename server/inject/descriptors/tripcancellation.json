@@ -33,7 +33,7 @@
     "closebutton": {
       "type": "action",
       "selector": "#myBtnClose",
-      "control": "select",
+      "control": "action.button",
       "selectContains": "Close"
     }
   },

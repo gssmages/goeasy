@@ -469,6 +469,12 @@
       },
       "RequestFor": {
         "type": "select"
+      },
+      "saveButton": {
+        "type": "action"
+      },
+      "closebutton": {
+        "type": "action"
       }
     }
   }

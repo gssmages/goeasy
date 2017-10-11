@@ -11,7 +11,8 @@
     },
     "ToDate": {
       "type": "date",
-      "format": "DD/MM/YYYY"
+      "format": "DD/MM/YYYY",
+      "selector": "#regulartodate"
     },
     "RequestFor": {
       "type": "select"

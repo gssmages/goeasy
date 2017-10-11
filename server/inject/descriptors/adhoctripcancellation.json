@@ -14,7 +14,8 @@
       "control": "action.button"
     },
     "no": {
-      "type": "action"
+      "type": "action",
+      "selector": "#myBtnNo"
     },
     "isAdhocCancellation": {
       "type": "identifier",

@@ -3,7 +3,8 @@
   "comment": "",
   "properties": {
     "tripInfo": {
-      "type": "string"
+      "type": "string",
+      "selector": ".modal-body"
     },
     "yes": {
       "type": "action"

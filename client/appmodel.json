@@ -38,9 +38,7 @@
             "isselect": {
               "type": "boolean",
               "update": {
-                "type": "change",
-                "dynamic": false,
-                "field": "listItems[item].isselect"
+                "type": "none"
               }
             }
           }

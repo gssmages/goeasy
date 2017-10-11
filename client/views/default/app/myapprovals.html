@@ -56,7 +56,8 @@
                             style="padding: 0px; margin: 0px;">
                             {{item.isselect}}
                             <ion-checkbox class="checkbox-style-square" data-comp-id="checkbox.1"
-                                ng-model="item.isselect" style="margin: 0px;"></ion-checkbox>
+                                ng-checked="item.isselect==true ? true : fasle" ng-model="item.isselect"
+                                style="margin: 0px;"></ion-checkbox>
                         </div>
                     </div>
                 </div>

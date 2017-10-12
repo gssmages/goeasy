@@ -37,17 +37,5 @@
       "control": "exists"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isCancelPermanentTrip",
-        "isCPT",
-        "ispmodel"
-      ],
-      "screens": [
-        "tripcancellation"
-      ],
-      "model": "tripCancellation"
-    }
-  ]
+  "connect": []
 }

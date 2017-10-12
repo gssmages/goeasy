@@ -5,7 +5,7 @@ function app_mytrips($scope, app) {
     $scope.noShowPopup = function(item){
         console.log("no show click...!!!");
      app.action('mytripstab', 'mytrips[item].cancel', this);
-     
+     app.call('tripcancellation');
     }
     
 }

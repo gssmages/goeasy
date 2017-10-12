@@ -38,5 +38,14 @@
       "control": "exists"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isCancelPermanentTrip"
+      ],
+      "screens": [
+        "tripcancellation"
+      ]
+    }
+  ]
 }

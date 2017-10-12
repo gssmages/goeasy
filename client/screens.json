@@ -90,7 +90,7 @@
       "name": "tripCancellation",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
-      "model": "tripcancellation"
+      "model": "tripCancellation"
     },
     {
       "id": "adhoctripcancellation",

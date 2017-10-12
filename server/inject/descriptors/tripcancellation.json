@@ -34,7 +34,6 @@
     "isCPT": {
       "type": "identifier",
       "selector": "#myRegularPopup",
-      "selectContains": "From Date",
       "control": "exists"
     }
   },

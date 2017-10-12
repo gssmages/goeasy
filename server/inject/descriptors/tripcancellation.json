@@ -47,7 +47,7 @@
       "screens": [
         "tripcancellation"
       ],
-      "model": "tripcancellation"
+      "model": "tripCancellation"
     }
   ]
 }

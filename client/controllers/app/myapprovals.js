@@ -55,7 +55,7 @@ function app_myapprovals($scope, app) {
 	     app.go('menuleft');
 	 };*/
 	  $scope.submitApprovals = function(){
-			 app.call('myapprovals.myapprovals', $scope.data);
+			 app.call('myapprovals.approve', $scope.data);
 
 		 };
 	 	$scope.requesttype = function(type) {

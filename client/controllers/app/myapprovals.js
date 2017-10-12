@@ -54,6 +54,10 @@ function app_myapprovals($scope, app) {
 	 /*$scope.showMenu = function() {
 	     app.go('menuleft');
 	 };*/
+	  $scope.submitApprovals = function(){
+			 app.call('myapprovals.myapprovals', $scope.data);
+
+		 };
 	 	$scope.requesttype = function(type) {
 /*	$scope.listarray = [];*/
 	/*	$(".card").each(function($index){

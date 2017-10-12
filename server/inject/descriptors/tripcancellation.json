@@ -22,7 +22,7 @@
     "isCancelPermanentTrip": {
       "type": "identifier",
       "selector": ".modal-title",
-      "selectContains": "Cancel My Trip - Regular Cab",
+      "selectContains": "Cancel My Trip",
       "control": "exists"
     },
     "saveButton": {

@@ -33,7 +33,8 @@
       ],
       "screens": [
         "adhoctripcancellation"
-      ]
+      ],
+      "model": "adhoctripcancellation"
     }
   ]
 }

@@ -19,12 +19,6 @@
       "selector": "#ddlRequestFor",
       "control": "select"
     },
-    "isCancelPermanentTrip": {
-      "type": "identifier",
-      "selector": ".modal-title",
-      "selectContains": "Cancel My Trip - Regular Cab",
-      "control": "exists"
-    },
     "saveButton": {
       "type": "action",
       "selector": "#myBtnSave",
@@ -36,7 +30,23 @@
       "selector": "#myBtnClose",
       "control": "action.button",
       "selectContains": "Close"
+    },
+    "isCPT": {
+      "type": "identifier",
+      "selector": ".modal-title",
+      "selectContains": "Cancel My Trip",
+      "control": "exists"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isCancelPermanentTrip"
+      ],
+      "screens": [
+        "tripcancellation"
+      ],
+      "model": "tripcancellation"
+    }
+  ]
 }

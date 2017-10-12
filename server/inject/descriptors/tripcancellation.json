@@ -41,7 +41,8 @@
     {
       "match": [
         "isCancelPermanentTrip",
-        "isCPT"
+        "isCPT",
+        "ispmodel"
       ],
       "screens": [
         "tripcancellation"

@@ -33,7 +33,7 @@
     },
     "isCPT": {
       "type": "identifier",
-      "selector": ".modal-header",
+      "selector": "#myRegularPopup",
       "selectContains": "From Date",
       "control": "exists"
     }

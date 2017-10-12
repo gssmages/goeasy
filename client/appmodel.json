@@ -463,7 +463,6 @@
   },
   "tripcancellation": {
     "type": "object",
-    "comment": "",
     "properties": {
       "FromDate": {
         "type": "date",

@@ -33,7 +33,7 @@
     },
     "isCPT": {
       "type": "identifier",
-      "selector": ".modal-title",
+      "selector": ".modal-header",
       "selectContains": "From Date",
       "control": "exists"
     }

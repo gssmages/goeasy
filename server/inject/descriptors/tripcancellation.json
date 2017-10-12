@@ -41,7 +41,8 @@
   "connect": [
     {
       "match": [
-        "isCancelPermanentTrip"
+        "isCancelPermanentTrip",
+        "isCPT"
       ],
       "screens": [
         "tripcancellation"

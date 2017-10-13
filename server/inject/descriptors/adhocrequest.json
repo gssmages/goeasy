@@ -47,7 +47,7 @@
     },
     "SpecialNeed": {
       "type": "select",
-      "selector": "[name=\"optradio\"]",
+      "selectorAll": "[name=\"optradio\"]",
       "selectContains": "Special Need",
       "control": "radio"
     },

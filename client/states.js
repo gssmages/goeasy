@@ -141,5 +141,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.adhocerrorpopup', {
+        views: {
+            app: {
+                controller: 'app_adhocerrorpopup',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.adhocerrorpopup');
+                }
+            }
+        }
     });
 });

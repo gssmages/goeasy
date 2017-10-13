@@ -104,6 +104,12 @@
       "name": "adhocpopup",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "adhocerrorpopup",
+      "name": "adhocerrorpopup",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",

@@ -293,11 +293,7 @@
     "comment": "",
     "properties": {
       "RequestType": {
-        "type": "select",
-        "update": {
-          "type": "change",
-          "dynamic": false
-        }
+        "type": "select"
       },
       "Date": {
         "type": "date",

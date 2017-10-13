@@ -132,5 +132,23 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.adhocpopup', {
+        views: {
+            app: {
+                controller: 'app_adhocpopup',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.adhocpopup');
+                }
+            }
+        }
+    }).state('app.adhocerrorpopup', {
+        views: {
+            app: {
+                controller: 'app_adhocerrorpopup',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.adhocerrorpopup');
+                }
+            }
+        }
     });
 });

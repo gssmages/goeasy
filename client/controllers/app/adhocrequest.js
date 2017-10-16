@@ -33,6 +33,7 @@ function app_adhocrequest($scope, app) {
                 $scope.toDateField = true;
                 break;    
             default:
+            console.log("in default--"+selectedReqTyp);
                 // code
         }
     }    

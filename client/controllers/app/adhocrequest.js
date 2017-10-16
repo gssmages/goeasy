@@ -16,7 +16,7 @@ function app_adhocrequest($scope, app) {
             $scope.fromDateField = true;
             $scope.toDateField = true;
         }else{
-            console.log("in Else--"+selectedReqTyp);
+            console.log("in Else--"+typeof(selectedReqTyp));
             $scope.dateField = true;
             $scope.fromDateField = false;
             $scope.toDateField = false;

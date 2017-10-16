@@ -11,6 +11,7 @@ function app_adhocrequest($scope, app) {
         console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.value));
         var selectedReqTyp = JSON.stringify($scope.data.RequestType.selected.value);
         var sam = parseInt(selectedReqTyp);
+        console.log("int ---->"+sam);
         switch (sam) {
             
             case 2:

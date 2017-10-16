@@ -9,6 +9,29 @@ function app_adhocrequest($scope, app) {
          //document.querySelectorAll('#row.2').hide();
     $scope.typeChange = function(){
         console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.label));
+        var selectedReqTyp = JSON.stringify($scope.data.RequestType.selected.label);
+        switch (selectedReqTyp) {
+            case 'Adhoc':
+                // code
+                $scope.dateField = true;
+                $scope.fromDateField = false;
+                $scope.toDateField = false;
+                break;
+            case 'Holiday':
+                // code
+                $scope.dateField = true;
+                $scope.fromDateField = false;
+                $scope.toDateField = false;
+                break;
+            case 'Month end':
+                // code
+                $scope.dateField = false;
+                $scope.fromDateField = true;
+                $scope.toDateField = true;
+                break;    
+            default:
+                // code
+        }
     }    
     $scope.submitApprovals = function(){
          //console.log("---sendRequest---");

@@ -38,13 +38,13 @@ function app_adhocrequest($scope, app) {
         //         break;
         // }
         
-        if(selectedReqTyp == "4"){
+        if(selectedReqTyp === "4"){
             console.log(" in if "+selectedReqTyp);
             $scope.dateField = false;
                 $scope.fromDateField = true;
                 $scope.toDateField = true;
         }else{
-            console.log(" in else-- "+selectedReqTyp);
+            console.log(" in else-- "+typeof(selectedReqTyp));
             $scope.dateField = true;
                 $scope.fromDateField = false;
                 $scope.toDateField = false;

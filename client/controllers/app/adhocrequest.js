@@ -10,16 +10,20 @@ function app_adhocrequest($scope, app) {
     $scope.typeChange = function(){
         console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.label));
         var selectedReqTyp = JSON.stringify($scope.data.RequestType.selected.label);
-        if(selectedReqTyp == "Month end"){
+        if(selectedReqTyp == "Adhoc"){
             console.log("in if");
+             $scope.dateField = true;
+            $scope.fromDateField = false;
+            $scope.toDateField = false;
+        }else if(selectedReqTyp == "Holiday"){
+            console.log("in Else--"+typeof(selectedReqTyp));
+           $scope.dateField = true;
+            $scope.fromDateField = false;
+            $scope.toDateField = false;
+        }else{
             $scope.dateField = false;
             $scope.fromDateField = true;
             $scope.toDateField = true;
-        }else{
-            console.log("in Else--"+typeof(selectedReqTyp));
-            $scope.dateField = true;
-            $scope.fromDateField = false;
-            $scope.toDateField = false;
         }
     }    
     $scope.submitApprovals = function(){

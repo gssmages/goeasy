@@ -10,33 +10,14 @@ function app_adhocrequest($scope, app) {
     $scope.typeChange = function(){
         console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.label));
         var selectedReqTyp = JSON.stringify($scope.data.RequestType.selected.label);
-        switch (selectedReqTyp) {
-            
-            case "Adhoc":
-                // code
-                console.log("in adhoc--"+selectedReqTyp);
-                $scope.dateField = true;
-                $scope.fromDateField = false;
-                $scope.toDateField = false;
-            break;
-            case "Holiday":
-                // code
-                console.log("in holiday--"+selectedReqTyp);
-                $scope.dateField = true;
-                $scope.fromDateField = false;
-                $scope.toDateField = false;
-            break;
-            case "Month end":
-                // code
-                console.log("in month--"+selectedReqTyp);
-                $scope.dateField = false;
-                $scope.fromDateField = true;
-                $scope.toDateField = true;
-                break;    
-            default:
-            console.log("in default--"+selectedReqTyp);
-                // code
-                break;
+        if(selectedReqTyp == "Month end"){
+            $scope.dateField = false;
+            $scope.fromDateField = true;
+            $scope.toDateField = true;
+        }else{
+            $scope.dateField = true;
+            $scope.fromDateField = false;
+            $scope.toDateField = false;
         }
     }    
     $scope.submitApprovals = function(){

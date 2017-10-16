@@ -10,13 +10,13 @@ function app_adhocrequest($scope, app) {
     $scope.typeChange = function(){
         console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.label));
         var selectedReqTyp = JSON.stringify($scope.data.RequestType.selected.label);
-        if(selectedReqTyp === "Month end"){
+        if(selectedReqTyp == "Month end"){
             console.log("in mont end");
             $scope.dateField = false;
             $scope.fromDateField = true;
             $scope.toDateField = true;
         }else{
-            console.log("in adhoc");
+            console.log("in adhoc--"+selectedReqTyp);
             $scope.dateField = true;
             $scope.fromDateField = false;
             $scope.toDateField = false;

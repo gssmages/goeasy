@@ -3,7 +3,8 @@ function app_adhocrequest($scope, app) {
     'use strict';
     app.init($scope, function () {
         console.log("data objects ", $scope.data);
-        $('#row.2').hide();
+        //$('#row.2').hide();
+         document.querySelectorAll('#row.2').hide();
     $scope.typeChange = function(){
         console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.label));
     }    

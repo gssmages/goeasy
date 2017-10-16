@@ -8,36 +8,46 @@ function app_adhocrequest($scope, app) {
         $scope.toDateField = false;
          //document.querySelectorAll('#row.2').hide();
     $scope.typeChange = function(){
-        console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.value));
+        console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.label));
         var selectedReqTyp = JSON.stringify($scope.data.RequestType.selected.value);
-        var sam = parseInt(selectedReqTyp);
-        console.log("int ---->"+sam);
-        switch (sam) {
+        // switch (selectedReqTyp) {
             
-            case 2:
-                // code
-                console.log("in adhoc--"+selectedReqTyp);
-                $scope.dateField = true;
-                $scope.fromDateField = false;
-                $scope.toDateField = false;
-                break;
-            case 3:
-                // code
-                console.log("in holiday--"+selectedReqTyp);
-                $scope.dateField = true;
-                $scope.fromDateField = false;
-                $scope.toDateField = false;
-                break;
-            case 4:
-                // code
-                console.log("in month--"+selectedReqTyp);
-                $scope.dateField = false;
+        //     case "2":
+        //         // code
+        //         console.log("in adhoc--"+selectedReqTyp);
+        //         $scope.dateField = true;
+        //         $scope.fromDateField = false;
+        //         $scope.toDateField = false;
+        //         break;
+        //     case "3":
+        //         // code
+        //         console.log("in holiday--"+selectedReqTyp);
+        //         $scope.dateField = true;
+        //         $scope.fromDateField = false;
+        //         $scope.toDateField = false;
+        //         break;
+        //     case "4":
+        //         // code
+        //         console.log("in month--"+selectedReqTyp);
+        //         $scope.dateField = false;
+        //         $scope.fromDateField = true;
+        //         $scope.toDateField = true;
+        //         break;    
+        //     default:
+        //       console.log("in default--"+selectedReqTyp);
+        //         break;
+        // }
+        
+        if(selectedReqTyp == "4"){
+            console.log(" in if "+selectedReqTyp);
+            $scope.dateField = false;
                 $scope.fromDateField = true;
                 $scope.toDateField = true;
-                break;    
-            default:
-            console.log("in default--"+sam);
-                // code
+        }else{
+            console.log(" in else-- "+selectedReqTyp);
+            $scope.dateField = true;
+                $scope.fromDateField = false;
+                $scope.toDateField = false;
         }
     }    
     $scope.submitApprovals = function(){
@@ -45,11 +55,5 @@ function app_adhocrequest($scope, app) {
 			 app.call('myapprovals.sendRequest', $scope.data);
 
 		 };
-       /* if ($scope.data.RequestType) {
-            $scope.RequestType = $scope.data.RequestType.options;
-        }
-        if ($scope.data.RequestFor) {
-            $scope.RequestFor = $scope.data.RequestFor.options;
-        }*/
     });
 }

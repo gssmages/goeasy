@@ -4,6 +4,8 @@ function app_adhocrequest($scope, app) {
     app.init($scope, function () {
         console.log("data objects ", $scope.data);
         $scope.dateField = false;
+        $scope.fromDateField = false;
+        $scope.toDateField = false;
          //document.querySelectorAll('#row.2').hide();
     $scope.typeChange = function(){
         console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.label));

@@ -5,7 +5,7 @@ function app_adhocrequest($scope, app) {
         console.log("data objects ", $scope.data);
         
     $scope.typeChange = function(){
-        console.log("---Request Type---"+$scope.data.RequestType);
+        console.log("---Request Type---"+JSON.stringify($scope.data.RequestType));
     }    
     $scope.submitApprovals = function(){
          //console.log("---sendRequest---");

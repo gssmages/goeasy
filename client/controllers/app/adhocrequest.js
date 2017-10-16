@@ -3,8 +3,7 @@ function app_adhocrequest($scope, app) {
     'use strict';
     app.init($scope, function () {
         console.log("data objects ", $scope.data);
-        //$('').hide();
-        document.getElementById('#dateField').css("display","none");
+        $scope.dateField = false;
          //document.querySelectorAll('#row.2').hide();
     $scope.typeChange = function(){
         console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.label));

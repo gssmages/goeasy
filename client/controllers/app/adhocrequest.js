@@ -8,9 +8,10 @@ function app_adhocrequest($scope, app) {
         $scope.toDateField = false;
          //document.querySelectorAll('#row.2').hide();
     $scope.typeChange = function(){
-        console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.label));
-        var selectedReqTyp = parseInt(JSON.stringify($scope.data.RequestType.selected.value));
-        switch (selectedReqTyp) {
+        console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.value));
+        var selectedReqTyp = JSON.stringify($scope.data.RequestType.selected.value);
+        var sam = parseInt(selectedReqTyp);
+        switch (sam) {
             
             case 2:
                 // code
@@ -34,7 +35,7 @@ function app_adhocrequest($scope, app) {
                 $scope.toDateField = true;
                 break;    
             default:
-            console.log("in default--"+selectedReqTyp);
+            console.log("in default--"+sam);
                 // code
         }
     }    

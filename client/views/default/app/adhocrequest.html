@@ -25,13 +25,13 @@
                     <!--</label>-->
                 </div>
             </div>
-            <div class="row" data-comp-id="row.2">
+            <div class="row" data-comp-id="row.2" ng-if="data.RequestType == adhoc">
                 <div class="col" data-comp-id="column.2">
                     <div data-comp-id="text.2">Date</div>
                 </div>
                 <div class="col col-66" data-comp-id="column.3">
                     <label class="item item-input item-date-icon positive-icon"
-                        data-comp-id="dateInput.1" ng-if="data.adhoclist.Date">
+                        data-comp-id="dateInput.1">
                         <span class="input-label" style="width: 0%;"></span>
                         <input date-format="MM/DD/YYYY" max="2100-12-12" min="1900-01-01"
                             ng-model-options="{allowInvalid: true}" ng-model="data.adhoclist.Date"

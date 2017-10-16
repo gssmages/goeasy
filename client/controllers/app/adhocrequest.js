@@ -3,9 +3,12 @@ function app_adhocrequest($scope, app) {
     'use strict';
     app.init($scope, function () {
         console.log("data objects ", $scope.data);
-
+        
+    $scope.typeChange = function(){
+        console.log("---Request Type---$scope.data.RequestType");
+    }    
     $scope.submitApprovals = function(){
-         console.log("---sendRequest---");
+         //console.log("---sendRequest---");
 			 app.call('myapprovals.sendRequest', $scope.data);
 
 		 };

@@ -8,34 +8,35 @@ function app_adhocrequest($scope, app) {
         $scope.toDateField = false;
          //document.querySelectorAll('#row.2').hide();
     $scope.typeChange = function(){
-        console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.value));
-        var selectedReqTyp = JSON.stringify($scope.data.RequestType.selected.value);
+        console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.label));
+        var selectedReqTyp = JSON.stringify($scope.data.RequestType.selected.label);
         switch (selectedReqTyp) {
             
-            case 2:
+            case "Adhoc":
                 // code
                 console.log("in adhoc--"+selectedReqTyp);
                 $scope.dateField = true;
                 $scope.fromDateField = false;
                 $scope.toDateField = false;
             break;
-            case 3:
+            case "Holiday":
                 // code
                 console.log("in holiday--"+selectedReqTyp);
                 $scope.dateField = true;
                 $scope.fromDateField = false;
                 $scope.toDateField = false;
             break;
-            case 4:
+            case "Month end":
                 // code
                 console.log("in month--"+selectedReqTyp);
                 $scope.dateField = false;
                 $scope.fromDateField = true;
                 $scope.toDateField = true;
-            break;    
+                break;    
             default:
             console.log("in default--"+selectedReqTyp);
                 // code
+                break;
         }
     }    
     $scope.submitApprovals = function(){

@@ -6,10 +6,10 @@ function app_adhocrequest($scope, app) {
         $scope.dateField = false;
         $scope.fromDateField = false;
         $scope.toDateField = false;
-         //document.querySelectorAll('#row.2').hide();
+         
     $scope.typeChange = function(){
         console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.label));
-        var selectedReqTyp = JSON.stringify($scope.data.RequestType.selected.value);
+        var selectedReqTyp = $scope.data.RequestType.selected.value;
         // switch (selectedReqTyp) {
             
         //     case "2":

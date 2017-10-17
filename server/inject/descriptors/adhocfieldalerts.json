@@ -12,7 +12,7 @@
       "type": "identifier",
       "selector": ".modal-title",
       "control": "exists",
-      "selectContains": "Pick-up request"
+      "selectContains": "Flex Transport"
     }
   },
   "connect": []

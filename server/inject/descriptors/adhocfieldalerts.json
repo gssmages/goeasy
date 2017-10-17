@@ -20,5 +20,14 @@
       "selectContains": "Flex Transport"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isAdhocAlert"
+      ],
+      "screens": [
+        "adhocfieldalerts"
+      ]
+    }
+  ]
 }

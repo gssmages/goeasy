@@ -9,7 +9,7 @@
       "type": "action"
     },
     "isAdhocAlert": {
-      "type": "string",
+      "type": "identifier",
       "selector": "div",
       "control": "property.innerHTML"
     }

@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "errorInfo": {
+      "type": "string"
+    },
+    "okButton": {
+      "type": "action"
+    }
+  },
+  "connect": []
+}

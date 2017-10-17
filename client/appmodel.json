@@ -518,5 +518,17 @@
         "selectContains": "Close"
       }
     }
+  },
+  "adhocfieldalerts": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "errorInfo": {
+        "type": "string"
+      },
+      "okButton": {
+        "type": "action"
+      }
+    }
   }
 }

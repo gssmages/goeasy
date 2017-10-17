@@ -7,6 +7,11 @@
     },
     "okButton": {
       "type": "action"
+    },
+    "isAdhocAlert": {
+      "type": "string",
+      "selector": "div",
+      "control": "property.innerHTML"
     }
   },
   "connect": []

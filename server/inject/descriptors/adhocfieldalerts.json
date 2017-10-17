@@ -3,7 +3,8 @@
   "comment": "",
   "properties": {
     "errorInfo": {
-      "type": "string"
+      "type": "string",
+      "selector": "..modal-body"
     },
     "okButton": {
       "type": "action"

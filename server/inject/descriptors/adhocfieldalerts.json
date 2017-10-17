@@ -11,7 +11,7 @@
     "isAdhocAlert": {
       "type": "identifier",
       "selector": "#messageinput",
-      "control": "property.innerHTML",
+      "control": "exists",
       "selectContains": "Pick-up request"
     }
   },

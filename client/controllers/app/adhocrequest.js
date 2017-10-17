@@ -32,6 +32,9 @@ function app_adhocrequest($scope, app) {
                 
             default:
               console.log("in default--"+selectedReqTyp);
+              $scope.dateField = false;
+              $scope.fromDateField = false;
+              $scope.toDateField = false;
             break;
             
         }

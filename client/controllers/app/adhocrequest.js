@@ -52,7 +52,7 @@ function app_adhocrequest($scope, app) {
         // }
     }    
     $scope.submitApprovals = function(){
-         //console.log("---sendRequest---");
+         console.log("---sendRequest---"+$scope.data.Date);
 			 app.call('myapprovals.sendRequest', $scope.data);
 
 		 };

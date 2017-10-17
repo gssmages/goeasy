@@ -110,6 +110,12 @@
       "name": "adhocerrorpopup",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "adhocfieldalerts",
+      "name": "adhocFieldAlerts",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",

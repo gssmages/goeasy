@@ -150,5 +150,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.adhocfieldalerts', {
+        views: {
+            app: {
+                controller: 'app_adhocfieldalerts',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.adhocfieldalerts');
+                }
+            }
+        }
     });
 });

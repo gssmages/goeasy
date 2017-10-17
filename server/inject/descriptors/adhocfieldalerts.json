@@ -8,7 +8,8 @@
       "control": "property.innerText"
     },
     "okButton": {
-      "type": "action"
+      "type": "action",
+      "selector": "#myBtn"
     },
     "isAdhocAlert": {
       "type": "identifier",

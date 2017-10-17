@@ -13,29 +13,27 @@ function app_adhocrequest($scope, app) {
         switch (selectedReqTyp) {
             
             case "2":
-                // code
-                console.log("in adhoc--"+selectedReqTyp);
                 $scope.dateField = true;
                 $scope.fromDateField = false;
                 $scope.toDateField = false;
                 break;
+                
             case "3":
-                // code
-                console.log("in holiday--"+selectedReqTyp);
                 $scope.dateField = true;
                 $scope.fromDateField = false;
                 $scope.toDateField = false;
                 break;
+                
             case "4":
-                // code
-                console.log("in month--"+selectedReqTyp);
                 $scope.dateField = false;
                 $scope.fromDateField = true;
                 $scope.toDateField = true;
-                break;    
+                break;
+                
             default:
               console.log("in default--"+selectedReqTyp);
-                break;
+            break;
+            
         }
         
         // if(selectedReqTyp == "4"){

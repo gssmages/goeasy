@@ -115,7 +115,8 @@
       "id": "adhocfieldalerts",
       "name": "adhocFieldAlerts",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "adhocfieldalerts"
     }
   ],
   "sourceAppId": "_blank",

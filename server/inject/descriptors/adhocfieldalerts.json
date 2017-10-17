@@ -10,7 +10,8 @@
     "okButton": {
       "type": "action",
       "selector": "#myBtn",
-      "selectContains": "OK"
+      "selectContains": "OK",
+      "control": "action.button"
     },
     "isAdhocAlert": {
       "type": "identifier",

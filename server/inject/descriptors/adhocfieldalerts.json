@@ -10,7 +10,7 @@
     },
     "isAdhocAlert": {
       "type": "identifier",
-      "selector": "div",
+      "selector": "#messageinput",
       "control": "property.innerHTML"
     }
   },

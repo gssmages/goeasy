@@ -10,7 +10,7 @@
     },
     "isAdhocAlert": {
       "type": "identifier",
-      "selector": "#messageinput",
+      "selector": ".modal-title",
       "control": "exists",
       "selectContains": "Pick-up request"
     }

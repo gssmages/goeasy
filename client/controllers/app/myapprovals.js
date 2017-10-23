@@ -37,7 +37,7 @@ function app_myapprovals($scope, app) {
     $scope.selectbox = function(idvalue) {
        console.log(idvalue);
        angular.forEach($scope.data.listItems, function ($index) {
-         
+         console.log($scope.data.listItems);
            if($index===idvalue)
            {
                 $scope.data.listItems[$index].isselect= true;

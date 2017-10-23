@@ -5,14 +5,14 @@ angular.module('app').controller('app_myapprovals', app_myapprovals).directive("
       link: function(scope, elem, attrs) {
 	elem.css('border-top','5px solid #ccc');
           // onHold => start select box by `onHold` => working good
-          $ionicGesture.on('hold', function() {
+        /*  $ionicGesture.on('hold', function() {
             elem.addClass("selected");
              elem.css('border-top','5px solid #000');
             $rootScope.startSelect = true; // to enable select box by click
-          }, elem);
+          }, elem);*/
 
 					$ionicGesture.on('tap', function() {
-          	if ($rootScope.startSelect) {
+          	if (true) {
            		if (elem.hasClass('selected')) {
               	elem.removeClass('selected');
               	elem.css('border-top','5px solid #eee');
@@ -31,22 +31,57 @@ angular.module('app').controller('app_myapprovals', app_myapprovals).directive("
 function app_myapprovals($scope, app) {
     'use strict';
     app.init($scope);
-    /*	$(".card").each(function($index){
+    	$(".card").each(function($index){
             $scope.data.listItems[$index].isselect=false;
-    	});*/
+    	});
+    $scope.selectbox = function(idvalue,elem) {
+      // console.log(idvalue);
+       var index = 0;
+       angular.forEach($scope.data.listItems, function (value) {
+        // console.log($scope.data.listItems);
+           if(index===idvalue)
+           {
+               
+               if($scope.data.listItems[index].isselect=== true)
+               {
+                   $scope.data.listItems[index].isselect=false;
+               }
+               else
+               {
+               $scope.data.listItems[index].isselect=true;
+               }
+               }
+               else
+               {
+                   if($scope.data.listItems[index].isselect=== true)
+               {
+                   $scope.data.listItems[index].isselect=true;
+               }
+               else
+               {
+               $scope.data.listItems[index].isselect=false;
+               }
+               }
+               index=index+1;
+           }); 
+//	console.log($scope.data.listItems);
+};
+           
     $scope.selectionall = function() {
-		$(".card").each(function(){
+		$(".card").each(function($index){
 			if($(this).find(".approvallist").not("selected"))
 				{	
 					$(this).find(".approvallist").addClass("selected").css('border-top','5px solid #000');
+					$scope.data.listItems[$index].isselect=true;
 				}
 		});
 	};
 	$scope.clearselection = function() {
-		$(".card").each(function(){
+		$(".card").each(function($index){
 			if($(this).find(".approvallist").hasClass("selected"))
 				{
 					$(this).find(".approvallist").removeClass("selected").css('border-top','5px solid #ddd');
+					$scope.data.listItems[$index].isselect=false;
 				}
 		});
 	};
@@ -54,8 +89,16 @@ function app_myapprovals($scope, app) {
 	 /*$scope.showMenu = function() {
 	     app.go('menuleft');
 	 };*/
-	  $scope.submitApprovals = function(){
+	  $scope.submitApprovals = function(type){
+	      if(type=="approve")
+			{
 			 app.call('myapprovals.approve', $scope.data);
+			}
+			else
+			{
+			    app.call('myapprovals.reject', $scope.data);
+			}
+			}
 
 		 };
 	 	$scope.requesttype = function(type) {

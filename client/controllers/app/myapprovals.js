@@ -34,7 +34,7 @@ function app_myapprovals($scope, app) {
     /*	$(".card").each(function($index){
             $scope.data.listItems[$index].isselect=false;
     	});*/
-    $scope.selectionall = function($index) {
+    $scope.selectbox = function() {
         $(".card").each(function($index){
             if($(this).find(".approvallist").not("selected"))
             {

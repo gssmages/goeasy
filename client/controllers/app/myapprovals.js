@@ -39,6 +39,7 @@ function app_myapprovals($scope, app) {
 			if($(this).find(".approvallist").not("selected"))
 				{	
 					$(this).find(".approvallist").addClass("selected").css('border-top','5px solid #000');
+					$(this).find(".approvallist").find("input[type=checkbox]").checked=true;
 				}
 		});
 	};
@@ -47,6 +48,7 @@ function app_myapprovals($scope, app) {
 			if($(this).find(".approvallist").hasClass("selected"))
 				{
 					$(this).find(".approvallist").removeClass("selected").css('border-top','5px solid #ddd');
+					$(this).find(".approvallist").find("input[type=checkbox]").checked=false;
 				}
 		});
 	};

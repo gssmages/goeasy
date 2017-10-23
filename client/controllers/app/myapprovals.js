@@ -45,12 +45,12 @@ function app_myapprovals($scope, app) {
                if($scope.data.listItems[index].isselect=== true)
                {
                    $scope.data.listItems[index].isselect=false;
-                   	$(this).find(".approvallist").removeClass("selected").css('border-top','5px solid #ddd');
+                   	$(this).removeClass("selected").css('border-top','5px solid #ddd');
                }
                else
                {
                $scope.data.listItems[index].isselect=true;
-               $(this).find(".approvallist").addClass("selected").css('border-top','5px solid #000');
+               $(this).addClass("selected").css('border-top','5px solid #000');
                }
                }
                else
@@ -58,12 +58,12 @@ function app_myapprovals($scope, app) {
                    if($scope.data.listItems[index].isselect=== true)
                {
                    $scope.data.listItems[index].isselect=true;
-                   $(this).find(".approvallist").addClass("selected").css('border-top','5px solid #000');
+                   $(this).addClass("selected").css('border-top','5px solid #000');
                }
                else
                {
                $scope.data.listItems[index].isselect=false;
-               	$(this).find(".approvallist").removeClass("selected").css('border-top','5px solid #ddd');
+               	$(this).removeClass("selected").css('border-top','5px solid #ddd');
                }
                }
                index=index+1;

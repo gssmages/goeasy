@@ -5,11 +5,11 @@ angular.module('app').controller('app_myapprovals', app_myapprovals).directive("
       link: function(scope, elem, attrs) {
 	elem.css('border-top','5px solid #ccc');
           // onHold => start select box by `onHold` => working good
-          $ionicGesture.on('hold', function() {
+        /*  $ionicGesture.on('hold', function() {
             elem.addClass("selected");
              elem.css('border-top','5px solid #000');
             $rootScope.startSelect = true; // to enable select box by click
-          }, elem);
+          }, elem);*/
 
 					$ionicGesture.on('tap', function() {
           	if ($rootScope.startSelect) {
@@ -34,7 +34,7 @@ function app_myapprovals($scope, app) {
     	$(".card").each(function($index){
             $scope.data.listItems[$index].isselect=false;
     	});
-    $scope.selectbox = function(idvalue) {
+    $scope.selectbox = function(idvalue,elem) {
       // console.log(idvalue);
        var index = 0;
        angular.forEach($scope.data.listItems, function (value) {
@@ -45,12 +45,12 @@ function app_myapprovals($scope, app) {
                if($scope.data.listItems[index].isselect=== true)
                {
                    $scope.data.listItems[index].isselect=false;
-                   	$(this).removeClass("selected").css('border-top','5px solid #ddd');
+                   	elem.removeClass("selected").css('border-top','5px solid #ddd');
                }
                else
                {
                $scope.data.listItems[index].isselect=true;
-               $(this).addClass("selected").css('border-top','5px solid #000');
+              elem.addClass("selected").css('border-top','5px solid #000');
                }
                }
                else

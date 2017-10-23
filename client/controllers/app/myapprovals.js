@@ -39,11 +39,20 @@ function app_myapprovals($scope, app) {
        angular.forEach($scope.data.listItems, function (item,$index) {
            if($index==values)
            {
-  if($scope.data.listItems[$index].isselect === true){
-    	$scope.data.listItems[$index].isselect=false; 
-  }  
-           }
-}); 
+               if($scope.data.listItems[$index].isselect)
+               {
+                      if($scope.data.listItems[$index].isselect === true){
+                        	$scope.data.listItems[$index].isselect=false; 
+                      }  
+                      else
+                       $scope.data.listItems[$index].isselect=true;
+               }
+               else
+               {
+                   $scope.data.listItems[$index].isselect=true;
+               }
+               }
+           }); 
 	console.log($scope.data.listItems);
 };
            

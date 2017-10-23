@@ -11,6 +11,17 @@ exports.approve = function (page, params) {
         }, 5000);*/
     }, 2000);
 }
+exports.reject = function (page, params) {
+  
+    logger.info('Sending myapproval page data to save ', params);
+    page.update('myapprovals', params);
+    setTimeout(function () {
+        page.action('myapprovals', 'reject');
+       /* setTimeout(function () {
+             page.action('myapprovals', 'approve');
+        }, 5000);*/
+    }, 2000);
+}
 
 exports.sendRequest = function (page, params) {
     

@@ -39,10 +39,12 @@ function app_myapprovals($scope, app) {
             if( $scope.data.listItems[item].isselect===true)
             {
 					$scope.data.listItems[item].isselect=false;    
+					$(this).find(".approvallist").addClass("selected").css('border-top','5px solid #000');
             }
             else
             {
 					$scope.data.listItems[item].isselect=true;
+					$(this).find(".approvallist").removeClass("selected").css('border-top','5px solid #ddd');
             }
             
         

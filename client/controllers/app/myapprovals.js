@@ -96,7 +96,7 @@ function app_myapprovals($scope, app) {
 			}
 			else
 			{
-			    app.call('myapprovals.approve', $scope.data);
+			    app.call('myapprovals.reject', $scope.data);
 			}
 			}
 

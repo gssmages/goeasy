@@ -40,7 +40,7 @@ function app_myapprovals($scope, app) {
          
            if($index==items)
            {
-                $scope.data.listItems[$index].isselect === true;
+                $scope.data.listItems[$index].isselect= true;
                }
                else
                {

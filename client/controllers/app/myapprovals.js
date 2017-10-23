@@ -34,17 +34,15 @@ function app_myapprovals($scope, app) {
     /*	$(".card").each(function($index){
             $scope.data.listItems[$index].isselect=false;
     	});*/
-    $scope.selectbox = function($index) {
+    $scope.selectbox = function(item) {
        
-            if($(this).find(".approvallist").not("selected"))
+            if( $scope.data.listItems[item].isselect==true;)
             {
-                $(this).find(".approvallist").addClass("selected").css('border-top','5px solid #000');
-					$scope.data.listItems[$index].isselect=true;    
+					$scope.data.listItems[item].isselect=false;    
             }
             else
             {
-                $(this).find(".approvallist").removeClass("selected").css('border-top','5px solid #ddd');
-					$scope.data.listItems[$index].isselect=false;
+					$scope.data.listItems[item].isselect=true;
             }
             
         

@@ -98,7 +98,6 @@ function app_myapprovals($scope, app) {
 			{
 			    app.call('myapprovals.reject', $scope.data);
 			}
-			}
 
 		 };
 	 	$scope.requesttype = function(type) {

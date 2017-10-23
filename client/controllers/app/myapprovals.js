@@ -44,6 +44,7 @@ function app_myapprovals($scope, app) {
   }  
            }
 }); 
+	console.log($scope.data.listItems);
 };
            
     $scope.selectionall = function() {

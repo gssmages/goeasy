@@ -14,6 +14,7 @@ angular.module('app').controller('app_myapprovals', app_myapprovals).directive("
 					$ionicGesture.on('tap', function() {
           	if ($rootScope.startSelect) {
            		if (elem.hasClass('selected')) {
+           		   elem.find("input[type=checkbox]").checked=true;
               	elem.removeClass('selected');
               	elem.css('border-top','5px solid #eee');
               } else {

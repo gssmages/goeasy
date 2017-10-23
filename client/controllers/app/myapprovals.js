@@ -34,11 +34,11 @@ function app_myapprovals($scope, app) {
     	$(".card").each(function($index){
             $scope.data.listItems[$index].isselect=false;
     	});
-    $scope.selectbox = function(items) {
-       console.log(items);
+    $scope.selectbox = function(idvalue) {
+       console.log(idvalue);
        angular.forEach($scope.data.listItems, function ($index) {
          
-           if($index===items)
+           if($index===idvalue)
            {
                 $scope.data.listItems[$index].isselect= true;
                }

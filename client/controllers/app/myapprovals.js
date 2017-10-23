@@ -47,7 +47,7 @@ function app_myapprovals($scope, app) {
 					$scope.data.listItems[$index].isselect=false;
             }
             
-        };
+        });
     };
     $scope.selectionall = function() {
 		$(".card").each(function($index){

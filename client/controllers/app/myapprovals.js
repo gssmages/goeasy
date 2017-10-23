@@ -36,7 +36,7 @@ function app_myapprovals($scope, app) {
     	});*/
     $scope.selectbox = function(item) {
        
-            if( $scope.data.listItems[item].isselect==true;)
+            if( $scope.data.listItems[item].isselect===true)
             {
 					$scope.data.listItems[item].isselect=false;    
             }

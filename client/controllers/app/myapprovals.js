@@ -45,7 +45,7 @@ function app_myapprovals($scope, app) {
                         	$scope.data.listItems[$index].isselect=false; 
                       }  
                       else
-                       $scope.data.listItems[$index].isselect=true;
+                       $scope.data.listItems[$index].isselect=false;
                }
                else
                {

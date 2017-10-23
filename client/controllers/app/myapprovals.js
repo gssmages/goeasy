@@ -41,11 +41,11 @@ function app_myapprovals($scope, app) {
          console.log($scope.data.listItems);
            if(index===idvalue)
            {
-                $scope.data.listItems[$index].isselect= true;
+                $scope.data.listItems[index].isselect= true;
                }
                else
                {
-                   $scope.data.listItems[$index].isselect=false;
+                   $scope.data.listItems[index].isselect=false;
                }
                index=index+1;
            }); 

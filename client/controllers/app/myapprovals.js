@@ -37,22 +37,16 @@ function app_myapprovals($scope, app) {
     $scope.selectbox = function(items) {
        
        angular.forEach($scope.data.listItems, function ($index) {
-           console.log(items);
+         
            if($index==items)
            {
-               if($scope.data.listItems[$index])
-               {
-                      if($scope.data.listItems[$index].isselect === true){
-                        	$scope.data.listItems[$index].isselect=false; 
-                      }  
-                      else
-                       $scope.data.listItems[$index].isselect=false;
+                $scope.data.listItems[$index].isselect === true;
                }
                else
                {
-                   $scope.data.listItems[$index].isselect=true;
+                   $scope.data.listItems[$index].isselect=false;
                }
-               }
+               
            }); 
 	console.log($scope.data.listItems);
 };

@@ -35,10 +35,10 @@ function app_myapprovals($scope, app) {
             $scope.data.listItems[$index].isselect=false;
     	});
     $scope.selectbox = function(idvalue) {
-       console.log(idvalue);
+      // console.log(idvalue);
        var index = 0;
        angular.forEach($scope.data.listItems, function (value) {
-         console.log($scope.data.listItems);
+        // console.log($scope.data.listItems);
            if(index===idvalue)
            {
                
@@ -60,7 +60,7 @@ function app_myapprovals($scope, app) {
                }
                index=index+1;
            }); 
-	console.log($scope.data.listItems);
+//	console.log($scope.data.listItems);
 };
            
     $scope.selectionall = function() {

@@ -8,17 +8,19 @@ angular.module('app').controller('app_myapprovals', app_myapprovals).directive("
           $ionicGesture.on('hold', function() {
             elem.addClass("selected");
              elem.css('border-top','5px solid #000');
+             elem.find("input[type=checkbox]").checked=true;
             $rootScope.startSelect = true; // to enable select box by click
           }, elem);
 
 					$ionicGesture.on('tap', function() {
           	if ($rootScope.startSelect) {
            		if (elem.hasClass('selected')) {
-           		   elem.find("input[type=checkbox]").checked=true;
+           		   elem.find("input[type=checkbox]").checked=false;
               	elem.removeClass('selected');
               	elem.css('border-top','5px solid #eee');
               } else {
               	elem.addClass('selected');
+              	elem.find("input[type=checkbox]").checked=true;
               	elem.css('border-top','5px solid #000');
               }
             }

@@ -8,19 +8,16 @@ angular.module('app').controller('app_myapprovals', app_myapprovals).directive("
           $ionicGesture.on('hold', function() {
             elem.addClass("selected");
              elem.css('border-top','5px solid #000');
-             elem.find("input[type=checkbox]").checked=true;
             $rootScope.startSelect = true; // to enable select box by click
           }, elem);
 
 					$ionicGesture.on('tap', function() {
           	if ($rootScope.startSelect) {
            		if (elem.hasClass('selected')) {
-           		   elem.find("input[type=checkbox]").checked=false;
               	elem.removeClass('selected');
               	elem.css('border-top','5px solid #eee');
               } else {
               	elem.addClass('selected');
-              	elem.find("input[type=checkbox]").checked=true;
               	elem.css('border-top','5px solid #000');
               }
             }
@@ -38,20 +35,20 @@ function app_myapprovals($scope, app) {
             $scope.data.listItems[$index].isselect=false;
     	});*/
     $scope.selectionall = function() {
-		$(".card").each(function(){
+		$(".card").each(function($index){
 			if($(this).find(".approvallist").not("selected"))
 				{	
 					$(this).find(".approvallist").addClass("selected").css('border-top','5px solid #000');
-					$(this).find(".approvallist").find("input[type=checkbox]").checked=true;
+					$scope.data.listItems[$index].isselect=true;
 				}
 		});
 	};
 	$scope.clearselection = function() {
-		$(".card").each(function(){
+		$(".card").each(function($index){
 			if($(this).find(".approvallist").hasClass("selected"))
 				{
 					$(this).find(".approvallist").removeClass("selected").css('border-top','5px solid #ddd');
-					$(this).find(".approvallist").find("input[type=checkbox]").checked=false;
+					$scope.data.listItems[$index].isselect=false;
 				}
 		});
 	};

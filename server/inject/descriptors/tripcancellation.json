@@ -47,6 +47,5 @@
       ],
       "model": "tripCancellation"
     }
-  ],
-  "selector": "#myRegularPopup"
+  ]
 }

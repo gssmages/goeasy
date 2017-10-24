@@ -484,7 +484,10 @@
     "comment": "",
     "properties": {
       "tripInfo": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "yes": {
         "type": "action"

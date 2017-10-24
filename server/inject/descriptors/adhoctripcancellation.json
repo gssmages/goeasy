@@ -21,7 +21,7 @@
     },
     "isAdhocCancellation": {
       "type": "identifier",
-      "selector": ".modal-title",
+      "selector": "#myAlertModal",
       "control": "exists",
       "selectContains": "Flex Transport"
     }

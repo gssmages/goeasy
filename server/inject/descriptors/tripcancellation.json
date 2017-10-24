@@ -34,7 +34,8 @@
     "ispmodel": {
       "type": "identifier",
       "selector": "#myRegularPopup",
-      "control": "exists"
+      "control": "exists",
+      "selectContains": "Cancel My Trip"
     }
   },
   "connect": [

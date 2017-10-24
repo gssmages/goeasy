@@ -48,5 +48,5 @@
       "model": "tripCancellation"
     }
   ],
-  "selector": ".modal-header"
+  "selector": "#myRegularPopup"
 }

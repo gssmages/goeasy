@@ -27,7 +27,7 @@
     },
     "closebutton": {
       "type": "action",
-      "selector": "#myBtnClose",
+      "selector": "input#myBtnClose",
       "control": "action.button",
       "selectContains": "Close"
     },

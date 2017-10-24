@@ -15,7 +15,7 @@
     },
     "isAdhocAlert": {
       "type": "identifier",
-      "selector": ".modal-title",
+      "selector": "#myModal",
       "control": "exists",
       "selectContains": "Flex Transport"
     }

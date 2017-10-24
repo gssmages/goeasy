@@ -28,7 +28,7 @@
     "closebutton": {
       "type": "action",
       "selector": "input#myBtnClose",
-      "control": "action.button",
+      "control": "exists",
       "selectContains": "Close"
     },
     "ispmodel": {

@@ -47,5 +47,6 @@
       ],
       "model": "tripCancellation"
     }
-  ]
+  ],
+  "selector": ".modal-header"
 }

@@ -21,7 +21,8 @@
       "control": "exists"
     },
     "back": {
-      "type": "action"
+      "type": "action",
+      "selector": ".close"
     }
   },
   "connect": [

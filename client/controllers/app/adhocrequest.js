@@ -42,7 +42,7 @@ function app_adhocrequest($scope, app) {
         
     }    
     $scope.specialNeedModified = function(){
-        console.log("---specialNeedModified---"+$scope.data.Date);
+        console.log("---specialNeedModified---"+$scope.data.SpecialNeed);
     };
     $scope.submitApprovals = function(){
          //console.log("---sendRequest---"+$scope.data.Date);

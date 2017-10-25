@@ -24,7 +24,7 @@
       "type": "identifier",
       "selector": {
         "fn": "function(node){if(node.style.display=='block'){return true}}",
-        "selector": "#messageinput"
+        "selector": ""
       },
       "control": "exists"
     }

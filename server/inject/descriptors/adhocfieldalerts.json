@@ -29,7 +29,8 @@
       ],
       "screens": [
         "adhocfieldalerts"
-      ]
+      ],
+      "model": "adhocfieldalerts"
     }
   ]
 }

@@ -22,7 +22,8 @@
     },
     "back": {
       "type": "action",
-      "selector": ".close"
+      "selector": ".close",
+      "control": "action.button"
     }
   },
   "connect": [

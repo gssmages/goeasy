@@ -19,7 +19,10 @@
         "fn": "function(node){if(node.style.display=='block'){alert(node.style.display);return true}else{return false}}",
         "selector": "#myModal"
       },
-      "control": "exists",
+      "control": {
+        "fn": "",
+        "control": "exists"
+      },
       "selectContains": "Flex Transport"
     }
   },

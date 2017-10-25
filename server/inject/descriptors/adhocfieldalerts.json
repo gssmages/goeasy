@@ -17,7 +17,7 @@
       "type": "identifier",
       "selector": {
         "fn": "function(node){console.log(node.style.display)}",
-        "selector": "#myModal"
+        "selector": ""
       },
       "control": "exists"
     }

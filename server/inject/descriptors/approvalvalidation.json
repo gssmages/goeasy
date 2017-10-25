@@ -17,7 +17,7 @@
       "update": {
         "type": "none"
       },
-      "selector": "#messageinput",
+      "selector": ".modal-body",
       "control": "text"
     },
     "isvalidate": {

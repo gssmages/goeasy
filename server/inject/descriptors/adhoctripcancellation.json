@@ -10,19 +10,22 @@
     "yes": {
       "type": "action",
       "selector": "#myBtnYes",
-      "selectContains": "Yes",
       "control": "action.button"
     },
     "no": {
       "type": "action",
       "selector": "#myBtnNo",
-      "selectContains": "No",
       "control": "action.button"
     },
     "isAdhocCancellation": {
       "type": "identifier",
       "selector": "#myAlertModal",
       "control": "exists"
+    },
+    "back": {
+      "type": "action",
+      "selector": ".close",
+      "control": "action.button"
     }
   },
   "connect": [

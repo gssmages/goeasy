@@ -10,14 +10,15 @@
     "okButton": {
       "type": "action",
       "selector": "#myBtn",
-      "selectContains": "OK",
       "control": "action.button"
     },
     "isAdhocAlert": {
       "type": "identifier",
-      "selector": "#myModal",
-      "control": "exists",
-      "selectContains": "Flex Transport"
+      "selector": {
+        "fn": "function(node){if(node.style.display=='block'){return true}}",
+        "selector": ""
+      },
+      "control": "exists"
     }
   },
   "connect": [
@@ -27,7 +28,9 @@
       ],
       "screens": [
         "adhocfieldalerts"
-      ]
+      ],
+      "model": "adhocfieldalerts"
     }
-  ]
+  ],
+  "selector": "#myModal"
 }

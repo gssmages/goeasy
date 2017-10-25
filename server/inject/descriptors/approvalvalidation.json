@@ -16,7 +16,8 @@
       "type": "string",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": ".modal-body"
     }
   },
   "connect": [],

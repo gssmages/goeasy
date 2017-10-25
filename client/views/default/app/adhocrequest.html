@@ -15,15 +15,6 @@
                     <div data-comp-id="text.1">Request Type</div>
                     <select-list data-comp-id="selectList.1" ng-change="typeChange();"
                         ng-model="data.RequestType"></select-list>
-                    <!--<select ng-model="data.RequestType.selected"-->
-                    <!--    ng-options="item as item.label for item in RequestType"></select>-->
-                    <!--<label class="item  item-input item-select-icon positive-icon"-->
-                    <!--    data-comp-id="selectInput.1">-->
-                    <!--    <span class="input-label"></span>-->
-                    <!--    <select ng-model="data.RequestType.selected"-->
-                    <!--        ng-options="item as item.label for item in data.RequestType.options"-->
-                    <!--        powwow-change="{dynamic:false}"></select>-->
-                    <!--</label>-->
                 </div>
             </div>
             <div class="row" data-comp-id="row.2" ng-if="dateField">
@@ -118,12 +109,12 @@
                     <!--    ng-model="data.SpecialNeed" style="border-radius: 0px;"></ion-toggle>-->
                 </div>
             </div>
-            <div class="row" data-comp-id="row.10">
+            <div class="row" data-comp-id="row.10" ng-if="ifSpecialNeed">
                 <div class="col" data-comp-id="column.18">
                     <div data-comp-id="text.10">Please Specify</div>
                 </div>
                 <div class="col col-66" data-comp-id="column.19">
-                    <select-list data-comp-id="selectList.6" ng-model="data.adhoclist.pleasespecify"
+                    <select-list data-comp-id="selectList.6" ng-model="data.pleasespecify"
                         no-label="true" select-class=" item-stacked-label">Please Specify</select-list>
                 </div>
             </div>

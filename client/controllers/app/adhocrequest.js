@@ -6,6 +6,7 @@ function app_adhocrequest($scope, app) {
         // $scope.dateField = false;
         // $scope.fromDateField = false;
         // $scope.toDateField = false;
+        $scope.ifSpecialNeed = false;
          
     $scope.typeChange = function(){
         console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.label));

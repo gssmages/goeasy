@@ -19,6 +19,9 @@
         "selector": ""
       },
       "control": "exists"
+    },
+    "back": {
+      "type": "action"
     }
   },
   "connect": [

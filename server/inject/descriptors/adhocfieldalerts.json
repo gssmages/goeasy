@@ -20,7 +20,7 @@
         "selector": "#myModal"
       },
       "control": {
-        "fn": "function(node){if(node.style.display=='block'){return true}else{return false}}",
+        "fn": "function(node){if(node.style.display==='block'){return true}else{return false}}",
         "control": "exists"
       },
       "selectContains": "Flex Transport"

@@ -21,6 +21,11 @@
       "type": "identifier",
       "selector": "#myAlertModal",
       "control": "exists"
+    },
+    "back": {
+      "type": "string",
+      "selector": "b",
+      "control": "property.innerText"
     }
   },
   "connect": [

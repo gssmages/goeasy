@@ -19,8 +19,7 @@
         "fn": "function(node){console.log(node.style.display)}",
         "selector": "#myModal"
       },
-      "control": "exists",
-      "selectContains": "Flex Transport"
+      "control": "exists"
     }
   },
   "connect": [

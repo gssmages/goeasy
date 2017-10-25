@@ -26,6 +26,15 @@
       "control": "exists"
     }
   },
-  "connect": [],
+  "connect": [
+    {
+      "match": [
+        "isvalidate"
+      ],
+      "screens": [
+        "approvalvalidation"
+      ]
+    }
+  ],
   "selector": "#myNotificationModal"
 }

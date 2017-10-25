@@ -1,6 +1,7 @@
 [
   "adhocfieldalerts.json",
   "adhoctripcancellation.json",
+  "approvalvalidation.json",
   "adhocrequest.json",
   "tripCancellation.json",
   "alertwin.json",
@@ -8,6 +9,5 @@
   "mytripstab.json",
   "home.json",
   "sidemenu.json",
-  "menuleft.json",
-  "approvalvalidation.json"
+  "menuleft.json"
 ]

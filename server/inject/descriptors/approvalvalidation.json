@@ -19,6 +19,11 @@
       },
       "selector": "#messageinput",
       "control": "text"
+    },
+    "isvalidate": {
+      "type": "string",
+      "selector": "#messageinput",
+      "control": "property.innerText"
     }
   },
   "connect": [],

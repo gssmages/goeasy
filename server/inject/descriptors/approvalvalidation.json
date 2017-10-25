@@ -23,7 +23,7 @@
     "isvalidate": {
       "type": "identifier",
       "selector": "#messageinput",
-      "control": "property.innerText"
+      "control": "exists"
     }
   },
   "connect": [],

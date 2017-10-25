@@ -33,7 +33,8 @@
       ],
       "screens": [
         "approvalvalidation"
-      ]
+      ],
+      "model": "approvalvalidation"
     }
   ],
   "selector": "#myNotificationModal"

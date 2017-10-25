@@ -24,7 +24,7 @@
     },
     "back": {
       "type": "action",
-      "selector": "b",
+      "selector": ".close",
       "control": "property.innerText"
     }
   },

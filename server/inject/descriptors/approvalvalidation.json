@@ -9,7 +9,8 @@
     },
     "ok": {
       "type": "action",
-      "selector": "#myNotificationButton"
+      "selector": "#myNotificationButton",
+      "control": "action.button"
     },
     "message": {
       "type": "string",

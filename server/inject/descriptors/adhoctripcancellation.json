@@ -25,7 +25,7 @@
     "back": {
       "type": "action",
       "selector": ".close",
-      "control": "property.innerText"
+      "control": "action.button"
     }
   },
   "connect": [

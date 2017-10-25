@@ -16,5 +16,5 @@
     }
   },
   "connect": [],
-  "selector": ".modal-header"
+  "selector": "#myNotificationModal"
 }

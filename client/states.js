@@ -141,12 +141,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.adhocerrorpopup', {
+    }).state('app.approvalvalidation', {
         views: {
             app: {
-                controller: 'app_adhocerrorpopup',
+                controller: 'app_approvalvalidation',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.adhocerrorpopup');
+                    return app.templateProvider('app.approvalvalidation');
                 }
             }
         }

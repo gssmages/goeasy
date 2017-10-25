@@ -106,8 +106,8 @@
       "sourceAppId": "_blank"
     },
     {
-      "id": "adhocerrorpopup",
-      "name": "adhocerrorpopup",
+      "id": "approvalvalidation",
+      "name": "approvalvalidation",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "approvalvalidation"

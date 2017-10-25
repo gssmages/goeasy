@@ -6,7 +6,7 @@ function app_adhocrequest($scope, app) {
         // $scope.dateField = false;
         // $scope.fromDateField = false;
         // $scope.toDateField = false;
-        $scope.ifSpecialNeed = false;
+        //$scope.ifSpecialNeed = false;
          
     $scope.typeChange = function(){
         console.log("---Request Type---"+JSON.stringify($scope.data.RequestType.selected.label));
@@ -43,6 +43,11 @@ function app_adhocrequest($scope, app) {
     }    
     $scope.specialNeedModified = function(){
         console.log("---specialNeedModified---"+$scope.data.SpecialNeed.selected.value);
+        if($scope.data.SpecialNeed.selected.value == 1){
+            $scope.ifSpecialNeed = true;
+        }else{
+            $scope.ifSpecialNeed = false;
+        }
     };
     $scope.submitApprovals = function(){
          //console.log("---sendRequest---"+$scope.data.Date);

@@ -35,5 +35,6 @@
       "model": "alertwin"
     }
   ],
-  "selector": "#myModal"
+  "selector": "#myModal",
+  "selectContains": "Comments"
 }

@@ -109,7 +109,8 @@
       "id": "adhocerrorpopup",
       "name": "adhocerrorpopup",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "approvalvalidation"
     },
     {
       "id": "adhocfieldalerts",

@@ -3,7 +3,8 @@
   "comment": "",
   "properties": {
     "back": {
-      "type": "action"
+      "type": "action",
+      "selector": ".close"
     },
     "ok": {
       "type": "action"

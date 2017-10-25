@@ -10,7 +10,6 @@
     "yes": {
       "type": "action",
       "selector": "#myBtnYes",
-      "selectContains": "Yes",
       "control": "action.button"
     },
     "no": {

@@ -41,14 +41,14 @@ function app_adhocrequest($scope, app) {
         }
         
     }    
-    $scope.specialNeedModified = function(){
-        console.log("---specialNeedModified---"+$scope.data.SpecialNeed.selected.value);
-        if($scope.data.SpecialNeed.selected.value == 1){
-            $scope.ifSpecialNeed = true;
-        }else{
-            $scope.ifSpecialNeed = false;
-        }
-    };
+    // $scope.specialNeedModified = function(){
+    //     console.log("---specialNeedModified---"+$scope.data.SpecialNeed.selected.value);
+    //     if($scope.data.SpecialNeed.selected.value == 1){
+    //         $scope.ifSpecialNeed = true;
+    //     }else{
+    //         $scope.ifSpecialNeed = false;
+    //     }
+    // };
     $scope.submitApprovals = function(){
          //console.log("---sendRequest---"+$scope.data.Date);
 			 app.call('myapprovals.sendRequest', $scope.data);

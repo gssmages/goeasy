@@ -16,7 +16,7 @@
     "isAdhocAlert": {
       "type": "identifier",
       "selector": {
-        "fn": "",
+        "fn": "function(node){if(node.css('display')=='block'){return true}else{return false}}",
         "selector": "#myModal"
       },
       "control": "exists",

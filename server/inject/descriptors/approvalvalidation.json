@@ -21,7 +21,7 @@
       "control": "text"
     },
     "isvalidate": {
-      "type": "string",
+      "type": "identifier",
       "selector": "#messageinput",
       "control": "property.innerText"
     }

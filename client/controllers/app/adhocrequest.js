@@ -40,20 +40,12 @@ function app_adhocrequest($scope, app) {
             
         }
         
-        // if(selectedReqTyp == "4"){
-        //     console.log(" in if "+selectedReqTyp);
-        //     $scope.dateField = false;
-        //         $scope.fromDateField = true;
-        //         $scope.toDateField = true;
-        // }else{
-        //     console.log(" in else-- "+(selectedReqTyp));
-        //     $scope.dateField = true;
-        //         $scope.fromDateField = false;
-        //         $scope.toDateField = false;
-        // }
     }    
+    $scope.specialNeedModified = function(){
+        
+    };
     $scope.submitApprovals = function(){
-         console.log("---sendRequest---"+$scope.data.Date);
+         //console.log("---sendRequest---"+$scope.data.Date);
 			 app.call('myapprovals.sendRequest', $scope.data);
 
 		 };

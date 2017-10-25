@@ -23,7 +23,7 @@
       "control": "exists"
     },
     "back": {
-      "type": "string",
+      "type": "action",
       "selector": "b",
       "control": "property.innerText"
     }

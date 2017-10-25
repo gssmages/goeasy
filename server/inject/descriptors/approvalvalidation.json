@@ -15,5 +15,6 @@
       }
     }
   },
-  "connect": []
+  "connect": [],
+  "selector": ".modal-header"
 }

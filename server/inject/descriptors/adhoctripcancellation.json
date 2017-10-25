@@ -16,7 +16,6 @@
     "no": {
       "type": "action",
       "selector": "#myBtnNo",
-      "selectContains": "No",
       "control": "action.button"
     },
     "isAdhocCancellation": {

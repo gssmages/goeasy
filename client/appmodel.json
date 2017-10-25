@@ -530,7 +530,10 @@
     "comment": "",
     "properties": {
       "errorInfo": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "okButton": {
         "type": "action"

@@ -22,7 +22,10 @@
     },
     "isvalidate": {
       "type": "identifier",
-      "selector": "#messageinput",
+      "selector": {
+        "fn": "",
+        "selector": "#messageinput"
+      },
       "control": "exists"
     }
   },

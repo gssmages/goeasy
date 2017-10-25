@@ -8,7 +8,8 @@
       "control": "action.button"
     },
     "ok": {
-      "type": "action"
+      "type": "action",
+      "selector": "#myNotificationButton"
     },
     "message": {
       "type": "string",

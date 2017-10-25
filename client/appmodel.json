@@ -494,6 +494,9 @@
       },
       "no": {
         "type": "action"
+      },
+      "back": {
+        "type": "action"
       }
     }
   },

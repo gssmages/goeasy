@@ -18,7 +18,7 @@
       "type": "identifier",
       "selector": ".modal-title.",
       "control": "exists",
-      "selectContains": "Employee Data Privacy Notice"
+      "selectContains": "Privacy Notice"
     }
   },
   "connect": [

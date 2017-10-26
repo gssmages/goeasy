@@ -563,5 +563,23 @@
         }
       }
     }
+  },
+  "privacyalertwin": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "privacyInfo": {
+        "type": "string"
+      },
+      "No": {
+        "type": "action"
+      },
+      "Yes": {
+        "type": "action"
+      },
+      "Back": {
+        "type": "action"
+      }
+    }
   }
 }

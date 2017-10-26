@@ -569,7 +569,10 @@
     "comment": "",
     "properties": {
       "privacyInfo": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "No": {
         "type": "action"

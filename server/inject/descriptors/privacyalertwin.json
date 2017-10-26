@@ -3,13 +3,19 @@
   "comment": "",
   "properties": {
     "privacyInfo": {
-      "type": "string"
+      "type": "string",
+      "selector": ".modal-body",
+      "control": "property.innerText"
     },
     "No": {
-      "type": "action"
+      "type": "action",
+      "selector": "input",
+      "control": "action.button"
     },
     "Yes": {
-      "type": "action"
+      "type": "action",
+      "selector": "#myBtnAccept",
+      "control": "action.button"
     },
     "Back": {
       "type": "action"

@@ -18,11 +18,7 @@
       "frameSelector": [
         null,
         ""
-      ],
-      "selector": {
-        "fn": "",
-        "selector": ""
-      }
+      ]
     },
     "back": {
       "type": "action",

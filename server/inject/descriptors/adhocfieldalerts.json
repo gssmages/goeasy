@@ -20,7 +20,7 @@
         ""
       ],
       "selector": {
-        "fn": "",
+        "fn": "function(node){if(node.style.display=='block'){return true}}",
         "selector": ""
       }
     },

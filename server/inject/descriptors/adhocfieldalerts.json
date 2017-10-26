@@ -4,7 +4,7 @@
   "properties": {
     "errorInfo": {
       "type": "string",
-      "selector": "#messageinput",
+      "selector": ".modal-body",
       "control": "property.innerText"
     },
     "okButton": {
@@ -19,7 +19,10 @@
         null,
         ""
       ],
-      "selector": "#myModal"
+      "selector": {
+        "fn": "function(node){if(node.style.display=='block'){return true}}",
+        "selector": ""
+      }
     },
     "back": {
       "type": "action",

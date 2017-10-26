@@ -30,7 +30,8 @@
       ],
       "screens": [
         "privacyalertwin"
-      ]
+      ],
+      "model": "privacyalertwin"
     }
   ],
   "selector": "#myModalPrivacy"

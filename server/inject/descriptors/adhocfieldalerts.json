@@ -15,7 +15,7 @@
     "isAdhocAlert": {
       "type": "identifier",
       "selector": {
-        "fn": "function(node){if(node.style.display=='block'){{{{if($('.usermenu li.selected').text==Adhoc Request ') {\nreturn true}}}}}}",
+        "fn": "function(node){if(node.style.display=='block'){{return true}}",
         "selector": ""
       },
       "control": "exists"

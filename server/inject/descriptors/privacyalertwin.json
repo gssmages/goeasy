@@ -13,6 +13,11 @@
     },
     "Back": {
       "type": "action"
+    },
+    "isPrivacyAlert": {
+      "type": "string",
+      "selector": ".modal-open",
+      "control": "property.innerText"
     }
   },
   "connect": []

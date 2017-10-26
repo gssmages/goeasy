@@ -19,8 +19,10 @@
         null,
         ""
       ],
-      "selector": ".modal-header",
-      "selectContains": "Transport"
+      "selector": {
+        "fn": "function(node){if(node.style.display=='block'){return true}}",
+        "selector": ""
+      }
     },
     "back": {
       "type": "action",

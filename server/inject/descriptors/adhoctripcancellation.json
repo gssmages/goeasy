@@ -19,7 +19,6 @@
     },
     "isAdhocCancellation": {
       "type": "identifier",
-      "selector": "#myAlertModal",
       "control": "exists"
     },
     "back": {
@@ -38,5 +37,6 @@
       ],
       "model": "adhoctripcancellation"
     }
-  ]
+  ],
+  "selector": "#myAlertModal"
 }

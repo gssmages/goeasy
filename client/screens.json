@@ -123,7 +123,8 @@
       "id": "privacyalertwin",
       "name": "privacyAlertWin",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "privacyalertwin"
     }
   ],
   "sourceAppId": "_blank",

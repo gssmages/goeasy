@@ -16,7 +16,7 @@
     },
     "isPrivacyAlert": {
       "type": "identifier",
-      "selector": ".modal-title.",
+      "selector": ".modal-body",
       "control": "exists",
       "selectContains": "Employee Data Privacy Notice"
     }

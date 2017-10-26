@@ -118,6 +118,12 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "adhocfieldalerts"
+    },
+    {
+      "id": "privacyalertwin",
+      "name": "privacyAlertWin",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",

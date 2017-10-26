@@ -159,5 +159,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.privacyalertwin', {
+        views: {
+            app: {
+                controller: 'app_privacyalertwin',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.privacyalertwin');
+                }
+            }
+        }
     });
 });

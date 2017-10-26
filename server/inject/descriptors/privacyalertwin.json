@@ -15,7 +15,7 @@
       "type": "action"
     },
     "isPrivacyAlert": {
-      "type": "string",
+      "type": "identifier",
       "selector": ".modal-open",
       "control": "property.innerText"
     }

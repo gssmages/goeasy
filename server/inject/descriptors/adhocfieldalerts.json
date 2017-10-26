@@ -14,7 +14,15 @@
     },
     "isAdhocAlert": {
       "type": "identifier",
-      "control": "exists"
+      "control": "exists",
+      "frameSelector": [
+        null,
+        ""
+      ],
+      "selector": {
+        "fn": "function(node){if(node.style.display=='block'){return true}}",
+        "selector": ""
+      }
     },
     "back": {
       "type": "action",

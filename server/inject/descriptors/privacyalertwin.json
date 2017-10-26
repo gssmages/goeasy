@@ -21,7 +21,10 @@
     "isPrivacyAlert": {
       "type": "identifier",
       "control": "exists",
-      "selector": "#myModalPrivacy"
+      "selector": {
+        "fn": "function(node){if(node.style.display=='block'&&(document.querySelector('.usermenu li.selected').innerText=='Adhoc Request')){return true}}",
+        "selector": ""
+      }
     }
   },
   "connect": [

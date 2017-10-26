@@ -14,8 +14,7 @@
     },
     "isAdhocAlert": {
       "type": "identifier",
-      "control": "exists",
-      "selector": ".usermenu li.selected a"
+      "control": "exists"
     },
     "back": {
       "type": "action",

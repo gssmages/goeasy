@@ -5,7 +5,7 @@
     "privacyInfo": {
       "type": "string",
       "selector": ".modal-body",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
     "No": {
       "type": "action",

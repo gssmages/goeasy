@@ -3,7 +3,8 @@
   "comment": "",
   "properties": {
     "privacyInfo": {
-      "type": "string"
+      "type": "string",
+      "selector": ".modal-body"
     },
     "No": {
       "type": "action",

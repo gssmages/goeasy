@@ -19,7 +19,11 @@
     },
     "isAdhocCancellation": {
       "type": "identifier",
-      "control": "exists"
+      "control": "exists",
+      "selector": {
+        "fn": "function(node){if(node.style.display=='block'){return true}}",
+        "selector": ""
+      }
     },
     "back": {
       "type": "action",

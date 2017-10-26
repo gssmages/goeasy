@@ -6,7 +6,8 @@
       "type": "string"
     },
     "No": {
-      "type": "action"
+      "type": "action",
+      "selector": "input"
     },
     "Yes": {
       "type": "action"

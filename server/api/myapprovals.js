@@ -31,7 +31,7 @@ exports.sendRequest = function (page, params) {
           page.action('myapprovals', 'sendRequest');
          /* setTimeout(function () {
                page.action('myapprovals', 'approve');
-          }, 5000);*/tripcancel
+          }, 5000);*/
       }, 2000);
   }
 

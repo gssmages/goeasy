@@ -38,7 +38,7 @@
         <label class="item  item-input item-select-icon positive-icon"
             data-comp-id="selectInput.1">
             <span class="input-label"></span>
-            <select ng-model="data.RequestFor.selected"
+            <select ng-change="tripcancel()" ng-model="data.RequestFor.selected"
                 ng-options="item as item.label for item in data.RequestFor.options"></select>
         </label>
     </ion-content>

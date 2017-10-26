@@ -16,7 +16,7 @@
     },
     "isPrivacyAlert": {
       "type": "identifier",
-      "selector": ".modal-open",
+      "selector": ".modal-title.",
       "control": "property.innerText"
     }
   },

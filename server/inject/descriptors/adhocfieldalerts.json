@@ -19,7 +19,8 @@
         null,
         ""
       ],
-      "selector": ".modal-header"
+      "selector": ".modal-header",
+      "selectContains": "Transport"
     },
     "back": {
       "type": "action",

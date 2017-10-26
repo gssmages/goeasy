@@ -18,7 +18,8 @@
       "frameSelector": [
         null,
         ""
-      ]
+      ],
+      "selector": ".modal-header"
     },
     "back": {
       "type": "action",

@@ -17,9 +17,6 @@
       "selector": "#myBtnAccept",
       "control": "action.button"
     },
-    "Back": {
-      "type": "action"
-    },
     "isPrivacyAlert": {
       "type": "identifier",
       "control": "exists",

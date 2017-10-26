@@ -15,8 +15,7 @@
     "isAdhocAlert": {
       "type": "identifier",
       "control": "exists",
-      "selector": ".usermenu li.selected a",
-      "selectContains": "Adhoc"
+      "selector": ".usermenu li.selected a"
     },
     "back": {
       "type": "action",

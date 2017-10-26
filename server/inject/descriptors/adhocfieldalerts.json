@@ -37,6 +37,5 @@
       ],
       "model": "adhocfieldalerts"
     }
-  ],
-  "selector": "#myModal"
+  ]
 }

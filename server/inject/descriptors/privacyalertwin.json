@@ -11,7 +11,8 @@
       "control": "action.button"
     },
     "Yes": {
-      "type": "action"
+      "type": "action",
+      "selector": "#myBtnAccept"
     },
     "Back": {
       "type": "action"

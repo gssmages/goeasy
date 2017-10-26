@@ -31,6 +31,18 @@ exports.sendRequest = function (page, params) {
           page.action('myapprovals', 'sendRequest');
          /* setTimeout(function () {
                page.action('myapprovals', 'approve');
+          }, 5000);*/tripcancel
+      }, 2000);
+  }
+
+exports.tripcancel = function (page, params) {
+    
+      logger.info('Sending tripcancel page data to save ', params);
+      page.update('tripCancellation', params);
+      setTimeout(function () {
+          page.action('myapprovals', 'tripcancel');
+         /* setTimeout(function () {
+               page.action('myapprovals', 'approve');
           }, 5000);*/
       }, 2000);
   }

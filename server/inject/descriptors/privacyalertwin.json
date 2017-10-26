@@ -9,8 +9,9 @@
     },
     "No": {
       "type": "action",
-      "selector": "input",
-      "control": "action.button"
+      "selector": "input[type=button]",
+      "control": "action.button",
+      "selectIndex": 1
     },
     "Yes": {
       "type": "action",

@@ -17,7 +17,8 @@
     "isPrivacyAlert": {
       "type": "identifier",
       "selector": ".modal-title.",
-      "control": "property.innerText"
+      "control": "property.innerText",
+      "selectContains": "Employee Data Privacy Notice"
     }
   },
   "connect": []

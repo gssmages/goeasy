@@ -579,9 +579,6 @@
       },
       "Yes": {
         "type": "action"
-      },
-      "Back": {
-        "type": "action"
       }
     }
   }

@@ -12,7 +12,8 @@
     },
     "Yes": {
       "type": "action",
-      "selector": "#myBtnAccept"
+      "selector": "#myBtnAccept",
+      "control": "action.button"
     },
     "Back": {
       "type": "action"

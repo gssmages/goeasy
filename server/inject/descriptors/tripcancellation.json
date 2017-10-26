@@ -28,8 +28,7 @@
     "closebutton": {
       "type": "action",
       "selector": "input#myBtnClose",
-      "control": "action.button",
-      "selectContains": "Close"
+      "control": "action.button"
     },
     "ispmodel": {
       "type": "identifier",

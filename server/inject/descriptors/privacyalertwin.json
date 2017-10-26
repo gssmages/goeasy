@@ -21,5 +21,14 @@
       "selectContains": "Employee Data Privacy Notice"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isPrivacyAlert"
+      ],
+      "screens": [
+        "privacyalertwin"
+      ]
+    }
+  ]
 }

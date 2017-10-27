@@ -39,6 +39,7 @@ function app_myapprovals($scope, app) {
 				}
 				else
 				{
+				    $(this).find(".approvallist").removeClass("selected").css('border-top','5px solid #ddd');
 				    	$scope.data.listItems[$index].isselect=false;
 				}
             //$scope.data.listItems[$index].isselect=false;

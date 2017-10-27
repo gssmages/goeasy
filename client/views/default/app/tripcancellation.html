@@ -13,22 +13,20 @@
             data-comp-id="dateInput.1">
             <span class="input-label" style="">From Date</span>
             <input date-format="DD-MMM-YYYY" max="2100-12-12" min="1900-01-01"
-                ng-change="tripcancel()" ng-model-options="{allowInvalid: true}"
-                ng-model="data.FromDate" type="date">
+                ng-model-options="{allowInvalid: true}" ng-model="data.FromDate" type="date">
         </label>
         <label
             class="item item-input item-date-icon positive-icon item-stacked-label item-outside-label"
             data-comp-id="dateInput.2">
             <span class="input-label">To Date</span>
             <input date-format="DD/MM/YYYY" max="2100-12-12" min="1900-01-01"
-                ng-change="tripcancel()" ng-model-options="{allowInvalid: true}"
-                ng-model="data.ToDate" type="date">
+                ng-model-options="{allowInvalid: true}" ng-model="data.ToDate" type="date">
         </label>
         <label
             class="item item-input item-select-icon positive-icon item-stacked-label icon-position-middle"
             data-comp-id="selectInput.1">
             <span class="input-label">Request For</span>
-            <select ng-change="tripcancel()" ng-model="data.RequestFor.selected"
+            <select ng-model="data.RequestFor.selected"
                 ng-options="item as item.label for item in data.RequestFor.options"></select>
         </label>
     </ion-content>

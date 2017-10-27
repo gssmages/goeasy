@@ -12,7 +12,8 @@
     },
     "okButton": {
       "type": "action",
-      "selector": "#myBtn"
+      "selector": "#myBtn",
+      "control": "action.button"
     },
     "back": {
       "type": "action"

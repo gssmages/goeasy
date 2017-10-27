@@ -33,10 +33,14 @@ function app_myapprovals($scope, app) {
     app.init($scope);
     	$(".card").each(function($index){
     	    
-    	    	if($(this).find(".approvallist").hasClass("selected"))
-				{
+    	    if($scope.data.listItems[index].isselect=== true)
+               {
 					$(this).find(".approvallist").removeClass("selected").css('border-top','5px solid #ddd');
-					$scope.data.listItems[$index].isselect=false;
+				
+				}
+				else
+				{
+				    	$scope.data.listItems[$index].isselect=false;
 				}
             //$scope.data.listItems[$index].isselect=false;
     	});

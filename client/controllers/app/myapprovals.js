@@ -32,7 +32,12 @@ function app_myapprovals($scope, app) {
     'use strict';
     app.init($scope);
     	$(".card").each(function($index){
-            $scope.data.listItems[$index].isselect=false;
+    	    	if($(this).find(".approvallist").hasClass("selected"))
+				{
+					$(this).find(".approvallist").removeClass("selected").css('border-top','5px solid #ddd');
+					$scope.data.listItems[$index].isselect=false;
+				}
+            //$scope.data.listItems[$index].isselect=false;
     	});
     $scope.selectbox = function(idvalue,elem) {
       // console.log(idvalue);

@@ -11,7 +11,8 @@
       "control": "property.innerText"
     },
     "okButton": {
-      "type": "action"
+      "type": "action",
+      "selector": "#myBtn"
     },
     "back": {
       "type": "action"

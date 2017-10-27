@@ -35,6 +35,6 @@
       "model": "alertwin"
     }
   ],
-  "selector": "#myModal",
+  "selector": ".modal-dialog",
   "selectContains": "Comments"
 }

@@ -191,7 +191,9 @@
         "type": "object",
         "properties": {
           "requesttype": {
-            "type": "string"
+            "type": "string",
+            "selector": "#AdhocHistoryGrid tbody td",
+            "control": "property.innerText"
           },
           "fromdate": {
             "type": "string"

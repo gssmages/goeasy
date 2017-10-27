@@ -19,8 +19,7 @@
         null,
         ""
       ],
-      "selector": ".modal-title",
-      "selectContains": "Flex Transport"
+      "selector": ".modal-title"
     },
     "back": {
       "type": "action",

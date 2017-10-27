@@ -41,5 +41,6 @@
       ],
       "model": "adhoctripcancellation"
     }
-  ]
+  ],
+  "selector": ".modal-title"
 }

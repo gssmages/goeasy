@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "errorInfo": {
+      "type": "string",
+      "update": {
+        "type": "none"
+      }
+    },
+    "okButton": {
+      "type": "action"
+    },
+    "back": {
+      "type": "action"
+    }
+  },
+  "connect": []
+}

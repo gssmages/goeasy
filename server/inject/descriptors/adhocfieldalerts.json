@@ -22,8 +22,8 @@
     },
     "isadhocalert": {
       "type": "identifier",
-      "selector": ".close",
-      "control": "action.button"
+      "selector": ".modal-title",
+      "control": "exists"
     }
   },
   "connect": [],

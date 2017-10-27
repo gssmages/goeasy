@@ -180,9 +180,40 @@
       "control": "action.button"
     },
     "selectmonth": {
-      "type": "string",
-      "selector": "#date_month",
-      "control": "text"
+      "type": "date",
+      "format": "MMM-YYYY"
+    },
+    "adhochistory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "requesttype": {
+            "type": "string"
+          },
+          "fromdate": {
+            "type": "string"
+          },
+          "todate": {
+            "type": "string"
+          },
+          "requestfor": {
+            "type": "string"
+          },
+          "shifttime": {
+            "type": "string"
+          },
+          "shiftTime": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "approver": {
+            "type": "string"
+          }
+        }
+      }
     }
   },
   "connect": [

@@ -75,7 +75,7 @@
                 <div class="col" data-comp-id="column.10">
                     <div data-comp-id="text.7">Area</div>
                     <select-list data-comp-id="selectList.4" ng-change="submitApprovals()"
-                        ng-model="data.Area"></select-list>
+                        ng-model="data.Area" no-label="true" select-class=" item-stacked-label"></select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.8">
@@ -107,10 +107,12 @@
             </div>
             <div class="row" data-comp-id="row.11">
                 <div class="col" data-comp-id="column.14">
-                    <div data-comp-id="text.11">Reason For Adhoc</div>
-                    <label class="item item-input" data-comp-id="textInput.1">
-                        <span class="input-label"></span>
-                        <input ng-blur="submitApprovals()" ng-model="data.ReasonForAdhoc" type="text">
+                    <div data-comp-id="text.11" style="margin: 0px;">Reason For Adhoc</div>
+                    <label class="item item-input item-stacked-label item-outside-label"
+                        data-comp-id="textInput.1" style="margin: 0px; padding: 0px;">
+                        <span class="input-label" style="width: 0px;"></span>
+                        <input ng-blur="submitApprovals()" ng-model="data.ReasonForAdhoc"
+                            placeholder="dfsdffdsfsfdsfs" type="text">
                     </label>
                 </div>
                 <!--<div class="col col-66" data-comp-id="column.21">-->

@@ -329,10 +329,7 @@
         }
       },
       "PleaseSpecify": {
-        "type": "select",
-        "update": {
-          "type": "none"
-        }
+        "type": "select"
       },
       "sendRequest": {
         "type": "action"

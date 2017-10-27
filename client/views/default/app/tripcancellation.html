@@ -13,11 +13,13 @@
             <span class="input-label">From Date</span>
             <span type="text"></span>
         </label>
-        <label class="item item-input item-date-icon positive-icon"
+        <label
+            class="item item-input item-date-icon positive-icon item-stacked-label item-outside-label"
             data-comp-id="dateInput.1">
-            <span class="input-label"></span>
-            <input date-format="DD/mm/YYYY" max="2100-12-12" min="1900-01-01"
-                ng-model-options="{allowInvalid: true}" type="date">
+            <span class="input-label" style="width: 0%;"></span>
+            <input date-format="DD-MMM-YYYY" max="2100-12-12" min="1900-01-01"
+                ng-change="tripcancel()" ng-model-options="{allowInvalid: true}"
+                ng-model="data.FromDate" type="date">
         </label>
         <label class="item item-input" data-comp-display="labeledtext.2"
             data-comp-id="textInput.2">
@@ -28,7 +30,8 @@
             data-comp-id="dateInput.2">
             <span class="input-label"></span>
             <input date-format="DD/MM/YYYY" max="2100-12-12" min="1900-01-01"
-                ng-model-options="{allowInvalid: true}" type="date">
+                ng-change="tripcancel()" ng-model-options="{allowInvalid: true}"
+                ng-model="data.ToDate" type="date">
         </label>
         <label class="item item-input" data-comp-display="labeledtext.3"
             data-comp-id="textInput.3">

@@ -19,6 +19,11 @@
       "type": "action",
       "selector": ".close",
       "control": "action.button"
+    },
+    "isadhocalert": {
+      "type": "identifier",
+      "selector": ".close",
+      "control": "action.button"
     }
   },
   "connect": [],

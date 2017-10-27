@@ -41,5 +41,5 @@
       "model": "adhocfieldalerts"
     }
   ],
-  "selector": ".modal-content"
+  "selector": "#myModal .modal-content"
 }

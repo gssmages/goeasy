@@ -202,22 +202,34 @@
             "control": "property.innerText"
           },
           "todate": {
-            "type": "string"
+            "type": "string",
+            "selector": "#AdhocHistoryGrid tbody td",
+            "selectIndex": 2,
+            "control": "property.innerText"
           },
           "requestfor": {
-            "type": "string"
+            "type": "string",
+            "selector": "#AdhocHistoryGrid tbody td",
+            "selectIndex": 3,
+            "control": "property.innerText"
           },
           "shifttime": {
-            "type": "string"
-          },
-          "shiftTime": {
-            "type": "string"
+            "type": "string",
+            "selector": "#AdhocHistoryGrid tbody td",
+            "selectIndex": 4,
+            "control": "property.innerText"
           },
           "status": {
-            "type": "string"
+            "type": "string",
+            "selector": "#AdhocHistoryGrid tbody td",
+            "selectIndex": 5,
+            "control": "property.innerText"
           },
           "approver": {
-            "type": "string"
+            "type": "string",
+            "selector": "#AdhocHistoryGrid tbody td",
+            "selectIndex": 6,
+            "control": "property.innerText"
           }
         }
       },

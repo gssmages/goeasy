@@ -33,7 +33,7 @@ function app_myapprovals($scope, app) {
     app.init($scope);
     var index1 = 0;
        angular.forEach($scope.data.listItems, function (value) {
-           if($scope.data.listItems[index].isselect=== true)
+           if($scope.data.listItems[index1].isselect=== true)
                {
                    $scope.data.listItems[index1].isselect=false;
                }

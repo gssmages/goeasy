@@ -31,10 +31,11 @@ angular.module('app').controller('app_myapprovals', app_myapprovals).directive("
 function app_myapprovals($scope, app) {
     'use strict';
     app.init($scope);
+     console.log("i am in start card init");
     	$(".card").each(function($index){
     	    if($scope.data.listItems[$index].isselect=== true)
                {
-                   console.log($scope.data.listItems[$index].isselect);
+                   console.log("i am in card init");
 					$(this).find(".approvallist").addClass("selected").css('border-top','5px solid #000');
 				}
 				else
@@ -44,6 +45,7 @@ function app_myapprovals($scope, app) {
 				}
             //$scope.data.listItems[$index].isselect=false;
     	});
+    	console.log("i am in end card init");
     	console.log($scope.data);
     $scope.selectbox = function(idvalue,elem) {
       // console.log(idvalue);

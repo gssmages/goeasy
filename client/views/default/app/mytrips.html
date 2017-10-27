@@ -90,29 +90,47 @@
             </div>
         </div>
         <div data-comp-id="div.6" ng-if="data.tabs[2].selected">
+            <div class="row" data-comp-id="row.8">
+                <div class="col" data-comp-id="column.12">
+                    <label class="item item-input item-date-icon positive-icon item-stacked-label"
+                        data-comp-id="dateInput.1">
+                        <span class="input-label">Select Month</span>
+                        <input date-format="MMM-YYYY" max="2100-12-12" min="1900-01-01"
+                            ng-model-options="{allowInvalid: true}" type="date">
+                    </label>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.9">
+                <div class="col" data-comp-id="column.13">
+                    <button class="button button-block button-positive" data-comp-id="button.3">Get No Shows</button>
+                </div>
+                <div class="col" data-comp-id="column.14">
+                    <button class="button button-block button-positive" data-comp-id="button.4">Get Adhoc History</button>
+                </div>
+            </div>
             <div class="card" data-comp-id="div.7" ng-repeat="item in data.noshowlist"
                 style="padding: 0px;">
-                <div class="row stable" data-comp-id="row.8" style="padding: 0px;">
-                    <div class="col text-left stable-bg" data-comp-id="column.12" style="">
+                <div class="row stable" data-comp-id="row.10" style="padding: 0px;">
+                    <div class="col text-left stable-bg" data-comp-id="column.15" style="">
                         <div class="text-center" data-comp-id="text.9" ng-bind="item.date"
                             style="color: rgb(4, 3, 3); font-weight: bold; float: left;">Adhoc</div>
                     </div>
-                    <div class="col stable stable-bg" data-comp-id="column.13">
+                    <div class="col stable stable-bg" data-comp-id="column.16">
                         <button
                             class="button fa-icon fa-car button-positive button-footer-right button-small icon-left"
-                            data-comp-id="button.3"
+                            data-comp-id="button.5"
                             ng-click="app.action('mytripstab', 'mytrips[item].cancel', this)"
                             style="border-radius: 4px; font-size: 16px; padding: 0px 4px; float: right;">No Show</button>
                     </div>
                 </div>
-                <div class="row" data-comp-id="row.9">
-                    <div class="col" data-comp-id="column.14">
-                        <div class="row" data-comp-id="row.10">
-                            <div class="col col-20" data-comp-id="column.15">
+                <div class="row" data-comp-id="row.11">
+                    <div class="col" data-comp-id="column.17">
+                        <div class="row" data-comp-id="row.12">
+                            <div class="col col-20" data-comp-id="column.18">
                                 <i class="icon ion-calendar positive" data-comp-id="icon.5"
                                     style="font-size: 32px;"></i>
                             </div>
-                            <div class="col" data-comp-id="column.16">
+                            <div class="col" data-comp-id="column.19">
                                 <div data-comp-id="text.10"
                                     ng-bind="item.shift +&quot;- &quot;+ item.pickupdrop" style="font-weight: bold;">Date :
                                     {{item.date}}</div>

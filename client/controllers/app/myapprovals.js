@@ -32,8 +32,6 @@ function app_myapprovals($scope, app) {
     'use strict';
     app.init($scope);
     $scope.$on('$ionicView.enter', function(){
-        // Any thing you can think of
-        alert("This function just ran away");   
         var index1 = 0;
        angular.forEach($scope.data.listItems, function (value) {
            if($scope.data.listItems[index1].isselect=== true)

@@ -16,7 +16,9 @@
       "control": "action.button"
     },
     "back": {
-      "type": "action"
+      "type": "action",
+      "selector": ".close",
+      "control": "action.button"
     }
   },
   "connect": [],

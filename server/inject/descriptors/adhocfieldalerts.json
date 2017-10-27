@@ -6,7 +6,8 @@
       "type": "string",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "..modal-body"
     },
     "okButton": {
       "type": "action"

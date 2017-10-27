@@ -31,8 +31,8 @@ angular.module('app').controller('app_myapprovals', app_myapprovals).directive("
 function app_myapprovals($scope, app) {
     'use strict';
     app.init($scope);
-     console.log("i am in start card init");
-    	$("approvallist").each(function($index){
+     /*console.log("i am in start card init");
+    	/*$("approvallist").each(function($index){
     	    if($scope.data.listItems[$index].isselect=== true)
                {
                    console.log("i am in card init");
@@ -46,7 +46,7 @@ function app_myapprovals($scope, app) {
             //$scope.data.listItems[$index].isselect=false;
     	});
     	console.log("i am in end card init");
-    	console.log($scope);
+    	console.log($scope);*/
     $scope.selectbox = function(idvalue,elem) {
       // console.log(idvalue);
        var index = 0;

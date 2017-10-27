@@ -36,7 +36,6 @@ function app_myapprovals($scope, app) {
     	    if($scope.data.listItems[index].isselect=== true)
                {
 					$(this).find(".approvallist").removeClass("selected").css('border-top','5px solid #ddd');
-				
 				}
 				else
 				{

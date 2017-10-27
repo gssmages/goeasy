@@ -15,7 +15,7 @@ angular.module('app').controller('app_myapprovals', app_myapprovals).directive("
           	if (true) {
            		if (elem.hasClass('selected')) {
               	elem.removeClass('selected');
-              	elem.css('border-top','5px solid #eee');
+              	elem.css('border-top','5px solid #ddd');
               } else {
               	elem.addClass('selected');
               	elem.css('border-top','5px solid #000');

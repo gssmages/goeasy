@@ -20,7 +20,7 @@
     },
     "back": {
       "type": "action",
-      "selector": "#myModal .close",
+      "selector": ".modal-dialog .close",
       "control": "action.button"
     }
   },

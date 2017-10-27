@@ -31,6 +31,13 @@ angular.module('app').controller('app_myapprovals', app_myapprovals).directive("
 function app_myapprovals($scope, app) {
     'use strict';
     app.init($scope);
+    var index1 = 0;
+       angular.forEach($scope.data.listItems, function (value) {
+           if($scope.data.listItems[index].isselect=== true)
+               {
+                   $scope.data.listItems[index1].isselect=false;
+               }
+       });
      /*console.log("i am in start card init");
     	/*$("approvallist").each(function($index){
     	    if($scope.data.listItems[$index].isselect=== true)

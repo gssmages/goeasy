@@ -196,7 +196,10 @@
             "control": "property.innerText"
           },
           "fromdate": {
-            "type": "string"
+            "type": "string",
+            "selector": "#AdhocHistoryGrid tbody td",
+            "selectIndex": 1,
+            "control": "property.innerText"
           },
           "todate": {
             "type": "string"

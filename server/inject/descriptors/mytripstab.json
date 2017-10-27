@@ -171,9 +171,8 @@
     },
     "getnoshows": {
       "type": "action",
-      "selector": "input",
-      "control": "action.button",
-      "selectContains": "Get No Shows"
+      "selector": "input[value='Get No Shows']",
+      "control": "action.button"
     },
     "getadhochistory": {
       "type": "action",

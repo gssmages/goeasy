@@ -32,21 +32,21 @@ function app_myapprovals($scope, app) {
     'use strict';
     app.init($scope);
      console.log("i am in start card init");
-    	$(".card").each(function($index){
+    	$("approvallist").each(function($index){
     	    if($scope.data.listItems[$index].isselect=== true)
                {
                    console.log("i am in card init");
-					$(this).find(".approvallist").addClass("selected").css('border-top','5px solid #000');
+					$(this).addClass("selected").css('border-top','5px solid #000');
 				}
 				else
 				{
-				    $(this).find(".approvallist").removeClass("selected").css('border-top','5px solid #ddd');
+				    $(this).removeClass("selected").css('border-top','5px solid #ddd');
 				    	$scope.data.listItems[$index].isselect=false;
 				}
             //$scope.data.listItems[$index].isselect=false;
     	});
     	console.log("i am in end card init");
-    	console.log($scope.data);
+    	console.log($scope);
     $scope.selectbox = function(idvalue,elem) {
       // console.log(idvalue);
        var index = 0;

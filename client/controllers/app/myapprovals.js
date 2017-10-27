@@ -32,7 +32,6 @@ function app_myapprovals($scope, app) {
     'use strict';
     app.init($scope);
     	$(".card").each(function($index){
-    	    
     	    if($scope.data.listItems[index].isselect=== true)
                {
 					$(this).find(".approvallist").addClass("selected").css('border-top','5px solid #000');

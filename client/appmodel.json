@@ -219,7 +219,8 @@
         "type": "action"
       },
       "selectmonth": {
-        "type": "string"
+        "type": "date",
+        "format": "MMM-YYYY"
       }
     }
   },

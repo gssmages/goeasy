@@ -102,10 +102,12 @@
             </div>
             <div class="row" data-comp-id="row.9">
                 <div class="col" data-comp-id="column.13">
-                    <button class="button button-block button-positive" data-comp-id="button.3">Get No Shows</button>
+                    <button class="button button-block button-positive" data-comp-id="button.3"
+                        ng-click="app.action('mytripstab', 'getnoshows', this)">Get No Shows</button>
                 </div>
                 <div class="col" data-comp-id="column.14">
-                    <button class="button button-block button-positive" data-comp-id="button.4">Get Adhoc History</button>
+                    <button class="button button-block button-positive" data-comp-id="button.4"
+                        ng-click="app.action('mytripstab', 'getadhochistory', this)">Get Adhoc History</button>
                 </div>
             </div>
             <div class="card" data-comp-id="div.7" ng-repeat="item in data.noshowlist"

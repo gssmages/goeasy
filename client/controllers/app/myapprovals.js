@@ -44,7 +44,7 @@ function app_myapprovals($scope, app) {
 				}
             //$scope.data.listItems[$index].isselect=false;
     	});
-    	console.log($scope.data.listItems);
+    	console.log($scope.data);
     $scope.selectbox = function(idvalue,elem) {
       // console.log(idvalue);
        var index = 0;

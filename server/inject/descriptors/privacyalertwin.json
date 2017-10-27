@@ -21,10 +21,7 @@
     "isPrivacyAlert": {
       "type": "identifier",
       "control": "exists",
-      "selector": {
-        "fn": "function(node){if(node.style.display=='block'&&(document.querySelector('.usermenu li.selected').innerText=='Adhoc Request')){return true}}",
-        "selector": ""
-      }
+      "selector": ".modal-header.textcenter"
     }
   },
   "connect": [

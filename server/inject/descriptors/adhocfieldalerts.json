@@ -26,6 +26,16 @@
       "control": "exists"
     }
   },
-  "connect": [],
+  "connect": [
+    {
+      "match": [
+        "isadhocalert"
+      ],
+      "screens": [
+        "adhocfieldalerts"
+      ],
+      "model": "adhocfieldalerts"
+    }
+  ],
   "selector": "#myModal"
 }

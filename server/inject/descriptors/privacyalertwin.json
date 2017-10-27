@@ -20,7 +20,8 @@
     },
     "isPrivacyAlert": {
       "type": "identifier",
-      "control": "exists"
+      "control": "exists",
+      "selector": "#myModalPrivacy"
     }
   },
   "connect": [

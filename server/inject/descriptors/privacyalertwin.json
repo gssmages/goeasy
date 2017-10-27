@@ -21,7 +21,7 @@
     "isPrivacyAlert": {
       "type": "identifier",
       "control": "exists",
-      "selector": "#myModalPrivacy"
+      "selector": ".modal-header.textcenter"
     }
   },
   "connect": [

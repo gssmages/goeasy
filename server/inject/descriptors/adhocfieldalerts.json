@@ -41,5 +41,6 @@
       "model": "adhocfieldalerts"
     }
   ],
-  "selector": ".modal"
+  "selector": ".modal",
+  "selectContains": "Flex Transport"
 }

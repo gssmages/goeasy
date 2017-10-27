@@ -7,7 +7,7 @@
       "update": {
         "type": "none"
       },
-      "selector": "..modal-body",
+      "selector": ".modal-body",
       "control": "property.innerText"
     },
     "okButton": {

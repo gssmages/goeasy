@@ -181,7 +181,9 @@
     },
     "selectmonth": {
       "type": "date",
-      "format": "MMM-YYYY"
+      "format": "MMM-YYYY",
+      "selector": "#date_month",
+      "control": "text"
     },
     "adhochistory": {
       "type": "array",

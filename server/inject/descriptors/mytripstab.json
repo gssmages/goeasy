@@ -177,9 +177,8 @@
     },
     "getadhochistory": {
       "type": "action",
-      "selector": "input",
-      "control": "action.button",
-      "selectContains": "Get Adhoc History"
+      "selector": "input[value='Get Adhoc History']",
+      "control": "action.button"
     },
     "selectmonth": {
       "type": "string",

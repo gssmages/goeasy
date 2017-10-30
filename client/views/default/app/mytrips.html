@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-        <div data-comp-id="div.2">
+        <div data-comp-id="div.2" ng-if="data.tabs[0].selected">
             <div class="card" data-comp-id="div.3" ng-repeat="item in data.mytrips"
                 style="padding: 0px;">
                 <div class="row stable" data-comp-id="row.2" style="padding: 0px;">
@@ -60,7 +60,7 @@
                 </div>
             </div>
         </div>
-        <div data-comp-id="div.4">
+        <div data-comp-id="div.4" ng-if="data.tabs[1].selected">
             <div class="card" data-comp-id="div.5" ng-repeat="item in data.cancelledtrips"
                 style="padding: 0px;">
                 <div class="row stable" data-comp-id="row.5" style="padding: 0px;">
@@ -89,7 +89,7 @@
                 </div>
             </div>
         </div>
-        <div data-comp-id="div.6">
+        <div data-comp-id="div.6" ng-if="data.tabs[2].selected">
             <div class="row" data-comp-id="row.8">
                 <div class="col" data-comp-id="column.12">
                     <label class="item item-input item-date-icon positive-icon item-stacked-label"

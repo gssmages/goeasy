@@ -112,8 +112,9 @@
                         ng-click="app.action('mytripstab', 'getadhochistory', this)">Get Adhoc History</button>
                 </div>
             </div>
-            <div class="card" data-comp-id="div.7" ng-repeat="item in data.noshowlist"
-                style="padding: 0px;">
+            <div class="card" data-comp-id="div.7"
+                ng-if="item.date!=&quot;No data available in table&quot;"
+                ng-repeat="item in data.noshowlist" style="padding: 0px;">
                 <div class="row stable" data-comp-id="row.10" style="padding: 0px;">
                     <div class="col text-left stable-bg" data-comp-id="column.15" style="">
                         <div class="text-center" data-comp-id="text.9" ng-bind="item.date"

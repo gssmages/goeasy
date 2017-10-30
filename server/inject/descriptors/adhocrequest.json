@@ -73,9 +73,8 @@
     },
     "Reset": {
       "type": "action",
-      "selector": "input",
-      "control": "action.button",
-      "selectContains": "Reset"
+      "selector": "input[value=Reset]",
+      "control": "action.button"
     }
   },
   "connect": [

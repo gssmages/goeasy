@@ -62,8 +62,9 @@
             </div>
         </div>
         <div data-comp-id="div.4" ng-if="data.tabs[1].selected">
-            <div class="card" data-comp-id="div.5" ng-repeat="item in data.cancelledtrips"
-                style="padding: 0px;">
+            <div class="card" data-comp-id="div.5"
+                ng-if="item.requesttype!=&quot;No data available in table&quot;"
+                ng-repeat="item in data.cancelledtrips" style="padding: 0px;">
                 <div class="row stable" data-comp-id="row.5" style="padding: 0px;">
                     <div class="col text-left stable-bg" data-comp-id="column.7" style="">
                         <div class="text-center" data-comp-id="text.6" ng-bind="item.requesttype"

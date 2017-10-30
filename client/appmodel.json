@@ -368,7 +368,10 @@
         "type": "select"
       },
       "SpecialNeed": {
-        "type": "select"
+        "type": "select",
+        "update": {
+          "type": "none"
+        }
       },
       "ReasonForAdhoc": {
         "type": "string",

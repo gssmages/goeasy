@@ -65,5 +65,21 @@
         "value": "0"
       }
     }
+  },
+  "SpecialNeed": {
+    "options": [
+      {
+        "label": "Yes",
+        "value": "1"
+      },
+      {
+        "label": "No",
+        "value": "2"
+      }
+    ],
+    "selected": {
+      "label": "No",
+      "value": "2"
+    }
   }
 }

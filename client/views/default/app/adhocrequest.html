@@ -82,9 +82,13 @@
             <div class="row" data-comp-id="row.9">
                 <div class="col" data-comp-id="column.9">
                     <div data-comp-id="text.9">Special Need</div>
-                    <ion-radio class="radio-button" data-comp-id="radio.1"
-                        ng-change="submitApprovals()" ng-model="data.SpecialNeed.selected"
-                        ng-repeat="item in data.SpecialNeed.options" ng-value="item">{{item.label}}</ion-radio>
+                    <div class="row" data-comp-id="row.10">
+                        <div class="col" data-comp-id="column.10">
+                            <ion-radio class="radio-button" data-comp-id="radio.1"
+                                ng-change="submitApprovals()" ng-model="data.SpecialNeed.selected"
+                                ng-repeat="item in data.SpecialNeed.options" ng-value="item">{{item.label}}</ion-radio>
+                        </div>
+                    </div>
                 </div>
                 <!--<div class="col light-border text-right" data-comp-id="column.17"-->
                 <!--    style="border-width: 0px; border-style: initial; border-color: initial;">-->
@@ -92,15 +96,15 @@
                 <!--    ng-model="data.SpecialNeed" style="border-radius: 0px;"></ion-toggle>-->
                 <!--</div>-->
             </div>
-            <div class="row" data-comp-id="row.10" ng-if="data.PleaseSpecify">
-                <div class="col" data-comp-id="column.10">
+            <div class="row" data-comp-id="row.11" ng-if="data.PleaseSpecify">
+                <div class="col" data-comp-id="column.11">
                     <div data-comp-id="text.10">Please Specify</div>
                     <select-list data-comp-id="selectList.6" ng-change="submitApprovals()"
                         ng-model="data.PleaseSpecify" no-label="true" select-class=" item-stacked-label">Please Specify</select-list>
                 </div>
             </div>
-            <div class="row" data-comp-id="row.11">
-                <div class="col" data-comp-id="column.11">
+            <div class="row" data-comp-id="row.12">
+                <div class="col" data-comp-id="column.12">
                     <div data-comp-id="text.11" style="margin: 0px;">Reason For Adhoc</div>
                     <label class="item item-input" data-comp-id="textInput.1"
                         style="margin: 0px; padding: 0px;">
@@ -115,12 +119,12 @@
     </ion-content>
     <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
         dynamic-floating-footer="" style="padding: 0px;">
-        <div class="row" data-comp-id="row.12" style="padding: 0px;">
-            <div class="col" data-comp-id="column.12" style="padding: 0px; margin: 0px;">
+        <div class="row" data-comp-id="row.13" style="padding: 0px;">
+            <div class="col" data-comp-id="column.13" style="padding: 0px; margin: 0px;">
                 <button class="button button-block button-positive" data-comp-id="button.2"
                     ng-click="app.action('adhocrequest', 'sendRequest', this)" style="margin: 0px;">Send Request</button>
             </div>
-            <div class="col text-center" data-comp-id="column.13" style="padding: 0px;">
+            <div class="col text-center" data-comp-id="column.14" style="padding: 0px;">
                 <button class="button button-block button-positive" data-comp-id="button.3"
                     style="margin: 0px; border-radius: 0px;">Reset</button>
             </div>

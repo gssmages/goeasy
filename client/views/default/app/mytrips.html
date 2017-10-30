@@ -163,7 +163,7 @@
                         <div class=" positive" data-comp-id="text.15"
                             ng-bind="&quot;Status : &quot; + item.status" style="font-weight: bold;">Some text</div>
                         <div data-comp-id="text.16" ng-bind="&quot;Approver : &quot; + item.approver"
-                            ng-if="item.approver!=null" style="font-size: 10px;">Some text</div>
+                            ng-if="item.approver!=null || ''" style="font-size: 10px;">Some text</div>
                     </div>
                 </div>
             </div>

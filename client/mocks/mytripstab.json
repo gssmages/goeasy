@@ -38,5 +38,34 @@
       "shifttime": "11:00 - 20:00",
       "cancel": null
     }
+  ],
+  "adhochistory": [
+    {
+      "requesttype": "Adhoc",
+      "fromdate": "31-Oct-2017",
+      "todate": "31-Oct-2017",
+      "requestfor": "Pickup and Drop",
+      "shifttime": "17:00 - 02:00",
+      "status": "Requested",
+      "approver": "James Ananth Geetha Ponkalan"
+    },
+    {
+      "requesttype": "Month end",
+      "fromdate": "29-Oct-2017",
+      "todate": "29-Oct-2017",
+      "requestfor": "Pickup",
+      "shifttime": "07:00",
+      "status": "Cancelled",
+      "approver": "Magesh Babu S"
+    },
+    {
+      "requesttype": "Holiday",
+      "fromdate": "14-Oct-2017",
+      "todate": "14-Oct-2017",
+      "requestfor": "Pickup and Drop",
+      "shifttime": "08:00 - 17:00",
+      "status": "Cancelled",
+      "approver": null
+    }
   ]
 }

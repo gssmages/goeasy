@@ -82,11 +82,12 @@
             <div class="row" data-comp-id="row.9">
                 <div class="col" data-comp-id="column.9">
                     <div data-comp-id="text.9">Special Need</div>
-                    <div class="row" data-comp-id="row.10">
-                        <div class="col" data-comp-id="column.10">
+                    <div class="row" data-comp-id="row.10" style="padding: 0px; margin: 0px;">
+                        <div class="col" data-comp-id="column.10"
+                            ng-repeat="item in data.SpecialNeed.options">
                             <ion-radio class="radio-button" data-comp-id="radio.1"
                                 ng-change="submitApprovals()" ng-model="data.SpecialNeed.selected"
-                                ng-repeat="item in data.SpecialNeed.options" ng-value="item">{{item.label}}</ion-radio>
+                                ng-value="item">{{item.label}}</ion-radio>
                         </div>
                     </div>
                 </div>

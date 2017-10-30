@@ -48,7 +48,6 @@
     "SpecialNeed": {
       "type": "select",
       "selectorAll": "[name=\"optradio\"]",
-      "selectContains": "Special Need",
       "control": "radio"
     },
     "ReasonForAdhoc": {

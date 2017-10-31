@@ -10,6 +10,11 @@
     },
     "login": {
       "type": "action"
+    },
+    "islogin": {
+      "type": "string",
+      "selector": "body",
+      "control": "property.innerText"
     }
   },
   "connect": []

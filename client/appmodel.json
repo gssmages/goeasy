@@ -629,5 +629,20 @@
         "type": "action"
       }
     }
+  },
+  "login": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "username": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      },
+      "login": {
+        "type": "action"
+      }
+    }
   }
 }

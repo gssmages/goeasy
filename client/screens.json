@@ -62,7 +62,8 @@
       "id": "login",
       "name": "login",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "login"
     },
     {
       "id": "home",

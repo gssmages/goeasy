@@ -73,7 +73,7 @@
     },
     "Reset": {
       "type": "action",
-      "selector": "input[value=Reset]",
+      "selector": "body",
       "control": "action.button"
     }
   },

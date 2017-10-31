@@ -3,14 +3,14 @@ function app_login($scope, app,$ionicLoading) {
     'use strict';
     app.init($scope);
     
-     $scope.data = {};
-    var SSO1="";
-    var SSO2="";
-    var empid="";
-    var empname="";
-    var emprole="";
-    var emptitle="";
-    var sso="";
+    //  $scope.data = {};
+    // var SSO1="";
+    // var SSO2="";
+    // var empid="";
+    // var empname="";
+    // var emprole="";
+    // var emptitle="";
+    // var sso="";
     
     
         $scope.login = function() {

@@ -1,8 +1,8 @@
 'use strict';
 module.exports = {
     // Start URL that browsing should start at.
-    startURL: 'about:blank',
-    loginURL: 'https://goeasy.flex.com/',
+    loginURL: 'about:blank',
+    startURL: 'https://goeasy.flex.com/',
     // Start Method when there is no start URL.  This is fpr when we are doing an API integration,
     // and we don't actually need to load phantom (yet).
     // startMethod: "login.onStart",

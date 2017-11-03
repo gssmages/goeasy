@@ -5,7 +5,7 @@
     "tripInfo": {
       "type": "string",
       "selector": ".modal-body",
-      "control": "property.innerText"
+      "control": "property.innerHTML"
     },
     "yes": {
       "type": "action",

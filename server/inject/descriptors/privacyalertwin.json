@@ -5,7 +5,7 @@
     "privacyInfo": {
       "type": "string",
       "selector": "#myModalPrivacy .modal-body",
-      "control": "text"
+      "control": "property.innerHTML"
     },
     "No": {
       "type": "action",

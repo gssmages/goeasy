@@ -4,6 +4,8 @@ var browser =  require('powwow-server-common').browser;
 
 exports.loginBasic = function (page, params) {
     var loadFailed = false;
+    console.log(params);
+
     page.onResourceLoad(config.loginURL).then(function (response) {
         if (response.contentType == null && response.status == null && response.headers.length == 0) {
             loadFailed = true;

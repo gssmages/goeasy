@@ -132,7 +132,7 @@ function app_myapprovals($scope, app) {
 				}
 		});*/
 	/*	if($scope.listarray.length>0)
-			{*/
+			{*
 			
 		if(type=="approve")
 			{
@@ -151,7 +151,7 @@ function app_myapprovals($scope, app) {
 				//app.call('alertwin');
 			}
 		
-		/*	}*/
+		/*	}*
 			};	*/
     /*$scope.setstyle=function(){
     if(angular.element(document.querySelectorAll("[approvallist]")).hasClass("selected"))

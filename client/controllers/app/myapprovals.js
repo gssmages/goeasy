@@ -65,7 +65,6 @@ function app_myapprovals($scope, app) {
         // console.log($scope.data.listItems);
            if(index===idvalue)
            {
-               
                if($scope.data.listItems[index].isselect=== true)
                {
                    $scope.data.listItems[index].isselect=false;
@@ -89,8 +88,7 @@ function app_myapprovals($scope, app) {
                index=index+1;
            }); 
 //	console.log($scope.data.listItems);
-};
-           
+};    
     $scope.selectionall = function() {
 		$(".card").each(function($index){
 			if($(this).find(".approvallist").not("selected"))

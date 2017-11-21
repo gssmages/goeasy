@@ -5,7 +5,7 @@ function app_tripcancellation($scope, app) {
     
      $scope.tripcancel = function(){
          //console.log("---sendRequest---"+$scope.data.Date);
-			 app.call('myapprovals.tripcancel', $scope.data);
+			 app.call('myapprovals.tripcancel',$scope.data);
 
 		 };
 }

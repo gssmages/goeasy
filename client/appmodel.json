@@ -642,6 +642,9 @@
       },
       "login": {
         "type": "action"
+      },
+      "error": {
+        "type": "string"
       }
     }
   }

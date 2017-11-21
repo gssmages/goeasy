@@ -12,7 +12,8 @@ angular.module('app').controller('app_myapprovals', app_myapprovals).directive("
           }, elem);*/
 
 					$ionicGesture.on('tap', function() {
-if(true) {
+ //if(true) 
+ {
            		if(elem.hasClass('selected')) {
               	elem.removeClass('selected');
               	elem.css('border-top','5px solid #ddd');
@@ -20,7 +21,7 @@ if(true) {
               	elem.addClass('selected');
               	elem.css('border-top','5px solid #000');
               }
-            }
+          //  }
           }, elem);
 
         } // link function

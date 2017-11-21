@@ -111,16 +111,17 @@ function app_myapprovals($scope, app) {
 	};
 	
 	$scope.submitApprovals = function(type){
-    if(type=="approve")
-			{
-			    app.call('myapprovals.approve',$scope.data);
-			}
-			else
-			{
-			    app.call('myapprovals.reject',$scope.data);
-			}
-
-		 };
+	    if(type=="approve")
+	    {
+	        app.call('myapprovals.approve',$scope.data);
+		}
+		else
+		{
+		    app.call('myapprovals.reject',$scope.data);
+		    
+		}
+	    
+	};
 	 	$scope.requesttype = function(type) {
 /*	$scope.listarray = [];*/
 	/*	$(".card").each(function($index){

@@ -118,7 +118,7 @@ function app_myapprovals($scope, app) {
 		    app.call('myapprovals.reject',$scope.data);
 		}
 	};
-	 	$scope.requesttype = function(type) {
+	 /*	$scope.requesttype = function(type) {
 /*	$scope.listarray = [];*/
 	/*	$(".card").each(function($index){
 			if($(this).find(".approvallist").hasClass("selected"))
@@ -152,7 +152,7 @@ function app_myapprovals($scope, app) {
 			}
 		
 		/*	}*/
-			};	
+			};	*/
     /*$scope.setstyle=function(){
     if(angular.element(document.querySelectorAll("[approvallist]")).hasClass("selected"))
     {

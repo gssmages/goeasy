@@ -109,7 +109,6 @@ function app_myapprovals($scope, app) {
 				}
 		});
 	};
-	
 	$scope.submitApprovals = function(selectiontype){
 	    if(selectiontype=="approve"){
 	        app.call('myapprovals.approve',$scope.data);
@@ -119,7 +118,6 @@ function app_myapprovals($scope, app) {
 		    app.call('myapprovals.reject',$scope.data);
 		    
 		}
-	    
 	};
 	 	$scope.requesttype = function(type) {
 /*	$scope.listarray = [];*/

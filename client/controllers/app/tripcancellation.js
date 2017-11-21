@@ -7,5 +7,5 @@ function app_tripcancellation($scope, app) {
      
 		app.call('myapprovals.tripcancel', $scope.data);
 
-		 };
+   };
 }

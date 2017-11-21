@@ -110,9 +110,7 @@ function app_myapprovals($scope, app) {
 		});
 	};
 	
-	 /*$scope.showMenu = function() {
-	     app.go('menuleft');
-	 };*/
+	
 	  $scope.submitApprovals = function(type){
 	      if(type=="approve")
 			{

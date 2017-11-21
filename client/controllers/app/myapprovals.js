@@ -11,7 +11,7 @@ angular.module('app').controller('app_myapprovals', app_myapprovals).directive("
             $rootScope.startSelect = true; // to enable select box by click
           }, elem);*/
 
-					$ionicGesture.on('tap', function() {
+/*					$ionicGesture.on('tap', function() {
  //if(true){
            		if(elem.hasClass('selected')) {
               	elem.removeClass('selected');
@@ -22,7 +22,7 @@ angular.module('app').controller('app_myapprovals', app_myapprovals).directive("
               }
           //  }
           }, elem);
-
+*/
         } // link function
 
     } // return

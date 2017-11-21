@@ -110,7 +110,7 @@ function app_myapprovals($scope, app) {
 		});
 	};
 	
-	  $scope.submitApprovals = function(type){
+	$scope.submitApprovals = function(type){
 	      if(type=="approve")
 			{
 			 app.call('myapprovals.approve', $scope.data);

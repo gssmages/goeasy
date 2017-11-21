@@ -13,7 +13,7 @@ angular.module('app').controller('app_myapprovals', app_myapprovals).directive("
 
 					$ionicGesture.on('tap', function() {
           	if(true) {
-           		if (elem.hasClass('selected')) {
+           		if(elem.hasClass('selected')) {
               	elem.removeClass('selected');
               	elem.css('border-top','5px solid #ddd');
               } else {

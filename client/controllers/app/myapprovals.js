@@ -110,7 +110,6 @@ function app_myapprovals($scope, app) {
 		});
 	};
 	
-	
 	  $scope.submitApprovals = function(type){
 	      if(type=="approve")
 			{

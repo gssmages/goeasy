@@ -107,12 +107,9 @@ function app_myapprovals($scope, app) {
 				}
 		});
 	};
-	$scope.submitApprovals = function(selectiontype){
-	    if(selectiontype=="approve"){
-	        app.call('myapprovals.approve',$scope.data);}
-		else{
-		    app.call('myapprovals.reject',$scope.data);
-		}};
+	$scope.submitApprovals=function(selectiontype){
+	    if(selectiontype=="approve"){app.call('myapprovals.approve',$scope.data);}
+		else{app.call('myapprovals.reject',$scope.data);}};
 	 /*	$scope.requesttype = function(type) {
 /*	$scope.listarray = [];*/
 	/*	$(".card").each(function($index){

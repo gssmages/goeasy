@@ -10,8 +10,7 @@
     "dashboard": {
       "type": "action",
       "selector": ".usermenu li a",
-      "control": "action.link",
-      "selectContains": "My Dashboard"
+      "control": "action.link"
     },
     "mytrips": {
       "type": "action",

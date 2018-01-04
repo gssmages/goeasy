@@ -5,8 +5,7 @@
       "type": "action",
       "selector": ".usermenu li a",
       "control": "action.link",
-      "selectContains": "Adhoc Request",
-      "selectIndex": 1
+      "selectIndex": 2
     },
     "dashboard": {
       "type": "action",

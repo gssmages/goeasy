@@ -16,7 +16,7 @@
       "type": "action",
       "selector": ".usermenu li a",
       "control": "action.link",
-      "selectContains": "My Trips"
+      "selectIndex": 3
     },
     "myapprovals": {
       "type": "action",

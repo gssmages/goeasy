@@ -22,7 +22,7 @@
       "type": "action",
       "selector": ".usermenu li a",
       "control": "action.link",
-      "selectContains": "My Approvals"
+      "selectIndex": 4
     }
   },
   "connect": []

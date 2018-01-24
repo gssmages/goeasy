@@ -1,6 +1,6 @@
 {
   "name": "transport",
-  "version": "5.2.1-chrome",
+  "version": "5.2.10-chrome",
   "private": true,
   "description": "PowWow transformation",
   "main": "start.js",

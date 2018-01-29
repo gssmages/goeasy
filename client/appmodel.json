@@ -640,14 +640,14 @@
       "password": {
         "type": "string"
       },
-      "login": {
-        "type": "action"
-      },
       "error": {
         "type": "string",
         "update": {
           "type": "none"
         }
+      },
+      "submit": {
+        "type": "action"
       }
     }
   }

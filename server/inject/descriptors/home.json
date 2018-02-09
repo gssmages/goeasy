@@ -100,13 +100,8 @@
   },
   "connect": [
     {
-      "match": [
-        "ishome"
-      ],
-      "screens": [
-        "home"
-      ],
-      "model": "home"
+      "match": [],
+      "event": "home"
     }
   ],
   "selector": "body"

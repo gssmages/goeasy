@@ -3,6 +3,7 @@ module.exports = {
     // Start URL that browsing should start at.
     startURL: 'about:blank',
     loginURL: 'http://hkdnte250.asia.ad.flextronics.com:82/',
+    //loginURL: 'https://goeasy.flex.com/',
     // Start Method when there is no start URL.  This is fpr when we are doing an API integration,
     // and we don't actually need to load phantom (yet).
     // startMethod: "login.onStart",
@@ -48,9 +49,8 @@ module.exports = {
     //
     // ******* User Agent *******
     // Suffix to add to the user agent string.
-    userAgentSuffix: 'Powwow/1.0',
-    // userAgentReplacement: "Custom user agent string goes here",
-    userAgentReplacement: "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36",
+//userAgentSuffix: 'Powwow/1.0',
+      userAgentReplacement: "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36",
     //
     // Viewport configuration
     viewportSize: {
@@ -110,13 +110,13 @@ module.exports = {
     //    user: '',
     //    password: ''
     // },
-     proxy: {
-        host: '10.10.176.238',
-        port: '3128',
-//proxyType: 'http'
-     },
-    authServerWhiteList:'',
     //
+    /*  proxy: {
+        host: '10.10.176.238',
+        port: '3128'
+       // proxyType: 'http'
+    }, */
+    authServerWhiteList: '',  
     // ********* Local Storage configuration **********
     localStorageIsolationOff: false,
     // Set this to true to not isolate local storage.
@@ -144,5 +144,4 @@ module.exports = {
     // update other config variables such as config.startURL or config.env.
     initialize: function (initData) {
     }
-    
 };

@@ -3,7 +3,10 @@ var config = require('../config');
 var browser =  require('powwow-server-common').browser;
 
 exports.loginBasic = function (page, params) {
-    var loadFailed = false;
+    page.basicAuth(params.username, params.password)
+        .href(config.loginURL);
+        //.basicAuth(null, null);
+   /* var loadFailed = false;
     console.log(params);
 
     page.onResourceLoad(config.loginURL).then(function (response) {
@@ -12,7 +15,9 @@ exports.loginBasic = function (page, params) {
         }
     });
 
-    page.onLoadFailure(/about:corlogin/)
+    page.onLoadFailure(/hkdnt222.asia.ad.flextronics.com:82\/Error/)
+    
+    
         .data(function (data) {
             if (loadFailed) {
                 data.error = "Unable to access " + config.loginURL;
@@ -28,5 +33,13 @@ exports.loginBasic = function (page, params) {
             browser.getMainPage().open(config.loginURL);
         });
     });
+    */
 
 }
+/*
+exports.logout = function (page, params) {
+
+    
+        .open("about:blank").clearCookies();
+        self.close();
+} */

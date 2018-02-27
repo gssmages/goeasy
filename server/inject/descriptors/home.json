@@ -103,7 +103,10 @@
       "match": [
         "ishome"
       ],
-      "event": "home"
+      "screens": [
+        "home"
+      ],
+      "model": "home"
     }
   ],
   "selector": "body"
